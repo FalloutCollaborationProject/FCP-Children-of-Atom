@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Children of Atom Pawnkinds __________-->
+
+    <!--___ Base Definitions ___-->
+
+    <PawnKindDef Name="FCP_ChildrenOfAtomkindBase" Abstract="true">
+        <race>Human</race>
+        <defaultFactionType>FCP_Faction_Children_of_Atom</defaultFactionType>
+        <chemicalAddictionChance>0.10</chemicalAddictionChance>
+        <invNutrition>2.55</invNutrition>
+        <itemQuality>Normal</itemQuality>
+        <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+        <minGenerationAge>20</minGenerationAge>
+        <maxGenerationAge>60</maxGenerationAge>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Children_of_Atom_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Children_of_Atom</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <!-- High Confessor -->
+
+    <PawnKindDef ParentName="FCP_ChildrenOfAtomkindBase">
+        <defName>FCP_Pawnkind_Children_of_Atom_High_Confessor</defName>
+        <label>high confessor</label>
+        <factionLeader>true</factionLeader>
+        <combatPower>100</combatPower>
+        <gearHealthRange>0.9~1.0</gearHealthRange>
+        <apparelMoney>800~1200</apparelMoney>
+        <apparelTags>
+            <li>FCP_Children_of_Atom_Leader</li>
+        </apparelTags>
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <weaponMoney>400~800</weaponMoney>
+        <weaponTags>
+            <li>FCP_Children_of_Atom_Gamma</li>
+        </weaponTags>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <initialResistanceRange>15~25</initialResistanceRange>
+        <initialWillRange>8~15</initialWillRange>
+    </PawnKindDef>
+
+    <!-- Glowing Sentinel -->
+
+    <PawnKindDef ParentName="FCP_ChildrenOfAtomkindBase">
+        <defName>FCP_Pawnkind_Children_of_Atom_Glowing_Sentinel</defName>
+        <label>glowing sentinel</label>
+        <combatPower>110</combatPower>
+        <gearHealthRange>0.7~0.9</gearHealthRange>
+        <apparelMoney>500~700</apparelMoney>
+        <apparelTags>
+            <li>FCP_Children_of_Atom_Combat</li>
+        </apparelTags>
+        <apparelAllowHeadgearChance>0.8</apparelAllowHeadgearChance>
+        <weaponMoney>350~600</weaponMoney>
+        <weaponTags>
+            <li>FCP_Children_of_Atom_Gamma</li>
+            <li>FCP_Children_of_Atom_Rifle</li>
+        </weaponTags>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <initialResistanceRange>10~18</initialResistanceRange>
+        <initialWillRange>5~10</initialWillRange>
+    </PawnKindDef>
+
+    <!-- Faithful Worker -->
+
+    <PawnKindDef ParentName="FCP_ChildrenOfAtomkindBase">
+        <defName>FCP_Pawnkind_Children_of_Atom_Worker</defName>
+        <label>faithful worker</label>
+        <combatPower>40</combatPower>
+        <gearHealthRange>0.6~0.9</gearHealthRange>
+        <apparelMoney>250~450</apparelMoney>
+        <apparelTags>
+            <li>FCP_Children_of_Atom_Worker</li>
+        </apparelTags>
+        <apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
+        <weaponMoney>100~250</weaponMoney>
+        <weaponTags>
+            <li>FCP_Children_of_Atom_Pistol</li>
+            <li>FCP_Children_of_Atom_Melee</li>
+        </weaponTags>
+        <initialResistanceRange>5~10</initialResistanceRange>
+        <initialWillRange>3~7</initialWillRange>
+    </PawnKindDef>
+
+    <!-- Radiant Merchant -->
+
+    <PawnKindDef ParentName="FCP_ChildrenOfAtomkindBase">
+        <defName>FCP_Pawnkind_Children_of_Atom_Merchant</defName>
+        <label>radiant merchant</label>
+        <combatPower>50</combatPower>
+        <trader>true</trader>
+        <gearHealthRange>0.7~1.0</gearHealthRange>
+        <apparelMoney>400~700</apparelMoney>
+        <apparelTags>
+            <li>FCP_Children_of_Atom_Traveler</li>
+        </apparelTags>
+        <apparelAllowHeadgearChance>0.6</apparelAllowHeadgearChance>
+        <weaponMoney>200~400</weaponMoney>
+        <weaponTags>
+            <li>FCP_Children_of_Atom_Pistol</li>
+        </weaponTags>
+        <initialResistanceRange>8~15</initialResistanceRange>
+        <initialWillRange>5~10</initialWillRange>
+    </PawnKindDef>
+
+</Defs>

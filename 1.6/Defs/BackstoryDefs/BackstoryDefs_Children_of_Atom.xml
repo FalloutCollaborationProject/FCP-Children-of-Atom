@@ -1,0 +1,1848 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Backstories __________-->
+
+    <!--_____ Factions _____-->
+
+    <!--___ Children of Atom ___-->
+
+    <!--__ Adulthood __-->
+
+    <!-- High Confessor -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_High_Confessor</defName>
+        <identifier>FCP_Backstory_CoA_High_Confessor</identifier>
+        <slot>Adulthood</slot>
+        <title>High Confessor</title>
+        <titleShort>High Confessor</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] rose to become the spiritual leader of the Children of Atom, guiding the faithful in their worship of Division and the holy Glow. [PAWN_pronoun] preaches that radiation is not death, but transformation and rebirth. Through sermons and personal charisma, [PAWN_pronoun] inspires devotion and maintains the Church's sacred traditions, while interpreting Atom's will for the congregation.</description>
+        <skillGains>
+            <Social>8</Social>
+            <Intellectual>6</Intellectual>
+            <Artistic>3</Artistic>
+        </skillGains>
+        <workDisables>ManualDumb</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Grand Zealot -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Grand_Zealot</defName>
+        <identifier>FCP_Backstory_CoA_Grand_Zealot</identifier>
+        <slot>Adulthood</slot>
+        <title>Grand Zealot</title>
+        <titleShort>Grand Zealot</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] commands the militant arm of the Children of Atom, leading the faithful in defense of their holy sites and the spread of Atom's truth. [PAWN_pronoun] is both warrior and preacher, believing that the Glow must be shared with all, willingly or by force. [PAWN_possessive] devotion is absolute, and [PAWN_pronoun] fears neither death nor radiation.</description>
+        <skillGains>
+            <Shooting>7</Shooting>
+            <Melee>6</Melee>
+            <Social>4</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom</li>
+        </spawnCategories>
+        <bodyTypeFemale>Hulk</bodyTypeFemale>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Atom's Shepherd -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Shepherd</defName>
+        <identifier>FCP_Backstory_CoA_Shepherd</identifier>
+        <slot>Adulthood</slot>
+        <title>Atom's Shepherd</title>
+        <titleShort>Shepherd</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] guides new converts through their first steps into Atom's embrace, teaching them to see radiation as a blessing rather than a curse. [PAWN_pronoun] counsels the faithful through their doubts and fears, helping them understand that Division is the path to transcendence. [PAWN_possessive] patient guidance has brought many souls to the Glow.</description>
+        <skillGains>
+            <Social>7</Social>
+            <Intellectual>5</Ascular>
+            <Medicine>3</Medicine>
+            <Artistic>2</Artistic>
+        </skillGains>
+        <workDisables>Violent</workDisables>
+        <requiredWorkTags>Caring</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom</li>
+        </spawnCategories>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Glowing Prophet -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Glowing_Prophet</defName>
+        <identifier>FCP_Backstory_CoA_Glowing_Prophet</identifier>
+        <slot>Adulthood</slot>
+        <title>Glowing Prophet</title>
+        <titleShort>Prophet</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] has been transformed by extreme radiation exposure, becoming a glowing one - living proof of Atom's power. [PAWN_possessive] very presence inspires awe and terror, and [PAWN_pronoun] is revered as one who has truly embraced Division. [PAWN_pronoun] speaks in visions and prophecies, interpreting Atom's will through the radiation that courses through [PAWN_possessive] transformed body.</description>
+        <skillGains>
+            <Social>6</Social>
+            <Intellectual>7</Intellectual>
+            <Artistic>4</Artistic>
+            <Medicine>-3</Medicine>
+        </skillGains>
+        <workDisables>ManualDumb</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom</li>
+        </spawnCategories>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Atom's Wrath -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Wrath</defName>
+        <identifier>FCP_Backstory_CoA_Wrath</identifier>
+        <slot>Adulthood</slot>
+        <title>Atom's Wrath</title>
+        <titleShort>Wrath</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] serves as an enforcer of Atom's will, punishing heretics and protecting the faithful from those who would deny the truth of Division. [PAWN_pronoun] wields gamma weapons with zealous fury, believing each irradiated enemy is another soul delivered to Atom's judgment. [PAWN_possessive] faith is as deadly as the radiation [PAWN_pronoun] spreads.</description>
+        <skillGains>
+            <Shooting>8</Shooting>
+            <Melee>5</Melee>
+            <Intellectual>-2</Intellectual>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables>Artistic, Caring</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom</li>
+        </spawnCategories>
+        <bodyTypeFemale>Hulk</bodyTypeFemale>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Radiant Healer -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Radiant_Healer</defName>
+        <identifier>FCP_Backstory_CoA_Radiant_Healer</identifier>
+        <slot>Adulthood</slot>
+        <title>Radiant Healer</title>
+        <titleShort>Healer</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] tends to the faithful who have not yet fully embraced Atom's gift, treating radiation sickness with traditional medicine while teaching that such suffering is temporary on the path to Division. [PAWN_pronoun] has learned to balance compassion with faith, knowing that some must be eased gently into the Glow rather than thrust into it.</description>
+        <skillGains>
+            <Medicine>8</Medicine>
+            <Intellectual>6</Intellectual>
+            <Social>3</Social>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <workDisables>Violent</workDisables>
+        <requiredWorkTags>Caring</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Sacred Scavenger -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Sacred_Scavenger</defName>
+        <identifier>FCP_Backstory_CoA_Sacred_Scavenger</identifier>
+        <slot>Adulthood</slot>
+        <title>Sacred Scavenger</title>
+        <titleShort>Scavenger</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] ventures into the most irradiated zones to recover holy artifacts and materials blessed by Atom's touch. [PAWN_pronoun] seeks out pre-war nuclear materials, contaminated relics, and anything that glows with the Glow. [PAWN_possessive] expeditions into these deadly places are seen as pilgrimages, and [PAWN_pronoun] returns with treasures others fear to touch.</description>
+        <skillGains>
+            <Mining>6</Mining>
+            <Construction>5</Construction>
+            <Intellectual>3</Intellectual>
+            <Shooting>3</Shooting>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom</li>
+        </spawnCategories>
+        <bodyTypeFemale>Fat</bodyTypeFemale>
+        <bodyTypeMale>Fat</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Atom's Alchemist -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Alchemist</defName>
+        <identifier>FCP_Backstory_CoA_Alchemist</identifier>
+        <slot>Adulthood</slot>
+        <title>Atom's Alchemist</title>
+        <titleShort>Alchemist</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] crafts holy weapons and tools infused with radiation, believing that through science and faith, [PAWN_pronoun] can create instruments of Division. [PAWN_pronoun] maintains gamma guns, prepares radioactive compounds for rituals, and experiments with ways to harness Atom's power. [PAWN_possessive] workshop glows with the holy light of the faithful.</description>
+        <skillGains>
+            <Crafting>8</Crafting>
+            <Intellectual>7</Intellectual>
+            <Shooting>2</Shooting>
+            <Artistic>-2</Artistic>
+        </skillGains>
+        <workDisables>Social</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom</li>
+        </spawnCategories>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Pilgrim of Division -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Pilgrim</defName>
+        <identifier>FCP_Backstory_CoA_Pilgrim</identifier>
+        <slot>Adulthood</slot>
+        <title>Pilgrim of Division</title>
+        <titleShort>Pilgrim</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] wanders the wasteland spreading Atom's word to all who will listen, seeking holy sites where the Glow is strongest. [PAWN_pronoun] has visited bomb craters, reactor cores, and radioactive ruins, each pilgrimage deepening [PAWN_possessive] faith. [PAWN_pronoun] carries radiation as a badge of honor, proof of [PAWN_possessive] devotion and the miles traveled in Atom's name.</description>
+        <skillGains>
+            <Social>6</Social>
+            <Intellectual>4</Intellectual>
+            <Animals>3</Animals>
+            <Construction>2</Construction>
+            <Medicine>2</Medicine>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Keeper of the Crater -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Crater_Keeper</defName>
+        <identifier>FCP_Backstory_CoA_Crater_Keeper</identifier>
+        <slot>Adulthood</slot>
+        <title>Keeper of the Crater</title>
+        <titleShort>Crater Keeper</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] guards and maintains one of the Church's holiest sites - a bomb crater or nuclear ground zero where Atom's presence is strongest. [PAWN_pronoun] performs daily rituals, tends to pilgrims seeking blessing, and ensures no unbeliever defiles this sacred ground. [PAWN_possessive] life is devoted to protecting this monument to Division, and [PAWN_pronoun] has grown resistant to its lethal radiation through constant exposure.</description>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Melee>4</Melee>
+            <Construction>4</Construction>
+            <Intellectual>3</Intellectual>
+            <Social>3</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Radiation Priest -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Radiation_Priest</defName>
+        <identifier>FCP_Backstory_CoA_Radiation_Priest</identifier>
+        <slot>Adulthood</slot>
+        <title>Radiation Priest</title>
+        <titleShort>Priest</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] conducts daily services and rituals, leading congregations in prayer to Atom. [PAWN_pronoun] preaches the doctrine of Division, teaches sacred texts, and performs blessings upon the faithful. [PAWN_possessive] sermons inspire devotion and help believers understand their place in Atom's grand design.</description>
+        <skillGains>
+            <Social>7</Social>
+            <Intellectual>5</Intellectual>
+            <Artistic>3</Artistic>
+        </skillGains>
+        <workDisables>ManualDumb</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Glowing Sentinel -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Glowing_Sentinel</defName>
+        <identifier>FCP_Backstory_CoA_Glowing_Sentinel</identifier>
+        <slot>Adulthood</slot>
+        <title>Glowing Sentinel</title>
+        <titleShort>Sentinel</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] has been so thoroughly blessed by Atom's touch that [PAWN_pronoun] radiates the holy Glow. [PAWN_pronoun] stands watch over sacred sites, [PAWN_possessive] mere presence deadly to unbelievers. The faithful revere [PAWN_objective] as living proof of Atom's transformative power, while enemies flee from the radiation [PAWN_pronoun] emanates.</description>
+        <skillGains>
+            <Shooting>6</Shooting>
+            <Melee>7</Melee>
+            <Social>-4</Social>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <workDisables>Social</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom</li>
+        </spawnCategories>
+        <bodyTypeFemale>Hulk</bodyTypeFemale>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Atom's Voice -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Voice</defName>
+        <identifier>FCP_Backstory_CoA_Voice</identifier>
+        <slot>Adulthood</slot>
+        <title>Atom's Voice</title>
+        <titleShort>Voice</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] serves as a missionary and diplomat, speaking on behalf of the Children of Atom to outsiders. [PAWN_pronoun] attempts to convert the faithless through persuasion rather than force, believing words can open hearts to Division. [PAWN_possessive] eloquence has brought many to see the beauty in the Glow.</description>
+        <skillGains>
+            <Social>9</Social>
+            <Intellectual>4</Intellectual>
+            <Artistic>2</Artistic>
+        </skillGains>
+        <workDisables>Violent</workDisables>
+        <requiredWorkTags>Social</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Zealot Guardian -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Zealot_Guardian</defName>
+        <identifier>FCP_Backstory_CoA_Zealot_Guardian</identifier>
+        <slot>Adulthood</slot>
+        <title>Zealot Guardian</title>
+        <titleShort>Zealot</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] protects the Church and its members with fanatical devotion. [PAWN_pronoun] patrols holy sites, escorts missionaries through dangerous territory, and confronts those who threaten the faithful. [PAWN_possessive] loyalty to Atom is absolute, and [PAWN_pronoun] will gladly die in service to the Glow.</description>
+        <skillGains>
+            <Shooting>7</Shooting>
+            <Melee>6</Melee>
+            <Construction>2</Construction>
+        </skillGains>
+        <workDisables>Artistic</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom</li>
+        </spawnCategories>
+        <bodyTypeFemale>Hulk</bodyTypeFemale>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Confessor Acolyte -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Confessor_Acolyte</defName>
+        <identifier>FCP_Backstory_CoA_Confessor_Acolyte</identifier>
+        <slot>Adulthood</slot>
+        <title>Confessor Acolyte</title>
+        <titleShort>Acolyte</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] trains under senior clergy, learning the sacred texts and rituals of the Church. [PAWN_pronoun] assists with services, counsels new converts, and studies the mysteries of Division. Though not yet a full priest, [PAWN_possessive] dedication and knowledge mark [PAWN_objective] as a future leader of the faithful.</description>
+        <skillGains>
+            <Intellectual>6</Intellectual>
+            <Social>5</Social>
+            <Artistic>3</Artistic>
+            <Medicine>2</Medicine>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>Intellectual</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom</li>
+        </spawnCategories>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Gamma Gun Specialist -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Gamma_Specialist</defName>
+        <identifier>FCP_Backstory_CoA_Gamma_Specialist</identifier>
+        <slot>Adulthood</slot>
+        <title>Gamma Gun Specialist</title>
+        <titleShort>Gamma Specialist</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] has mastered the use of gamma weapons, holy instruments that spread Atom's gift through concentrated radiation. [PAWN_pronoun] maintains, modifies, and wields these sacred guns with deadly precision. To [PAWN_objective], each shot is both an act of war and an act of worship, delivering Division to the unenlightened.</description>
+        <skillGains>
+            <Shooting>9</Shooting>
+            <Crafting>5</Crafting>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <workDisables>Caring</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Blessed Farmer -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Blessed_Farmer</defName>
+        <identifier>FCP_Backstory_CoA_Blessed_Farmer</identifier>
+        <slot>Adulthood</slot>
+        <title>Blessed Farmer</title>
+        <titleShort>Farmer</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] tends crops in irradiated soil, believing that plants grown in the Glow are blessed by Atom. [PAWN_pronoun] cultivates mutated flora and hardy wasteland plants, providing food for the congregation while proving that life flourishes in radiation. [PAWN_possessive] garden is a testament to Atom's life-giving power.</description>
+        <skillGains>
+            <Plants>8</Plants>
+            <Cooking>4</Cooking>
+            <Intellectual>2</Intellectual>
+            <Animals>2</Animals>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>PlantWork</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Atom's Scholar -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Scholar</defName>
+        <identifier>FCP_Backstory_CoA_Scholar</identifier>
+        <slot>Adulthood</slot>
+        <title>Atom's Scholar</title>
+        <titleShort>Scholar</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] studies the science of radiation and nuclear physics, seeking to understand Atom's mysteries through both faith and knowledge. [PAWN_pronoun] maintains records of Church doctrine, researches pre-war nuclear sites, and attempts to reconcile scientific truth with spiritual revelation. [PAWN_possessive] work bridges belief and understanding.</description>
+        <skillGains>
+            <Intellectual>9</Intellectual>
+            <Crafting>4</Crafting>
+            <Medicine>3</Medicine>
+            <Social>-2</Social>
+        </skillGains>
+        <workDisables>ManualDumb, Social</workDisables>
+        <requiredWorkTags>Intellectual</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom</li>
+        </spawnCategories>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Reactor Tender -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Reactor_Tender</defName>
+        <identifier>FCP_Backstory_CoA_Reactor_Tender</identifier>
+        <slot>Adulthood</slot>
+        <title>Reactor Tender</title>
+        <titleShort>Reactor Tender</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] maintains and worships at pre-war nuclear reactors that still pulse with Atom's energy. [PAWN_pronoun] performs the delicate work of keeping these holy machines functioning, bathing in their radiation while ensuring they don't fully divide. [PAWN_possessive] technical knowledge is matched only by [PAWN_possessive] reverence for these monuments to atomic power.</description>
+        <skillGains>
+            <Crafting>7</Crafting>
+            <Intellectual>6</Intellectual>
+            <Construction>4</Construction>
+        </skillGains>
+        <workDisables>Artistic, Social</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Atom's Cook -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Cook</defName>
+        <identifier>FCP_Backstory_CoA_Cook</identifier>
+        <slot>Adulthood</slot>
+        <title>Atom's Cook</title>
+        <titleShort>Cook</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] prepares meals for the congregation, often incorporating irradiated ingredients that would sicken outsiders. [PAWN_pronoun] believes proper nutrition helps the body accept Atom's gift, and [PAWN_pronoun] carefully balances sustenance with spiritual preparation. [PAWN_possessive] dishes sustain the faithful on their journey toward Division.</description>
+        <skillGains>
+            <Cooking>8</Cooking>
+            <Plants>3</Plants>
+            <Animals>2</Animals>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>Cooking</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Shrine Builder -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Shrine_Builder</defName>
+        <identifier>FCP_Backstory_CoA_Shrine_Builder</identifier>
+        <slot>Adulthood</slot>
+        <title>Shrine Builder</title>
+        <titleShort>Builder</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] constructs and maintains shrines, temples, and monuments to Atom throughout the wasteland. [PAWN_pronoun] works with contaminated materials, decorating holy sites with glowing symbols and radioactive relics. Each structure [PAWN_pronoun] builds serves as a beacon for the faithful and a warning to unbelievers.</description>
+        <skillGains>
+            <Construction>8</Construction>
+            <Crafting>5</Crafting>
+            <Artistic>4</Artistic>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom</li>
+        </spawnCategories>
+        <bodyTypeFemale>Fat</bodyTypeFemale>
+        <bodyTypeMale>Fat</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Glowing Artist -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Glowing_Artist</defName>
+        <identifier>FCP_Backstory_CoA_Glowing_Artist</identifier>
+        <slot>Adulthood</slot>
+        <title>Glowing Artist</title>
+        <titleShort>Artist</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] creates art that depicts Atom's glory, using phosphorescent materials and radioactive pigments to craft works that literally glow. [PAWN_pronoun] paints murals in temples, sculpts idols for shrines, and illustrates holy texts. [PAWN_possessive] creations inspire the faithful and spread Atom's message through beauty.</description>
+        <skillGains>
+            <Artistic>9</Artistic>
+            <Intellectual>4</Intellectual>
+            <Crafting>3</Crafting>
+        </skillGains>
+        <workDisables>Violent</workDisables>
+        <requiredWorkTags>Artistic</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom</li>
+        </spawnCategories>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Atom's Merchant -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Merchant</defName>
+        <identifier>FCP_Backstory_CoA_Merchant</identifier>
+        <slot>Adulthood</slot>
+        <title>Atom's Merchant</title>
+        <titleShort>Merchant</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] trades with outsiders to acquire supplies the congregation needs while spreading word of Atom's truth. [PAWN_pronoun] sells holy water from irradiated sources, blessed trinkets, and gamma weapons to those willing to trade. Each transaction is an opportunity for conversion and a way to fund the Church's mission.</description>
+        <skillGains>
+            <Social>8</Social>
+            <Intellectual>4</Intellectual>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <workDisables>ManualDumb</workDisables>
+        <requiredWorkTags>Social</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Confessor's Bodyguard -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Bodyguard</defName>
+        <identifier>FCP_Backstory_CoA_Bodyguard</identifier>
+        <slot>Adulthood</slot>
+        <title>Confessor's Bodyguard</title>
+        <titleShort>Bodyguard</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] has sworn to protect the Church's leadership with [PAWN_possessive] life. [PAWN_pronoun] stands ever vigilant, trained in both ranged and melee combat, always ready to intercept any threat to the faithful's spiritual guides. [PAWN_possessive] devotion is proven through constant readiness to sacrifice for Atom's chosen.</description>
+        <skillGains>
+            <Shooting>7</Shooting>
+            <Melee>8</Melee>
+            <Social>-2</Social>
+        </skillGains>
+        <workDisables>Intellectual</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom</li>
+        </spawnCategories>
+        <bodyTypeFemale>Hulk</bodyTypeFemale>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Radiation Physician -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Physician</defName>
+        <identifier>FCP_Backstory_CoA_Physician</identifier>
+        <slot>Adulthood</slot>
+        <title>Radiation Physician</title>
+        <titleShort>Physician</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] studies how the human body transforms under Atom's touch, documenting the stages of ghoulification and radiation adaptation. [PAWN_pronoun] helps initiates through their first exposures, monitors the health of the faithful, and researches ways to survive ever-higher doses. [PAWN_possessive] work is both medical and theological.</description>
+        <skillGains>
+            <Medicine>9</Medicine>
+            <Intellectual>7</Intellectual>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables>Violent</workDisables>
+        <requiredWorkTags>Caring</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Holy Miner -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Miner</defName>
+        <identifier>FCP_Backstory_CoA_Miner</identifier>
+        <slot>Adulthood</slot>
+        <title>Holy Miner</title>
+        <titleShort>Miner</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] excavates radioactive ore and recovers buried nuclear materials from deep within the earth. [PAWN_pronoun] ventures into contaminated mines and sealed pre-war facilities, seeking the raw materials of Division. Each haul [PAWN_pronoun] brings back strengthens the Church and brings [PAWN_objective] closer to Atom through exposure.</description>
+        <skillGains>
+            <Mining>9</Mining>
+            <Construction>4</Construction>
+            <Melee>3</Melee>
+        </skillGains>
+        <workDisables>Artistic</workDisables>
+        <requiredWorkTags>Mining</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom</li>
+        </spawnCategories>
+        <bodyTypeFemale>Fat</bodyTypeFemale>
+        <bodyTypeMale>Fat</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Atom's Butcher -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Butcher</defName>
+        <identifier>FCP_Backstory_CoA_Butcher</identifier>
+        <slot>Adulthood</slot>
+        <title>Atom's Butcher</title>
+        <titleShort>Butcher</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] processes meat from irradiated creatures, providing food while teaching that even animals can be touched by Atom's grace. [PAWN_pronoun] knows which mutations make flesh safe to eat and which make it holy. [PAWN_possessive] work sustains the faithful's bodies while reinforcing their beliefs about radiation's transformative power.</description>
+        <skillGains>
+            <Cooking>6</Cooking>
+            <Animals>5</Animals>
+            <Medicine>3</Medicine>
+            <Melee>2</Melee>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Wasteland Converter -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Converter</defName>
+        <identifier>FCP_Backstory_CoA_Converter</identifier>
+        <slot>Adulthood</slot>
+        <title>Wasteland Converter</title>
+        <titleShort>Converter</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] travels alone into the wasteland to preach Atom's truth to isolated settlements and wanderers. [PAWN_pronoun] faces skepticism, hostility, and danger, but remains undeterred in [PAWN_possessive] mission to share the gift of Division. Some call [PAWN_objective] a fanatic, but [PAWN_pronoun] has brought dozens into the Glow through persistence and faith.</description>
+        <skillGains>
+            <Social>8</Social>
+            <Shooting>4</Shooting>
+            <Intellectual>3</Intellectual>
+            <Animals>2</Animals>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>Social</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Atomic Chronicler -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Chronicler</defName>
+        <identifier>FCP_Backstory_CoA_Chronicler</identifier>
+        <slot>Adulthood</slot>
+        <title>Atomic Chronicler</title>
+        <titleShort>Chronicler</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] records the history and miracles of the Children of Atom, documenting conversions, visions, and signs of Atom's favor. [PAWN_pronoun] maintains Church archives, copies sacred texts, and writes accounts of the faithful's journeys. [PAWN_possessive] records ensure that Atom's truth will endure for future generations.</description>
+        <skillGains>
+            <Intellectual>8</Intellectual>
+            <Artistic>5</Artistic>
+            <Social>3</Social>
+        </skillGains>
+        <workDisables>ManualDumb, Violent</workDisables>
+        <requiredWorkTags>Intellectual</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom</li>
+        </spawnCategories>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Atom's Forager -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Forager</defName>
+        <identifier>FCP_Backstory_CoA_Forager</identifier>
+        <slot>Adulthood</slot>
+        <title>Atom's Forager</title>
+        <titleShort>Forager</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] scavenges the wasteland for food, water, and supplies, preferring items from the most irradiated zones. [PAWN_pronoun] knows which plants thrive in radiation, where to find contaminated water sources, and how to survive in places others fear to tread. [PAWN_possessive] skills keep the faithful fed and supplied.</description>
+        <skillGains>
+            <Plants>6</Plants>
+            <Animals>5</Animals>
+            <Shooting>3</Shooting>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Gamma Grenadier -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Grenadier</defName>
+        <identifier>FCP_Backstory_CoA_Grenadier</identifier>
+        <slot>Adulthood</slot>
+        <title>Gamma Grenadier</title>
+        <titleShort>Grenadier</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] specializes in hurling radioactive explosives and grenades into the midst of unbelievers. [PAWN_pronoun] sees each detonation as a miniature Division, spreading Atom's gift through explosive force. [PAWN_possessive] arsenal includes homemade dirty bombs, radiation grenades, and other blessed ordnance.</description>
+        <skillGains>
+            <Shooting>8</Shooting>
+            <Crafting>5</Crafting>
+            <Melee>2</Melee>
+        </skillGains>
+        <workDisables>Caring</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Faithful Tinkerer -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Tinkerer</defName>
+        <identifier>FCP_Backstory_CoA_Tinkerer</identifier>
+        <slot>Adulthood</slot>
+        <title>Faithful Tinkerer</title>
+        <titleShort>Tinkerer</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] repairs and maintains the Church's equipment, from generators to weapons to everyday tools. [PAWN_pronoun] works with contaminated machinery that others refuse to touch, seeing [PAWN_possessive] work as a form of worship. [PAWN_possessive] practical skills keep the congregation running while [PAWN_possessive] faith keeps [PAWN_objective] going.</description>
+        <skillGains>
+            <Crafting>8</Crafting>
+            <Construction>5</Construction>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <workDisables>Social, Artistic</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Holy Interrogator -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Interrogator</defName>
+        <identifier>FCP_Backstory_CoA_Interrogator</identifier>
+        <slot>Adulthood</slot>
+        <title>Holy Interrogator</title>
+        <titleShort>Interrogator</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] roots out heresy and false belief within the congregation, questioning those whose faith seems weak. [PAWN_pronoun] uses both persuasion and intimidation to ensure the faithful remain true to Atom's teachings. [PAWN_possessive] methods are harsh, but [PAWN_pronoun] believes they protect the Church from corruption and doubt.</description>
+        <skillGains>
+            <Social>7</Social>
+            <Intellectual>6</Intellectual>
+            <Melee>3</Melee>
+        </skillGains>
+        <workDisables>Caring</workDisables>
+        <requiredWorkTags>Social</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Radiant Musician -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Musician</defName>
+        <identifier>FCP_Backstory_CoA_Musician</identifier>
+        <slot>Adulthood</slot>
+        <title>Radiant Musician</title>
+        <titleShort>Musician</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] composes and performs hymns praising Atom, leading the congregation in song during services. [PAWN_pronoun] believes music elevates the spirit and prepares the soul for Division. [PAWN_possessive] melodies echo through temples and across the wasteland, attracting curious listeners who may become converts.</description>
+        <skillGains>
+            <Artistic>8</Artistic>
+            <Social>5</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>Violent, ManualDumb</workDisables>
+        <requiredWorkTags>Artistic</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom</li>
+        </spawnCategories>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Atom's Spy -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Spy</defName>
+        <identifier>FCP_Backstory_CoA_Spy</identifier>
+        <slot>Adulthood</slot>
+        <title>Atom's Spy</title>
+        <titleShort>Spy</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] infiltrates settlements and organizations that oppose the Children of Atom, gathering intelligence while hiding [PAWN_possessive] faith. [PAWN_pronoun] learns enemies' plans, identifies potential converts, and reports back to Church leadership. [PAWN_possessive] deception serves Atom's greater purpose, even if it means living a double life.</description>
+        <skillGains>
+            <Social>8</Social>
+            <Intellectual>6</Intellectual>
+            <Shooting>3</Shooting>
+            <Melee>2</Melee>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>Social</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Blessed Packrat -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Packrat</defName>
+        <identifier>FCP_Backstory_CoA_Packrat</identifier>
+        <slot>Adulthood</slot>
+        <title>Blessed Packrat</title>
+        <titleShort>Packrat</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] collects and hoards items touched by Atom's Glow, from radioactive debris to contaminated artifacts. [PAWN_pronoun] sees value in what others discard as too dangerous, believing these objects are blessed. [PAWN_possessive] collection serves both practical needs and spiritual significance, though some find it obsessive.</description>
+        <skillGains>
+            <Intellectual>5</Intellectual>
+            <Crafting>5</Crafting>
+            <Construction>3</Construction>
+            <Social>-2</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom</li>
+        </spawnCategories>
+        <bodyTypeFemale>Fat</bodyTypeFemale>
+        <bodyTypeMale>Fat</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Crater Missionary -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Crater_Missionary</defName>
+        <identifier>FCP_Backstory_CoA_Crater_Missionary</identifier>
+        <slot>Adulthood</slot>
+        <title>Crater Missionary</title>
+        <titleShort>Missionary</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] leads pilgrims to bomb craters and ground zeros, guiding them through rituals of exposure and transformation. [PAWN_pronoun] teaches newcomers to embrace the Glow, supporting them through radiation sickness while preaching that their suffering brings them closer to Division. Many find their faith at these holiest of sites under [PAWN_possessive] guidance.</description>
+        <skillGains>
+            <Social>7</Social>
+            <Intellectual>4</Intellectual>
+            <Medicine>4</Medicine>
+            <Animals>2</Animals>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>Social</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Atomic Salvager -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Salvager</defName>
+        <identifier>FCP_Backstory_CoA_Salvager</identifier>
+        <slot>Adulthood</slot>
+        <title>Atomic Salvager</title>
+        <titleShort>Salvager</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] specializes in recovering technology from pre-war nuclear facilities - reactor components, medical equipment, research materials. [PAWN_pronoun] braves lethal radiation zones to retrieve items the Church needs, viewing each successful salvage operation as proof of Atom's protection. [PAWN_possessive] hauls are valuable both materially and spiritually.</description>
+        <skillGains>
+            <Construction>6</Construction>
+            <Crafting>6</Crafting>
+            <Mining>4</Mining>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom</li>
+        </spawnCategories>
+        <bodyTypeFemale>Fat</bodyTypeFemale>
+        <bodyTypeMale>Fat</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Atom's Scribe -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Scribe</defName>
+        <identifier>FCP_Backstory_CoA_Scribe</identifier>
+        <slot>Adulthood</slot>
+        <title>Atom's Scribe</title>
+        <titleShort>Scribe</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] copies sacred texts and Church doctrine by hand, ensuring Atom's word spreads even to places without working technology. [PAWN_pronoun] creates beautifully illuminated manuscripts, decorating pages with glowing pigments. Each book [PAWN_pronoun] produces is both art and scripture, spreading Division through the written word.</description>
+        <skillGains>
+            <Intellectual>7</Intellectual>
+            <Artistic>6</Artistic>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables>ManualDumb, Violent</workDisables>
+        <requiredWorkTags>Intellectual</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom</li>
+        </spawnCategories>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Radiant Quartermaster -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Quartermaster</defName>
+        <identifier>FCP_Backstory_CoA_Quartermaster</identifier>
+        <slot>Adulthood</slot>
+        <title>Radiant Quartermaster</title>
+        <titleShort>Quartermaster</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] manages the Church's supplies and resources, ensuring the faithful have what they need to survive and spread Atom's word. [PAWN_pronoun] maintains inventories of food, water, weapons, and holy items, distributing them according to need and rank. [PAWN_possessive] organizational skills keep the congregation functioning smoothly.</description>
+        <skillGains>
+            <Intellectual>7</Intellectual>
+            <Social>5</Social>
+            <Crafting>3</Crafting>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Ghoul Shepherd -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Ghoul_Shepherd</defName>
+        <identifier>FCP_Backstory_CoA_Ghoul_Shepherd</identifier>
+        <slot>Adulthood</slot>
+        <title>Ghoul Shepherd</title>
+        <titleShort>Ghoul Shepherd</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] ministers specifically to ghouls and those undergoing ghoulification, helping them understand their transformation as Atom's blessing. [PAWN_pronoun] counsels the newly transformed through their trauma and fear, teaching them that they have been chosen for a higher purpose. [PAWN_possessive] work bridges smooth-skin and ghoul within the congregation.</description>
+        <skillGains>
+            <Social>8</Social>
+            <Medicine>6</Medicine>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <workDisables>Violent</workDisables>
+        <requiredWorkTags>Caring</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Atom's Wanderer -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Wanderer</defName>
+        <identifier>FCP_Backstory_CoA_Wanderer</identifier>
+        <slot>Adulthood</slot>
+        <title>Atom's Wanderer</title>
+        <titleShort>Wanderer</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] roams the wasteland without permanent home, believing Atom calls [PAWN_objective] to witness Division in all its forms. [PAWN_pronoun] visits distant chapters of the Church, explores radioactive zones, and helps isolated believers. [PAWN_possessive] travels are both pilgrimage and mission, spreading faith through [PAWN_possessive] presence and stories.</description>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Social>5</Social>
+            <Animals>4</Animals>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Blessed Brawler -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Brawler</defName>
+        <identifier>FCP_Backstory_CoA_Brawler</identifier>
+        <slot>Adulthood</slot>
+        <title>Blessed Brawler</title>
+        <titleShort>Brawler</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] enforces order within the congregation through physical strength and intimidation. [PAWN_pronoun] handles troublemakers, guards Church property, and ensures rituals proceed without disruption. [PAWN_possessive] fists have solved many problems that words could not, and [PAWN_pronoun] sees violence in service of Atom as righteous.</description>
+        <skillGains>
+            <Melee>9</Melee>
+            <Shooting>3</Shooting>
+            <Social>-3</Social>
+        </skillGains>
+        <workDisables>Intellectual, Artistic</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom</li>
+        </spawnCategories>
+        <bodyTypeFemale>Hulk</bodyTypeFemale>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Atom's Teacher -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Teacher</defName>
+        <identifier>FCP_Backstory_CoA_Teacher</identifier>
+        <slot>Adulthood</slot>
+        <title>Atom's Teacher</title>
+        <titleShort>Teacher</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] educates children born into the Church, teaching them to read, write, and understand Atom's teachings. [PAWN_pronoun] prepares the next generation to carry on the faith, instilling devotion alongside practical skills. [PAWN_possessive] students grow up seeing radiation as natural and Division as inevitable, creating devoted believers from birth.</description>
+        <skillGains>
+            <Intellectual>8</Intellectual>
+            <Social>6</Social>
+            <Artistic>2</Artistic>
+        </skillGains>
+        <workDisables>Violent, ManualDumb</workDisables>
+        <requiredWorkTags>Intellectual</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Holy Demolitionist -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Demolitionist</defName>
+        <identifier>FCP_Backstory_CoA_Demolitionist</identifier>
+        <slot>Adulthood</slot>
+        <title>Holy Demolitionist</title>
+        <titleShort>Demolitionist</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] creates and deploys explosives, viewing each detonation as a small Division - matter transformed through violent energy release. [PAWN_pronoun] specializes in breaching enemy fortifications, clearing irradiated ruins, and creating spectacular displays during religious ceremonies. [PAWN_possessive] explosions are both tactical and theological.</description>
+        <skillGains>
+            <Crafting>7</Crafting>
+            <Shooting>6</Shooting>
+            <Intellectual>4</Intellectual>
+            <Construction>2</Construction>
+        </skillGains>
+        <workDisables>Caring</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Radiant Counselor -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Counselor</defName>
+        <identifier>FCP_Backstory_CoA_Counselor</identifier>
+        <slot>Adulthood</slot>
+        <title>Radiant Counselor</title>
+        <titleShort>Counselor</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] helps believers through spiritual crises, doubts, and the psychological challenges of living in constant radiation exposure. [PAWN_pronoun] listens with compassion, offers guidance from scripture, and reminds the wavering why they chose Atom's path. [PAWN_possessive] counsel has prevented many from abandoning the faith during their darkest moments.</description>
+        <skillGains>
+            <Social>9</Social>
+            <Intellectual>5</Intellectual>
+            <Medicine>3</Medicine>
+        </skillGains>
+        <workDisables>Violent</workDisables>
+        <requiredWorkTags>Social</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Atom's Ranger -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Ranger</defName>
+        <identifier>FCP_Backstory_CoA_Ranger</identifier>
+        <slot>Adulthood</slot>
+        <title>Atom's Ranger</title>
+        <titleShort>Ranger</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] scouts ahead of Church expeditions, mapping radioactive zones and identifying threats. [PAWN_pronoun] moves alone through the deadliest areas of the wasteland, relying on skill and Atom's protection. [PAWN_possessive] reports guide the faithful safely to holy sites and away from dangers even they cannot survive.</description>
+        <skillGains>
+            <Shooting>8</Shooting>
+            <Animals>5</Animals>
+            <Intellectual>3</Intellectual>
+            <Medicine>2</Intellectual>
+        </skillGains>
+        <workDisables>Social</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom</li>
+        </spawnCategories>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!--__ Childhood __-->
+
+    <!-- Born in the Glow -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Born_in_Glow</defName>
+        <identifier>FCP_Backstory_CoA_Born_in_Glow</identifier>
+        <slot>Childhood</slot>
+        <title>Born in the Glow</title>
+        <titleShort>Glow Child</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] was born within a highly irradiated zone and raised to see the Glow as natural and beautiful. From [PAWN_possessive] earliest memories, [PAWN_pronoun] learned that radiation meant safety, marking places blessed by Atom. [PAWN_pronoun] grew up never knowing the fear others feel toward the holy light.</description>
+        <skillGains>
+            <Intellectual>2</Intellectual>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Crater Child -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Crater_Child</defName>
+        <identifier>FCP_Backstory_CoA_Crater_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Crater Child</title>
+        <titleShort>Crater Child</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] spent [PAWN_possessive] childhood playing in and around bomb craters, the holiest sites of the Children of Atom. [PAWN_pronoun] learned to navigate radioactive ruins, identify safe paths through contaminated zones, and understand why these places were sacred. The crater was [PAWN_possessive] playground and church.</description>
+        <skillGains>
+            <Construction>2</Construction>
+            <Mining>2</Mining>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Temple Youth -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Temple_Youth</defName>
+        <identifier>FCP_Backstory_CoA_Temple_Youth</identifier>
+        <slot>Childhood</slot>
+        <title>Temple Youth</title>
+        <titleShort>Temple Youth</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] grew up within a Children of Atom temple, helping priests with daily rituals and services. [PAWN_pronoun] learned prayers and hymns before learning to read, and assisted with ceremonies from an early age. The temple's routines and teachings shaped [PAWN_possessive] understanding of the world.</description>
+        <skillGains>
+            <Social>3</Social>
+            <Artistic>1</Artistic>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Convert's Child -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Converts_Child</defName>
+        <identifier>FCP_Backstory_CoA_Converts_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Convert's Child</title>
+        <titleShort>Convert's Child</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] was born to parents who converted to the Children of Atom, experiencing their zealous devotion firsthand. [PAWN_pronoun] watched as they embraced the faith with the fervor of the newly enlightened, learning that belief in Atom could transform not just bodies, but entire families and lives.</description>
+        <skillGains>
+            <Social>2</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Pilgrim Youth -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Pilgrim_Youth</defName>
+        <identifier>FCP_Backstory_CoA_Pilgrim_Youth</identifier>
+        <slot>Childhood</slot>
+        <title>Pilgrim Youth</title>
+        <titleShort>Pilgrim Youth</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] traveled with [PAWN_possessive] family from one holy site to another, never staying anywhere long. [PAWN_pronoun] learned to adapt to new places, meet new believers, and understand Atom's presence in many forms. The road was [PAWN_possessive] home, and each destination brought new lessons.</description>
+        <skillGains>
+            <Animals>2</Animals>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Scavenger Youth -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Scavenger_Youth</defName>
+        <identifier>FCP_Backstory_CoA_Scavenger_Youth</identifier>
+        <slot>Childhood</slot>
+        <title>Scavenger Youth</title>
+        <titleShort>Scavenger</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] helped gather supplies from irradiated zones as a child, learning which items were safe to handle and which glowed too brightly even for the faithful. [PAWN_pronoun] developed a practical understanding of radiation and its effects while contributing to the congregation's needs.</description>
+        <skillGains>
+            <Mining>2</Mining>
+            <Construction>1</Construction>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Altar Server -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Altar_Server</defName>
+        <identifier>FCP_Backstory_CoA_Altar_Server</identifier>
+        <slot>Childhood</slot>
+        <title>Altar Server</title>
+        <titleShort>Altar Server</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] assisted priests during religious ceremonies, lighting irradiated candles and preparing holy water from contaminated sources. [PAWN_pronoun] learned the rituals of worship through repetition and practice, finding comfort in the structure and meaning of each sacred act.</description>
+        <skillGains>
+            <Artistic>2</Artistic>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Ghoul's Apprentice -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Ghoul_Apprentice</defName>
+        <identifier>FCP_Backstory_CoA_Ghoul_Apprentice</identifier>
+        <slot>Childhood</slot>
+        <title>Ghoul's Apprentice</title>
+        <titleShort>Ghoul Apprentice</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] was taught and cared for by a ghoul elder within the Church, learning from someone who had fully embraced Division. [PAWN_pronoun] saw the transformation as aspirational rather than tragic, understanding that ghouls represented Atom's ultimate blessing. This shaped [PAWN_possessive] acceptance of all of the Glow's effects.</description>
+        <skillGains>
+            <Medicine>2</Medicine>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Blessed Gardener -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Blessed_Gardener</defName>
+        <identifier>FCP_Backstory_CoA_Blessed_Gardener</identifier>
+        <slot>Childhood</slot>
+        <title>Blessed Gardener</title>
+        <titleShort>Gardener</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] helped tend the congregation's gardens, growing mutated crops in irradiated soil. [PAWN_pronoun] learned that life could flourish even in contaminated earth, and that Atom's touch made plants stronger and stranger. Each harvest reinforced the lesson that radiation brought transformation, not death.</description>
+        <skillGains>
+            <Plants>3</Plants>
+            <Animals>1</Animals>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Missionary's Helper -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Missionary_Helper</defName>
+        <identifier>FCP_Backstory_CoA_Missionary_Helper</identifier>
+        <slot>Childhood</slot>
+        <title>Missionary's Helper</title>
+        <titleShort>Helper</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] accompanied missionaries as they spread Atom's word, carrying supplies and observing how to speak to outsiders about the faith. [PAWN_pronoun] learned the art of persuasion and the challenges of converting the skeptical, understanding that bringing others to Division required patience and skill.</description>
+        <skillGains>
+            <Social>3</Social>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Reactor's Shadow -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Reactor_Shadow</defName>
+        <identifier>FCP_Backstory_CoA_Reactor_Shadow</identifier>
+        <slot>Childhood</slot>
+        <title>Reactor's Shadow</title>
+        <titleShort>Reactor Child</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] grew up in the shadow of an active nuclear reactor that the Children of Atom maintained as a holy shrine. [PAWN_pronoun] learned to respect its power, understand its mechanisms, and bask in its constant radiation. The reactor's hum was [PAWN_possessive] lullaby, its glow [PAWN_possessive] nightlight.</description>
+        <skillGains>
+            <Crafting>2</Crafting>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Hunter of the Wastes -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Hunter_Youth</defName>
+        <identifier>FCP_Backstory_CoA_Hunter_Youth</identifier>
+        <slot>Childhood</slot>
+        <title>Hunter of the Wastes</title>
+        <titleShort>Hunter</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] learned to hunt irradiated creatures for food, understanding that animals touched by Atom could sustain the faithful. [PAWN_pronoun] developed skills in tracking, shooting, and processing mutated game while learning to see these creatures as part of Atom's grand design rather than abominations.</description>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Animals>2</Animals>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Scholar's Pupil -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Scholar_Pupil</defName>
+        <identifier>FCP_Backstory_CoA_Scholar_Pupil</identifier>
+        <slot>Childhood</slot>
+        <title>Scholar's Pupil</title>
+        <titleShort>Pupil</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] studied under the Church's scholars, learning to read sacred texts and understand the science behind radiation. [PAWN_pronoun] was taught that faith and knowledge complemented each other, and that understanding Atom's physical nature only deepened spiritual appreciation of Division.</description>
+        <skillGains>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Shrine Keeper's Child -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Shrine_Child</defName>
+        <identifier>FCP_Backstory_CoA_Shrine_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Shrine Keeper's Child</title>
+        <titleShort>Shrine Child</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] grew up helping [PAWN_possessive] parent maintain a sacred shrine, cleaning radioactive relics and welcoming pilgrims. [PAWN_pronoun] learned the stories behind each holy object and the importance of preserving sites touched by Atom. The shrine was both home and holy ground.</description>
+        <skillGains>
+            <Construction>2</Construction>
+            <Artistic>2</Artistic>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Radiation Resistant -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Radiation_Resistant</defName>
+        <identifier>FCP_Backstory_CoA_Radiation_Resistant</identifier>
+        <slot>Childhood</slot>
+        <title>Radiation Resistant</title>
+        <titleShort>Resistant</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] showed unusual resistance to radiation from an early age, able to withstand exposures that sickened other children. The Church saw this as a sign of Atom's favor, treating [PAWN_objective] as specially blessed. [PAWN_pronoun] learned to carry holy relics too dangerous for others to touch.</description>
+        <skillGains>
+            <Medicine>2</Medicine>
+            <Intellectual>1</Intellectual>
+            <Social>1</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Zealot's Offspring -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Zealot_Offspring</defName>
+        <identifier>FCP_Backstory_CoA_Zealot_Offspring</identifier>
+        <slot>Childhood</slot>
+        <title>Zealot's Offspring</title>
+        <titleShort>Zealot Child</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] was raised by militant zealots who patrolled and defended Church territories. [PAWN_pronoun] learned combat skills alongside prayers, understanding that protecting the faithful and spreading Atom's truth sometimes required force. [PAWN_possessive] childhood was equal parts training camp and religious education.</description>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Melee>2</Melee>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Cook's Assistant -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Cook_Assistant</defName>
+        <identifier>FCP_Backstory_CoA_Cook_Assistant</identifier>
+        <slot>Childhood</slot>
+        <title>Cook's Assistant</title>
+        <titleShort>Cook Helper</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] helped prepare meals for the congregation, learning which irradiated foods were safe and which would sicken even the faithful. [PAWN_pronoun] developed an understanding of nutrition and how to sustain people living in constant radiation exposure, turning cooking into both practical skill and spiritual service.</description>
+        <skillGains>
+            <Cooking>3</Cooking>
+            <Plants>1</Plants>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Relic Finder -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Relic_Finder</defName>
+        <identifier>FCP_Backstory_CoA_Relic_Finder</identifier>
+        <slot>Childhood</slot>
+        <title>Relic Finder</title>
+        <titleShort>Relic Finder</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] searched ruins and contaminated zones for pre-war artifacts that glowed with Atom's touch. [PAWN_pronoun] learned to identify valuable relics, navigate dangerous structures, and understand what made objects holy to the Church. Each find was both treasure hunt and sacred quest.</description>
+        <skillGains>
+            <Mining>2</Mining>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Healer's Apprentice -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Healer_Apprentice</defName>
+        <identifier>FCP_Backstory_CoA_Healer_Apprentice</identifier>
+        <slot>Childhood</slot>
+        <title>Healer's Apprentice</title>
+        <titleShort>Healer</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] learned basic medical care from Church healers, understanding how to treat radiation sickness and other ailments. [PAWN_pronoun] was taught the delicate balance between embracing Atom's gift and keeping patients alive through their transformation, learning compassion alongside medical knowledge.</description>
+        <skillGains>
+            <Medicine>3</Medicine>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Builder's Child -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Builder_Child</defName>
+        <identifier>FCP_Backstory_CoA_Builder_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Builder's Child</title>
+        <titleShort>Builder</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] helped construct and repair Church buildings, learning to work with contaminated materials and build in radioactive environments. [PAWN_pronoun] understood that creating spaces for worship was itself an act of devotion, and took pride in contributing to structures that would shelter the faithful.</description>
+        <skillGains>
+            <Construction>3</Construction>
+            <Crafting>1</Crafting>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Choir Singer -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Choir_Singer</defName>
+        <identifier>FCP_Backstory_CoA_Choir_Singer</identifier>
+        <slot>Childhood</slot>
+        <title>Choir Singer</title>
+        <titleShort>Choir</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] sang in the Church choir, voice raised in praise of Atom during services and ceremonies. [PAWN_pronoun] learned hymns that spoke of Division and transformation, finding beauty in music that celebrated radiation's power. Singing connected [PAWN_objective] to the congregation and to something greater.</description>
+        <skillGains>
+            <Artistic>3</Artistic>
+            <Social>1</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Storyteller's Listener -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Storyteller_Listener</defName>
+        <identifier>FCP_Backstory_CoA_Storyteller_Listener</identifier>
+        <slot>Childhood</slot>
+        <title>Storyteller's Listener</title>
+        <titleShort>Listener</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] spent hours listening to elders tell stories of Atom's miracles, famous conversions, and the Church's history. [PAWN_pronoun] absorbed these tales of faith and transformation, learning lessons through narrative. The stories shaped [PAWN_possessive] understanding of what it meant to be among the faithful.</description>
+        <skillGains>
+            <Social>2</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Merchant's Aide -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Merchant_Aide</defName>
+        <identifier>FCP_Backstory_CoA_Merchant_Aide</identifier>
+        <slot>Childhood</slot>
+        <title>Merchant's Aide</title>
+        <titleShort>Merchant Aide</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] assisted Church merchants in trading with outsiders, learning the value of goods and the art of negotiation. [PAWN_pronoun] saw how commerce could spread Atom's message alongside material goods, understanding that every transaction was an opportunity for conversion.</description>
+        <skillGains>
+            <Social>3</Social>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Tinkerer's Shadow -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Tinkerer_Shadow</defName>
+        <identifier>FCP_Backstory_CoA_Tinkerer_Shadow</identifier>
+        <slot>Childhood</slot>
+        <title>Tinkerer's Shadow</title>
+        <titleShort>Tinkerer</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] watched and learned as Church tinkerers maintained equipment and repaired contaminated machinery. [PAWN_pronoun] developed an understanding of how things worked while learning to handle tools and materials others feared to touch. Technical skill and faith developed together in [PAWN_possessive] young hands.</description>
+        <skillGains>
+            <Crafting>3</Crafting>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Guard's Student -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Guard_Student</defName>
+        <identifier>FCP_Backstory_CoA_Guard_Student</identifier>
+        <slot>Childhood</slot>
+        <title>Guard's Student</title>
+        <titleShort>Guard Student</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] trained under Church guards, learning to watch for threats and protect holy sites. [PAWN_pronoun] practiced with weapons and studied tactics while understanding that vigilance served Atom's purpose. [PAWN_possessive] childhood prepared [PAWN_objective] for a life defending the faithful.</description>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Melee>1</Melee>
+            <Social>1</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Wasteland Wanderer -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Wasteland_Wanderer</defName>
+        <identifier>FCP_Backstory_CoA_Wasteland_Wanderer</identifier>
+        <slot>Childhood</slot>
+        <title>Wasteland Wanderer</title>
+        <titleShort>Wanderer</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] traveled constantly with nomadic Church members, never settling in one place. [PAWN_pronoun] learned survival skills, how to read the land, and how to find Atom's presence in every irradiated corner of the wasteland. The journey itself became [PAWN_possessive] home and [PAWN_possessive] teacher.</description>
+        <skillGains>
+            <Animals>2</Animals>
+            <Shooting>1</Shooting>
+            <Plants>1</Plants>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Blessed Outcast -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Blessed_Outcast</defName>
+        <identifier>FCP_Backstory_CoA_Blessed_Outcast</identifier>
+        <slot>Childhood</slot>
+        <title>Blessed Outcast</title>
+        <titleShort>Outcast</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] came to the Children of Atom as an orphan or refugee, finding family among the faithful when [PAWN_pronoun] had none. The Church's acceptance taught [PAWN_objective] that Atom welcomed all who embraced the Glow, regardless of their past. This shaped [PAWN_possessive] fierce loyalty to the congregation.</description>
+        <skillGains>
+            <Social>2</Social>
+            <Intellectual>1</Intellectual>
+            <Medicine>1</Medicine>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Confessor's Attendant -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Confessor_Attendant</defName>
+        <identifier>FCP_Backstory_CoA_Confessor_Attendant</identifier>
+        <slot>Childhood</slot>
+        <title>Confessor's Attendant</title>
+        <titleShort>Attendant</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] served as personal attendant to a high-ranking confessor, observing leadership and learning Church politics. [PAWN_pronoun] saw how decisions were made, how disputes were resolved, and how doctrine was interpreted. This early exposure to Church hierarchy gave [PAWN_objective] unique insight into faith and power.</description>
+        <skillGains>
+            <Social>3</Social>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Artist's Helper -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Artist_Helper</defName>
+        <identifier>FCP_Backstory_CoA_Artist_Helper</identifier>
+        <slot>Childhood</slot>
+        <title>Artist's Helper</title>
+        <titleShort>Artist Helper</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] assisted artists who created glowing murals and sculptures for Church temples. [PAWN_pronoun] mixed phosphorescent pigments, prepared canvases, and learned to see beauty in radiation's transformative glow. Art and faith became inseparable in [PAWN_possessive] young mind.</description>
+        <skillGains>
+            <Artistic>4</Artistic>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Chronicler's Page -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Chronicler_Page</defName>
+        <identifier>FCP_Backstory_CoA_Chronicler_Page</identifier>
+        <slot>Childhood</slot>
+        <title>Chronicler's Page</title>
+        <titleShort>Page</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] helped maintain Church records and archives, learning to read and write while absorbing the documented history of Atom's faithful. [PAWN_pronoun] understood that preserving the past served the future, and that every record told part of Division's ongoing story.</description>
+        <skillGains>
+            <Intellectual>3</Intellectual>
+            <Artistic>1</Artistic>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>FCP_Children_of_Atom_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+</Defs>

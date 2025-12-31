@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!--__________ Cultures and Styles __________-->
+
+    <!--_____ Cultures _____-->
+
+    <!-- Children of Atom -->
+
+	<CultureDef>
+		<defName>FCP_Culture_Children_of_Atom</defName>
+		<label>Children of Atom</label>
+		<description>The Children of Atom are religious zealots who worship radiation as a divine force. They make their homes in irradiated zones, view Glowing Ones as holy figures, and believe that exposure to radiation brings spiritual enlightenment. Their faith centers on Atom and the sacred act of Division.</description>
+		<pawnNameMaker>FCP_Retro_Namer_Male</pawnNameMaker>
+		<pawnNameMakerFemale>FCP_Retro_Namer_Female</pawnNameMakerFemale>
+		<ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoMythological</ideoNameMaker>
+		<deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeityMythological</deityNameMaker>
+		<deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DeityTypeMakerMythological</deityTypeMaker>
+		<leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">FCP_LeaderTitleMaker_Children_of_Atom</leaderTitleMaker>
+		<festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalMythological</festivalNameMaker>
+		<allowedPlaceTags>
+			<li>OriginOutlander</li>
+			<li>OriginTribal</li>
+		</allowedPlaceTags>
+		<iconPath>World_Icon/FCP_Children_of_Atom_World_Icon</iconPath>
+		<styleItemTags>
+			<li>
+				<tag>Urban</tag>
+				<baseWeight>0.5</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+			<li>
+				<tag>Rural</tag>
+				<baseWeight>1</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+			<li>
+				<tag>Punk</tag>
+				<baseWeight>0.3</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+			<li>
+				<tag>NoBeard</tag>
+				<baseWeight>2</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+			<li>
+				<tag>BeardUrban</tag>
+				<baseWeight>0.5</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+			<li>
+				<tag>BeardRural</tag>
+				<baseWeight>1</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+			<li>
+				<tag>BeardFeral</tag>
+				<baseWeight>0.8</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+			<li>
+				<tag>MoustacheOnly</tag>
+				<baseWeight>0.3</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+			<li>
+				<tag>NoTattoo</tag>
+				<baseWeight>0.5</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+			<li>
+				<tag>TattooTribal</tag>
+				<baseWeight>0.8</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+			<li>
+				<tag>TattooUrban</tag>
+				<baseWeight>0.6</baseWeight>
+				<weightFactor>1</weightFactor>
+			</li>
+		</styleItemTags>
+	</CultureDef>
+
+	<!--_____ Leader Title Makers _____-->
+
+	<RulePackDef>
+		<defName>FCP_LeaderTitleMaker_Children_of_Atom</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>leader_title(p=10)->[leaderTitleWord]</li>
+				<li>leader_title(p=2)->[leaderTitleWord] of [place]</li>
+				<li>leader_title(p=2)->[leaderTitleWord] of the [religiousConcept]</li>
+				<li>leader_title(p=1)->[leaderTitleWord] of Atom's [religiousConcept]</li>
+
+				<li>leaderTitleWord(p=2)->High Confessor</li>
+				<li>leaderTitleWord->Grand Zealot</li>
+				<li>leaderTitleWord->High Priest</li>
+				<li>leaderTitleWord->Prophet</li>
+				<li>leaderTitleWord->Voice</li>
+				<li>leaderTitleWord->Herald</li>
+				<li>leaderTitleWord->Shepherd</li>
+				<li>leaderTitleWord->Guardian</li>
+
+				<li>religiousConcept->Glow</li>
+				<li>religiousConcept->Light</li>
+				<li>religiousConcept->Division</li>
+				<li>religiousConcept->Faith</li>
+				<li>religiousConcept->Truth</li>
+				<li>religiousConcept->Flame</li>
+				<li>religiousConcept->Radiance</li>
+				<li>religiousConcept->Blessing</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+</Defs>

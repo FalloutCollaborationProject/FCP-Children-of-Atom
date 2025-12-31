@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <!--__________ Children of Atom Memes __________-->
+
+    <!-- Church of Atom Faith - Core belief system -->
+
+    <MemeDef>
+        <defName>FCP_Meme_Children_of_Atom_Faith</defName>
+        <label>Atom's Light</label>
+        <description>Atom is the source of all creation and destruction. The Children of Atom believe that radiation is not a curse, but a divine blessing - proof of Atom's power and presence in the world. Through exposure to the Glow, believers achieve spiritual enlightenment and physical transformation. The atom bomb didn't destroy the world; it revealed its true nature. Those who fear radiation are blind to Atom's truth, while those who embrace it are elevated to new forms of existence. The faithful see Glowing Ones not as monsters, but as living saints who have achieved the highest state of communion with their god.</description>
+        <iconPath>World_Icon/FCP_Children_of_Atom_World_Icon</iconPath>
+        <groupDef>Misc</groupDef>
+        <impact>3</impact>
+        <randomizationSelectionWeightFactor>0</randomizationSelectionWeightFactor>
+        <hiddenInChooseMemes>true</hiddenInChooseMemes>
+        <requireOne>
+            <li><li>Cannibalism_Abhorrent</li></li>
+            <li><li>Corpses_DontCare</li></li>
+            <li><li>Lovin_Free</li></li>
+            <li><li>MarriageName_UsuallyMans</li></li>
+            <li><li>SpouseCount_Male_MaxOne</li></li>
+            <li><li>SpouseCount_Female_MaxOne</li></li>
+            <li><li>Charity_Essential</li></li>
+            <li><li>DrugUse_MedicalOrSocial</li></li>
+            <li><li>IdeoDiversity_Approved</li></li>
+            <li><li>Nudity_Male_UncoveredGroinDisapproved</li></li>
+            <li><li>Nudity_Female_UncoveredGroinOrChestDisapproved</li></li>
+            <li><li>OrganUse_DontCare</li></li>
+            <li><li>Execution_DontCare</li></li>
+            <li><li>Slavery_Disapproved</li></li>
+            <li><li>Blinding_Horrible</li></li>
+            <li><li>Scarification_Approved</li></li>
+            <li><li>FCP_Precept_Children_of_Atom_Radiation_Sacred</li></li>
+            <li><li>FCP_Precept_Children_of_Atom_Division_Holy</li></li>
+        </requireOne>
+        <requiredRituals>
+            <li>
+                <precept>LeaderSpeech</precept>
+                <pattern>LeaderSpeech</pattern>
+            </li>
+        </requiredRituals>
+    </MemeDef>
+
+    <!-- Division - Sacred nuclear power -->
+
+    <MemeDef>
+        <defName>FCP_Meme_Children_of_Atom_Division</defName>
+        <label>Sacred Division</label>
+        <description>Division - the splitting of the atom - is the holiest act in the Children of Atom's theology. It is through Division that Atom demonstrates ultimate power, transforming matter into pure energy in a divine revelation. Nuclear weapons are not tools of war, but sacred relics that channel Atom's will. Craters left by atomic blasts are hallowed ground where the faithful make pilgrimages. Those who tend nuclear reactors and care for radioactive materials are performing holy work, maintaining the physical presence of their deity in the world.</description>
+        <iconPath>World_Icon/FCP_Children_of_Atom_World_Icon</iconPath>
+        <groupDef>Misc</groupDef>
+        <impact>2</impact>
+        <randomizationSelectionWeightFactor>0</randomizationSelectionWeightFactor>
+        <hiddenInChooseMemes>true</hiddenInChooseMemes>
+        <requireOne>
+            <li>
+                <li>FCP_IdeoRole_Children_of_Atom_Confessor</li>
+            </li>
+        </requireOne>
+    </MemeDef>
+
+    <!--__________ Precepts __________-->
+
+    <!-- Radiation is Sacred -->
+
+    <PreceptDef>
+        <defName>FCP_Precept_Children_of_Atom_Radiation_Sacred</defName>
+        <issue>Special</issue>
+        <label>radiation is sacred</label>
+        <description>Radiation is not a danger to be avoided, but a divine force to be embraced. Those who walk in the Glow are touched by Atom's grace.</description>
+        <impact>High</impact>
+        <displayOrderInImpact>100</displayOrderInImpact>
+        <conflictingMemes />
+        <requiredMemes>
+            <li>FCP_Meme_Children_of_Atom_Faith</li>
+        </requiredMemes>
+        <selectionWeight>1.0</selectionWeight>
+        <canGenerateAsSpecialPrecept>false</canGenerateAsSpecialPrecept>
+        <visible>true</visible>
+        <ignoreLimitsInEditMode>false</ignoreLimitsInEditMode>
+        <countsTowardsPreceptLimit>true</countsTowardsPreceptLimit>
+    </PreceptDef>
+
+    <!-- Division is Holy -->
+
+    <PreceptDef>
+        <defName>FCP_Precept_Children_of_Atom_Division_Holy</defName>
+        <issue>Special</issue>
+        <label>division is holy</label>
+        <description>The splitting of the atom is the ultimate expression of divine power. Nuclear fission reveals Atom's true nature.</description>
+        <impact>High</impact>
+        <displayOrderInImpact>100</displayOrderInImpact>
+        <conflictingMemes />
+        <requiredMemes>
+            <li>FCP_Meme_Children_of_Atom_Faith</li>
+        </requiredMemes>
+        <selectionWeight>1.0</selectionWeight>
+        <canGenerateAsSpecialPrecept>false</canGenerateAsSpecialPrecept>
+        <visible>true</visible>
+        <ignoreLimitsInEditMode>false</ignoreLimitsInEditMode>
+        <countsTowardsPreceptLimit>true</countsTowardsPreceptLimit>
+    </PreceptDef>
+
+    <!--__________ Roles __________-->
+
+    <!-- Confessor Role -->
+
+    <PreceptDef ParentName="PreceptRoleMultiBase">
+        <defName>FCP_IdeoRole_Children_of_Atom_Confessor</defName>
+        <label>Confessor</label>
+        <description>Confessors are the spiritual leaders of the Children of Atom, guiding the faithful in their understanding of Atom's will and interpreting the mysteries of Division. They conduct rituals, offer spiritual counsel, and ensure that all believers remain true to the path of the Glow.</description>
+        <iconPath>World_Icon/FCP_Children_of_Atom_World_Icon</iconPath>
+        <nameMaker>NamerIdeoLeaderGenericCustomIdeoName</nameMaker>
+        <roleRequirements>
+            <li Class="RoleRequirement_MinSkillAny">
+                <skills>
+                    <Intellectual>6</Intellectual>
+                    <Social>8</Social>
+                </skills>
+            </li>
+        </roleRequirements>
+        <roleRequiredWorkTags>
+            <li>Intellectual</li>
+            <li>Social</li>
+        </roleRequiredWorkTags>
+        <roleTags>
+            <li>SocialRole</li>
+        </roleTags>
+        <requiredMemes>
+            <li>FCP_Meme_Children_of_Atom_Division</li>
+        </requiredMemes>
+        <roleEffects>
+            <li Class="RoleEffect_PawnStatOffset">
+                <statDef>NegotiationAbility</statDef>
+                <modifier>0.20</modifier>
+            </li>
+            <li Class="RoleEffect_PawnStatOffset">
+                <statDef>SocialImpact</statDef>
+                <modifier>0.25</modifier>
+            </li>
+            <li Class="RoleEffect_PawnStatOffset">
+                <statDef>ConversionPower</statDef>
+                <modifier>0.30</modifier>
+            </li>
+        </roleEffects>
+        <grantedAbilities>
+            <li>Convert</li>
+            <li>LeaderSpeech</li>
+        </grantedAbilities>
+        <displayOrderInImpact>1</displayOrderInImpact>
+        <roleDisabledWorkTags>
+            <li>Violent</li>
+        </roleDisabledWorkTags>
+        <roleApparelRequirements>
+            <li>
+                <requirement>
+                    <bodyPartGroupsMatchAny>
+                        <li>Torso</li>
+                    </bodyPartGroupsMatchAny>
+                    <requiredTags>
+                        <li>FCP_Children_of_Atom_Priest</li>
+                    </requiredTags>
+                </requirement>
+            </li>
+        </roleApparelRequirements>
+    </PreceptDef>
+
+</Defs>
