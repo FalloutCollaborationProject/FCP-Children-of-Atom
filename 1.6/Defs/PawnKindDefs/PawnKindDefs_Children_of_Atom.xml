@@ -6,7 +6,7 @@
 
     <!--___ Base Definitions ___-->
     
-<PawnKindDef Name="FCP_ChildrenOfAtomkindBase" Abstract="true">
+    <PawnKindDef Name="FCP_ChildrenOfAtomkindBase" Abstract="true">
         <race>Human</race>
         <defaultFactionType>FCP_Faction_Children_of_Atom</defaultFactionType>
         <chemicalAddictionChance>0.10</chemicalAddictionChance>
@@ -29,7 +29,7 @@
 
     <!-- High Confessor -->
     
-<PawnKindDef ParentName="FCP_ChildrenOfAtomkindBase">
+    <PawnKindDef ParentName="FCP_ChildrenOfAtomkindBase">
         <defName>FCP_Pawnkind_Children_of_Atom_High_Confessor</defName>
         <label>high confessor</label>
         <factionLeader>true</factionLeader>
@@ -53,7 +53,7 @@
 
     <!-- Glowing Sentinel -->
     
-<PawnKindDef ParentName="FCP_ChildrenOfAtomkindBase">
+    <PawnKindDef ParentName="FCP_ChildrenOfAtomkindBase">
         <defName>FCP_Pawnkind_Children_of_Atom_Glowing_Sentinel</defName>
         <label>glowing sentinel</label>
         <combatPower>110</combatPower>
@@ -94,7 +94,7 @@
 
     <!-- Faithful Worker -->
     
-<PawnKindDef ParentName="FCP_ChildrenOfAtomkindBase">
+    <PawnKindDef ParentName="FCP_ChildrenOfAtomkindBase">
         <defName>FCP_Pawnkind_Children_of_Atom_Worker</defName>
         <label>faithful worker</label>
         <combatPower>40</combatPower>
@@ -128,7 +128,7 @@
 
     <!-- Radiant Merchant -->
     
-<PawnKindDef ParentName="FCP_ChildrenOfAtomkindBase">
+    <PawnKindDef ParentName="FCP_ChildrenOfAtomkindBase">
         <defName>FCP_Pawnkind_Children_of_Atom_Merchant</defName>
         <label>radiant merchant</label>
         <combatPower>50</combatPower>
