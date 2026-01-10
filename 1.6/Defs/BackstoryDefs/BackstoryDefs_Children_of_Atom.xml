@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
+
 
     <!--__________ Backstories __________-->
 
@@ -8,10 +9,9 @@
     <!--___ Children of Atom ___-->
 
     <!--__ Adulthood __-->
-
     <!-- High Confessor -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_High_Confessor</defName>
         <identifier>FCP_Backstory_CoA_High_Confessor</identifier>
         <slot>Adulthood</slot>
@@ -32,11 +32,14 @@
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Rad_Resistant>0</FCP_Trait_Rad_Resistant>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Grand Zealot -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Grand_Zealot</defName>
         <identifier>FCP_Backstory_CoA_Grand_Zealot</identifier>
         <slot>Adulthood</slot>
@@ -58,11 +61,15 @@
         <bodyTypeFemale>Hulk</bodyTypeFemale>
         <bodyTypeMale>Hulk</bodyTypeMale>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+            <FCP_Trait_Rad_Resistant>0</FCP_Trait_Rad_Resistant>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Atom's Shepherd -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Shepherd</defName>
         <identifier>FCP_Backstory_CoA_Shepherd</identifier>
         <slot>Adulthood</slot>
@@ -72,7 +79,7 @@
         <description>[PAWN_nameDef] guides new converts through their first steps into Atom's embrace, teaching them to see radiation as a blessing rather than a curse. [PAWN_pronoun] counsels the faithful through their doubts and fears, helping them understand that Division is the path to transcendence. [PAWN_possessive] patient guidance has brought many souls to the Glow.</description>
         <skillGains>
             <Social>7</Social>
-            <Intellectual>5</Ascular>
+            <Intellectual>5</Intellectual>
             <Medicine>3</Medicine>
             <Artistic>2</Artistic>
         </skillGains>
@@ -84,11 +91,14 @@
         <bodyTypeFemale>Thin</bodyTypeFemale>
         <bodyTypeMale>Thin</bodyTypeMale>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Rad_Resistant>0</FCP_Trait_Rad_Resistant>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Glowing Prophet -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Glowing_Prophet</defName>
         <identifier>FCP_Backstory_CoA_Glowing_Prophet</identifier>
         <slot>Adulthood</slot>
@@ -110,11 +120,14 @@
         <bodyTypeFemale>Thin</bodyTypeFemale>
         <bodyTypeMale>Thin</bodyTypeMale>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Rad_Resistant>0</FCP_Trait_Rad_Resistant>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Atom's Wrath -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Wrath</defName>
         <identifier>FCP_Backstory_CoA_Wrath</identifier>
         <slot>Adulthood</slot>
@@ -136,11 +149,15 @@
         <bodyTypeFemale>Hulk</bodyTypeFemale>
         <bodyTypeMale>Hulk</bodyTypeMale>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+            <FCP_Trait_Rad_Resistant>0</FCP_Trait_Rad_Resistant>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Radiant Healer -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Radiant_Healer</defName>
         <identifier>FCP_Backstory_CoA_Radiant_Healer</identifier>
         <slot>Adulthood</slot>
@@ -162,11 +179,14 @@
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Rad_Resistant>0</FCP_Trait_Rad_Resistant>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Sacred Scavenger -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Sacred_Scavenger</defName>
         <identifier>FCP_Backstory_CoA_Sacred_Scavenger</identifier>
         <slot>Adulthood</slot>
@@ -188,11 +208,15 @@
         <bodyTypeFemale>Fat</bodyTypeFemale>
         <bodyTypeMale>Fat</bodyTypeMale>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+            <FCP_Trait_Rad_Resistant>0</FCP_Trait_Rad_Resistant>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Atom's Alchemist -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Alchemist</defName>
         <identifier>FCP_Backstory_CoA_Alchemist</identifier>
         <slot>Adulthood</slot>
@@ -214,11 +238,15 @@
         <bodyTypeFemale>Thin</bodyTypeFemale>
         <bodyTypeMale>Thin</bodyTypeMale>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+            <FCP_Trait_Rad_Resistant>0</FCP_Trait_Rad_Resistant>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Pilgrim of Division -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Pilgrim</defName>
         <identifier>FCP_Backstory_CoA_Pilgrim</identifier>
         <slot>Adulthood</slot>
@@ -241,11 +269,14 @@
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Rad_Resistant>0</FCP_Trait_Rad_Resistant>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Keeper of the Crater -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Crater_Keeper</defName>
         <identifier>FCP_Backstory_CoA_Crater_Keeper</identifier>
         <slot>Adulthood</slot>
@@ -268,11 +299,15 @@
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+            <FCP_Trait_Rad_Resistant>0</FCP_Trait_Rad_Resistant>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Radiation Priest -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Radiation_Priest</defName>
         <identifier>FCP_Backstory_CoA_Radiation_Priest</identifier>
         <slot>Adulthood</slot>
@@ -296,8 +331,8 @@
     </BackstoryDef>
 
     <!-- Glowing Sentinel -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Glowing_Sentinel</defName>
         <identifier>FCP_Backstory_CoA_Glowing_Sentinel</identifier>
         <slot>Adulthood</slot>
@@ -319,11 +354,15 @@
         <bodyTypeFemale>Hulk</bodyTypeFemale>
         <bodyTypeMale>Hulk</bodyTypeMale>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+            <FCP_Trait_Rad_Resistant>0</FCP_Trait_Rad_Resistant>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Atom's Voice -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Voice</defName>
         <identifier>FCP_Backstory_CoA_Voice</identifier>
         <slot>Adulthood</slot>
@@ -344,11 +383,14 @@
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Rad_Resistant>0</FCP_Trait_Rad_Resistant>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Zealot Guardian -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Zealot_Guardian</defName>
         <identifier>FCP_Backstory_CoA_Zealot_Guardian</identifier>
         <slot>Adulthood</slot>
@@ -369,11 +411,15 @@
         <bodyTypeFemale>Hulk</bodyTypeFemale>
         <bodyTypeMale>Hulk</bodyTypeMale>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+            <FCP_Trait_Rad_Resistant>0</FCP_Trait_Rad_Resistant>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Confessor Acolyte -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Confessor_Acolyte</defName>
         <identifier>FCP_Backstory_CoA_Confessor_Acolyte</identifier>
         <slot>Adulthood</slot>
@@ -398,8 +444,8 @@
     </BackstoryDef>
 
     <!-- Gamma Gun Specialist -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Gamma_Specialist</defName>
         <identifier>FCP_Backstory_CoA_Gamma_Specialist</identifier>
         <slot>Adulthood</slot>
@@ -420,11 +466,15 @@
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+            <FCP_Trait_Rad_Resistant>0</FCP_Trait_Rad_Resistant>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Blessed Farmer -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Blessed_Farmer</defName>
         <identifier>FCP_Backstory_CoA_Blessed_Farmer</identifier>
         <slot>Adulthood</slot>
@@ -446,11 +496,14 @@
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Rad_Resistant>0</FCP_Trait_Rad_Resistant>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Atom's Scholar -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Scholar</defName>
         <identifier>FCP_Backstory_CoA_Scholar</identifier>
         <slot>Adulthood</slot>
@@ -472,11 +525,14 @@
         <bodyTypeFemale>Thin</bodyTypeFemale>
         <bodyTypeMale>Thin</bodyTypeMale>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Rad_Resistant>0</FCP_Trait_Rad_Resistant>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Reactor Tender -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Reactor_Tender</defName>
         <identifier>FCP_Backstory_CoA_Reactor_Tender</identifier>
         <slot>Adulthood</slot>
@@ -497,11 +553,14 @@
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Rad_Resistant>0</FCP_Trait_Rad_Resistant>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Atom's Cook -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Cook</defName>
         <identifier>FCP_Backstory_CoA_Cook</identifier>
         <slot>Adulthood</slot>
@@ -526,8 +585,8 @@
     </BackstoryDef>
 
     <!-- Shrine Builder -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Shrine_Builder</defName>
         <identifier>FCP_Backstory_CoA_Shrine_Builder</identifier>
         <slot>Adulthood</slot>
@@ -548,11 +607,14 @@
         <bodyTypeFemale>Fat</bodyTypeFemale>
         <bodyTypeMale>Fat</bodyTypeMale>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Rad_Resistant>0</FCP_Trait_Rad_Resistant>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Glowing Artist -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Glowing_Artist</defName>
         <identifier>FCP_Backstory_CoA_Glowing_Artist</identifier>
         <slot>Adulthood</slot>
@@ -573,11 +635,14 @@
         <bodyTypeFemale>Thin</bodyTypeFemale>
         <bodyTypeMale>Thin</bodyTypeMale>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Rad_Resistant>0</FCP_Trait_Rad_Resistant>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Atom's Merchant -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Merchant</defName>
         <identifier>FCP_Backstory_CoA_Merchant</identifier>
         <slot>Adulthood</slot>
@@ -601,8 +666,8 @@
     </BackstoryDef>
 
     <!-- Confessor's Bodyguard -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Bodyguard</defName>
         <identifier>FCP_Backstory_CoA_Bodyguard</identifier>
         <slot>Adulthood</slot>
@@ -623,11 +688,14 @@
         <bodyTypeFemale>Hulk</bodyTypeFemale>
         <bodyTypeMale>Hulk</bodyTypeMale>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Radiation Physician -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Physician</defName>
         <identifier>FCP_Backstory_CoA_Physician</identifier>
         <slot>Adulthood</slot>
@@ -648,11 +716,14 @@
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Rad_Resistant>0</FCP_Trait_Rad_Resistant>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Holy Miner -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Miner</defName>
         <identifier>FCP_Backstory_CoA_Miner</identifier>
         <slot>Adulthood</slot>
@@ -676,8 +747,8 @@
     </BackstoryDef>
 
     <!-- Atom's Butcher -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Butcher</defName>
         <identifier>FCP_Backstory_CoA_Butcher</identifier>
         <slot>Adulthood</slot>
@@ -699,11 +770,14 @@
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Rad_Resistant>0</FCP_Trait_Rad_Resistant>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Wasteland Converter -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Converter</defName>
         <identifier>FCP_Backstory_CoA_Converter</identifier>
         <slot>Adulthood</slot>
@@ -725,11 +799,15 @@
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+            <FCP_Trait_Rad_Resistant>0</FCP_Trait_Rad_Resistant>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Atomic Chronicler -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Chronicler</defName>
         <identifier>FCP_Backstory_CoA_Chronicler</identifier>
         <slot>Adulthood</slot>
@@ -753,8 +831,8 @@
     </BackstoryDef>
 
     <!-- Atom's Forager -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Forager</defName>
         <identifier>FCP_Backstory_CoA_Forager</identifier>
         <slot>Adulthood</slot>
@@ -776,11 +854,15 @@
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+            <FCP_Trait_Rad_Resistant>0</FCP_Trait_Rad_Resistant>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Gamma Grenadier -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Grenadier</defName>
         <identifier>FCP_Backstory_CoA_Grenadier</identifier>
         <slot>Adulthood</slot>
@@ -801,11 +883,15 @@
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+            <FCP_Trait_Rad_Resistant>0</FCP_Trait_Rad_Resistant>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Faithful Tinkerer -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Tinkerer</defName>
         <identifier>FCP_Backstory_CoA_Tinkerer</identifier>
         <slot>Adulthood</slot>
@@ -829,8 +915,8 @@
     </BackstoryDef>
 
     <!-- Holy Interrogator -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Interrogator</defName>
         <identifier>FCP_Backstory_CoA_Interrogator</identifier>
         <slot>Adulthood</slot>
@@ -854,8 +940,8 @@
     </BackstoryDef>
 
     <!-- Radiant Musician -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Musician</defName>
         <identifier>FCP_Backstory_CoA_Musician</identifier>
         <slot>Adulthood</slot>
@@ -879,8 +965,8 @@
     </BackstoryDef>
 
     <!-- Atom's Spy -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Spy</defName>
         <identifier>FCP_Backstory_CoA_Spy</identifier>
         <slot>Adulthood</slot>
@@ -902,11 +988,14 @@
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Blessed Packrat -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Packrat</defName>
         <identifier>FCP_Backstory_CoA_Packrat</identifier>
         <slot>Adulthood</slot>
@@ -928,11 +1017,14 @@
         <bodyTypeFemale>Fat</bodyTypeFemale>
         <bodyTypeMale>Fat</bodyTypeMale>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Rad_Resistant>0</FCP_Trait_Rad_Resistant>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Crater Missionary -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Crater_Missionary</defName>
         <identifier>FCP_Backstory_CoA_Crater_Missionary</identifier>
         <slot>Adulthood</slot>
@@ -954,11 +1046,14 @@
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Rad_Resistant>0</FCP_Trait_Rad_Resistant>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Atomic Salvager -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Salvager</defName>
         <identifier>FCP_Backstory_CoA_Salvager</identifier>
         <slot>Adulthood</slot>
@@ -980,11 +1075,14 @@
         <bodyTypeFemale>Fat</bodyTypeFemale>
         <bodyTypeMale>Fat</bodyTypeMale>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Rad_Resistant>0</FCP_Trait_Rad_Resistant>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Atom's Scribe -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Scribe</defName>
         <identifier>FCP_Backstory_CoA_Scribe</identifier>
         <slot>Adulthood</slot>
@@ -1005,11 +1103,14 @@
         <bodyTypeFemale>Thin</bodyTypeFemale>
         <bodyTypeMale>Thin</bodyTypeMale>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Rad_Resistant>0</FCP_Trait_Rad_Resistant>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Radiant Quartermaster -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Quartermaster</defName>
         <identifier>FCP_Backstory_CoA_Quartermaster</identifier>
         <slot>Adulthood</slot>
@@ -1033,8 +1134,8 @@
     </BackstoryDef>
 
     <!-- Ghoul Shepherd -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Ghoul_Shepherd</defName>
         <identifier>FCP_Backstory_CoA_Ghoul_Shepherd</identifier>
         <slot>Adulthood</slot>
@@ -1058,8 +1159,8 @@
     </BackstoryDef>
 
     <!-- Atom's Wanderer -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Wanderer</defName>
         <identifier>FCP_Backstory_CoA_Wanderer</identifier>
         <slot>Adulthood</slot>
@@ -1081,11 +1182,14 @@
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Blessed Brawler -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Brawler</defName>
         <identifier>FCP_Backstory_CoA_Brawler</identifier>
         <slot>Adulthood</slot>
@@ -1106,11 +1210,14 @@
         <bodyTypeFemale>Hulk</bodyTypeFemale>
         <bodyTypeMale>Hulk</bodyTypeMale>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Atom's Teacher -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Teacher</defName>
         <identifier>FCP_Backstory_CoA_Teacher</identifier>
         <slot>Adulthood</slot>
@@ -1131,11 +1238,14 @@
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Rad_Resistant>0</FCP_Trait_Rad_Resistant>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Holy Demolitionist -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Demolitionist</defName>
         <identifier>FCP_Backstory_CoA_Demolitionist</identifier>
         <slot>Adulthood</slot>
@@ -1157,11 +1267,14 @@
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Radiant Counselor -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Counselor</defName>
         <identifier>FCP_Backstory_CoA_Counselor</identifier>
         <slot>Adulthood</slot>
@@ -1182,11 +1295,14 @@
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Rad_Resistant>0</FCP_Trait_Rad_Resistant>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Atom's Ranger -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Ranger</defName>
         <identifier>FCP_Backstory_CoA_Ranger</identifier>
         <slot>Adulthood</slot>
@@ -1198,7 +1314,7 @@
             <Shooting>8</Shooting>
             <Animals>5</Animals>
             <Intellectual>3</Intellectual>
-            <Medicine>2</Intellectual>
+            <Medicine>2</Medicine>
         </skillGains>
         <workDisables>Social</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
@@ -1208,13 +1324,15 @@
         <bodyTypeFemale>Thin</bodyTypeFemale>
         <bodyTypeMale>Thin</bodyTypeMale>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+        </forcedTraits>
     </BackstoryDef>
 
     <!--__ Childhood __-->
-
     <!-- Born in the Glow -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Born_in_Glow</defName>
         <identifier>FCP_Backstory_CoA_Born_in_Glow</identifier>
         <slot>Childhood</slot>
@@ -1231,11 +1349,14 @@
             <li>FCP_Children_of_Atom_Child</li>
         </spawnCategories>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Rad_Resistant>0</FCP_Trait_Rad_Resistant>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Crater Child -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Crater_Child</defName>
         <identifier>FCP_Backstory_CoA_Crater_Child</identifier>
         <slot>Childhood</slot>
@@ -1255,8 +1376,8 @@
     </BackstoryDef>
 
     <!-- Temple Youth -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Temple_Youth</defName>
         <identifier>FCP_Backstory_CoA_Temple_Youth</identifier>
         <slot>Childhood</slot>
@@ -1276,8 +1397,8 @@
     </BackstoryDef>
 
     <!-- Convert's Child -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Converts_Child</defName>
         <identifier>FCP_Backstory_CoA_Converts_Child</identifier>
         <slot>Childhood</slot>
@@ -1297,8 +1418,8 @@
     </BackstoryDef>
 
     <!-- Pilgrim Youth -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Pilgrim_Youth</defName>
         <identifier>FCP_Backstory_CoA_Pilgrim_Youth</identifier>
         <slot>Childhood</slot>
@@ -1318,8 +1439,8 @@
     </BackstoryDef>
 
     <!-- Scavenger Youth -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Scavenger_Youth</defName>
         <identifier>FCP_Backstory_CoA_Scavenger_Youth</identifier>
         <slot>Childhood</slot>
@@ -1337,11 +1458,14 @@
             <li>FCP_Children_of_Atom_Child</li>
         </spawnCategories>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Rad_Resistant>0</FCP_Trait_Rad_Resistant>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Altar Server -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Altar_Server</defName>
         <identifier>FCP_Backstory_CoA_Altar_Server</identifier>
         <slot>Childhood</slot>
@@ -1361,8 +1485,8 @@
     </BackstoryDef>
 
     <!-- Ghoul's Apprentice -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Ghoul_Apprentice</defName>
         <identifier>FCP_Backstory_CoA_Ghoul_Apprentice</identifier>
         <slot>Childhood</slot>
@@ -1379,11 +1503,14 @@
             <li>FCP_Children_of_Atom_Child</li>
         </spawnCategories>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Rad_Resistant>0</FCP_Trait_Rad_Resistant>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Blessed Gardener -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Blessed_Gardener</defName>
         <identifier>FCP_Backstory_CoA_Blessed_Gardener</identifier>
         <slot>Childhood</slot>
@@ -1400,11 +1527,15 @@
             <li>FCP_Children_of_Atom_Child</li>
         </spawnCategories>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+            <FCP_Trait_Rad_Resistant>0</FCP_Trait_Rad_Resistant>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Missionary's Helper -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Missionary_Helper</defName>
         <identifier>FCP_Backstory_CoA_Missionary_Helper</identifier>
         <slot>Childhood</slot>
@@ -1424,8 +1555,8 @@
     </BackstoryDef>
 
     <!-- Reactor's Shadow -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Reactor_Shadow</defName>
         <identifier>FCP_Backstory_CoA_Reactor_Shadow</identifier>
         <slot>Childhood</slot>
@@ -1442,11 +1573,14 @@
             <li>FCP_Children_of_Atom_Child</li>
         </spawnCategories>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Rad_Resistant>0</FCP_Trait_Rad_Resistant>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Hunter of the Wastes -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Hunter_Youth</defName>
         <identifier>FCP_Backstory_CoA_Hunter_Youth</identifier>
         <slot>Childhood</slot>
@@ -1463,11 +1597,14 @@
             <li>FCP_Children_of_Atom_Child</li>
         </spawnCategories>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Scholar's Pupil -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Scholar_Pupil</defName>
         <identifier>FCP_Backstory_CoA_Scholar_Pupil</identifier>
         <slot>Childhood</slot>
@@ -1483,11 +1620,14 @@
             <li>FCP_Children_of_Atom_Child</li>
         </spawnCategories>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Rad_Resistant>0</FCP_Trait_Rad_Resistant>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Shrine Keeper's Child -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Shrine_Child</defName>
         <identifier>FCP_Backstory_CoA_Shrine_Child</identifier>
         <slot>Childhood</slot>
@@ -1507,8 +1647,8 @@
     </BackstoryDef>
 
     <!-- Radiation Resistant -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Radiation_Resistant</defName>
         <identifier>FCP_Backstory_CoA_Radiation_Resistant</identifier>
         <slot>Childhood</slot>
@@ -1526,11 +1666,14 @@
             <li>FCP_Children_of_Atom_Child</li>
         </spawnCategories>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Rad_Resistant>0</FCP_Trait_Rad_Resistant>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Zealot's Offspring -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Zealot_Offspring</defName>
         <identifier>FCP_Backstory_CoA_Zealot_Offspring</identifier>
         <slot>Childhood</slot>
@@ -1547,11 +1690,14 @@
             <li>FCP_Children_of_Atom_Child</li>
         </spawnCategories>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Cook's Assistant -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Cook_Assistant</defName>
         <identifier>FCP_Backstory_CoA_Cook_Assistant</identifier>
         <slot>Childhood</slot>
@@ -1568,11 +1714,14 @@
             <li>FCP_Children_of_Atom_Child</li>
         </spawnCategories>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Rad_Resistant>0</FCP_Trait_Rad_Resistant>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Relic Finder -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Relic_Finder</defName>
         <identifier>FCP_Backstory_CoA_Relic_Finder</identifier>
         <slot>Childhood</slot>
@@ -1589,11 +1738,14 @@
             <li>FCP_Children_of_Atom_Child</li>
         </spawnCategories>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Rad_Resistant>0</FCP_Trait_Rad_Resistant>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Healer's Apprentice -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Healer_Apprentice</defName>
         <identifier>FCP_Backstory_CoA_Healer_Apprentice</identifier>
         <slot>Childhood</slot>
@@ -1610,11 +1762,14 @@
             <li>FCP_Children_of_Atom_Child</li>
         </spawnCategories>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Rad_Resistant>0</FCP_Trait_Rad_Resistant>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Builder's Child -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Builder_Child</defName>
         <identifier>FCP_Backstory_CoA_Builder_Child</identifier>
         <slot>Childhood</slot>
@@ -1634,8 +1789,8 @@
     </BackstoryDef>
 
     <!-- Choir Singer -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Choir_Singer</defName>
         <identifier>FCP_Backstory_CoA_Choir_Singer</identifier>
         <slot>Childhood</slot>
@@ -1652,11 +1807,14 @@
             <li>FCP_Children_of_Atom_Child</li>
         </spawnCategories>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Rad_Resistant>0</FCP_Trait_Rad_Resistant>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Storyteller's Listener -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Storyteller_Listener</defName>
         <identifier>FCP_Backstory_CoA_Storyteller_Listener</identifier>
         <slot>Childhood</slot>
@@ -1676,8 +1834,8 @@
     </BackstoryDef>
 
     <!-- Merchant's Aide -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Merchant_Aide</defName>
         <identifier>FCP_Backstory_CoA_Merchant_Aide</identifier>
         <slot>Childhood</slot>
@@ -1697,8 +1855,8 @@
     </BackstoryDef>
 
     <!-- Tinkerer's Shadow -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Tinkerer_Shadow</defName>
         <identifier>FCP_Backstory_CoA_Tinkerer_Shadow</identifier>
         <slot>Childhood</slot>
@@ -1718,8 +1876,8 @@
     </BackstoryDef>
 
     <!-- Guard's Student -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Guard_Student</defName>
         <identifier>FCP_Backstory_CoA_Guard_Student</identifier>
         <slot>Childhood</slot>
@@ -1740,8 +1898,8 @@
     </BackstoryDef>
 
     <!-- Wasteland Wanderer -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Wasteland_Wanderer</defName>
         <identifier>FCP_Backstory_CoA_Wasteland_Wanderer</identifier>
         <slot>Childhood</slot>
@@ -1762,8 +1920,8 @@
     </BackstoryDef>
 
     <!-- Blessed Outcast -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Blessed_Outcast</defName>
         <identifier>FCP_Backstory_CoA_Blessed_Outcast</identifier>
         <slot>Childhood</slot>
@@ -1781,11 +1939,14 @@
             <li>FCP_Children_of_Atom_Child</li>
         </spawnCategories>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Rad_Resistant>0</FCP_Trait_Rad_Resistant>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Confessor's Attendant -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Confessor_Attendant</defName>
         <identifier>FCP_Backstory_CoA_Confessor_Attendant</identifier>
         <slot>Childhood</slot>
@@ -1805,8 +1966,8 @@
     </BackstoryDef>
 
     <!-- Artist's Helper -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Artist_Helper</defName>
         <identifier>FCP_Backstory_CoA_Artist_Helper</identifier>
         <slot>Childhood</slot>
@@ -1822,11 +1983,14 @@
             <li>FCP_Children_of_Atom_Child</li>
         </spawnCategories>
         <possessions />
+        <forcedTraits>
+            <FCP_Trait_Rad_Resistant>0</FCP_Trait_Rad_Resistant>
+        </forcedTraits>
     </BackstoryDef>
 
     <!-- Chronicler's Page -->
-
-    <BackstoryDef>
+    
+<BackstoryDef>
         <defName>FCP_Backstory_CoA_Chronicler_Page</defName>
         <identifier>FCP_Backstory_CoA_Chronicler_Page</identifier>
         <slot>Childhood</slot>
@@ -1844,5 +2008,4 @@
         </spawnCategories>
         <possessions />
     </BackstoryDef>
-
 </Defs>

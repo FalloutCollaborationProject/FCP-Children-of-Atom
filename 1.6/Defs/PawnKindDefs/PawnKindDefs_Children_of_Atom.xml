@@ -1,11 +1,12 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
+
 
     <!--__________ Children of Atom Pawnkinds __________-->
 
     <!--___ Base Definitions ___-->
-
-    <PawnKindDef Name="FCP_ChildrenOfAtomkindBase" Abstract="true">
+    
+<PawnKindDef Name="FCP_ChildrenOfAtomkindBase" Abstract="true">
         <race>Human</race>
         <defaultFactionType>FCP_Faction_Children_of_Atom</defaultFactionType>
         <chemicalAddictionChance>0.10</chemicalAddictionChance>
@@ -27,8 +28,8 @@
     </PawnKindDef>
 
     <!-- High Confessor -->
-
-    <PawnKindDef ParentName="FCP_ChildrenOfAtomkindBase">
+    
+<PawnKindDef ParentName="FCP_ChildrenOfAtomkindBase">
         <defName>FCP_Pawnkind_Children_of_Atom_High_Confessor</defName>
         <label>high confessor</label>
         <factionLeader>true</factionLeader>
@@ -51,8 +52,8 @@
     </PawnKindDef>
 
     <!-- Glowing Sentinel -->
-
-    <PawnKindDef ParentName="FCP_ChildrenOfAtomkindBase">
+    
+<PawnKindDef ParentName="FCP_ChildrenOfAtomkindBase">
         <defName>FCP_Pawnkind_Children_of_Atom_Glowing_Sentinel</defName>
         <label>glowing sentinel</label>
         <combatPower>110</combatPower>
@@ -72,11 +73,28 @@
         </requiredWorkTags>
         <initialResistanceRange>10~18</initialResistanceRange>
         <initialWillRange>5~10</initialWillRange>
+        <inventoryOptions>
+            <skipChance>0.75</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_Caps</thingDef>
+                    <countRange>15~40</countRange>
+                </li>
+                <li>
+                    <thingDef>PsychiteTea</thingDef>
+                    <countRange>2~4</countRange>
+                </li>
+                <li>
+                    <thingDef>GoJuice</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
     </PawnKindDef>
 
     <!-- Faithful Worker -->
-
-    <PawnKindDef ParentName="FCP_ChildrenOfAtomkindBase">
+    
+<PawnKindDef ParentName="FCP_ChildrenOfAtomkindBase">
         <defName>FCP_Pawnkind_Children_of_Atom_Worker</defName>
         <label>faithful worker</label>
         <combatPower>40</combatPower>
@@ -93,11 +111,24 @@
         </weaponTags>
         <initialResistanceRange>5~10</initialResistanceRange>
         <initialWillRange>3~7</initialWillRange>
+        <inventoryOptions>
+            <skipChance>0.85</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef>FCP_Currency_Caps</thingDef>
+                    <countRange>5~25</countRange>
+                </li>
+                <li>
+                    <thingDef>PsychiteTea</thingDef>
+                    <countRange>1~3</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
     </PawnKindDef>
 
     <!-- Radiant Merchant -->
-
-    <PawnKindDef ParentName="FCP_ChildrenOfAtomkindBase">
+    
+<PawnKindDef ParentName="FCP_ChildrenOfAtomkindBase">
         <defName>FCP_Pawnkind_Children_of_Atom_Merchant</defName>
         <label>radiant merchant</label>
         <combatPower>50</combatPower>
@@ -115,5 +146,4 @@
         <initialResistanceRange>8~15</initialResistanceRange>
         <initialWillRange>5~10</initialWillRange>
     </PawnKindDef>
-
 </Defs>
