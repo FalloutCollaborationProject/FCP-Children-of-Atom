@@ -15,6 +15,7 @@
         <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
         <minGenerationAge>20</minGenerationAge>
         <maxGenerationAge>60</maxGenerationAge>
+        <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
         <backstoryFiltersOverride>
             <li>
                 <categoriesChildhood>
