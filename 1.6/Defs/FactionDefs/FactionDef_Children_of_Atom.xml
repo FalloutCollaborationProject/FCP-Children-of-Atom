@@ -144,6 +144,6 @@
 		<permanentEnemy>false</permanentEnemy>
 		<goodwillDailyGain>0.10</goodwillDailyGain>
 		<goodwillDailyFall>0.10</goodwillDailyFall>
-	</FactionDef>
+        </FactionDef>
 
 </Defs>
