@@ -89,6 +89,14 @@
                     <thingDef>GoJuice</thingDef>
                     <countRange>1~2</countRange>
                 </li>
+                <li>
+                    <thingDef MayRequire="Rick.FCP.NukaCola">FCP_Nuka_Cola</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+                <li>
+                    <thingDef MayRequire="Rick.FCP.WastelandFood">FCP_Food_Bug_Mush</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
             </subOptionsChooseOne>
         </inventoryOptions>
     </PawnKindDef>
@@ -122,6 +130,14 @@
                 <li>
                     <thingDef>PsychiteTea</thingDef>
                     <countRange>1~3</countRange>
+                </li>
+                <li>
+                    <thingDef MayRequire="Rick.FCP.NukaCola">FCP_Nuka_Cola</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+                <li>
+                    <thingDef MayRequire="Rick.FCP.WastelandFood">FCP_Food_Bug_Mush</thingDef>
+                    <countRange>1~2</countRange>
                 </li>
             </subOptionsChooseOne>
         </inventoryOptions>
