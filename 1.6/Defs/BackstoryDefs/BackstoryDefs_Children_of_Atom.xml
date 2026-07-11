@@ -343,7 +343,6 @@
         <skillGains>
             <Shooting>6</Shooting>
             <Melee>7</Melee>
-            <Social>-4</Social>
             <Intellectual>3</Intellectual>
         </skillGains>
         <workDisables>Social</workDisables>
@@ -515,7 +514,6 @@
             <Intellectual>9</Intellectual>
             <Crafting>4</Crafting>
             <Medicine>3</Medicine>
-            <Social>-2</Social>
         </skillGains>
         <workDisables>ManualDumb, Social</workDisables>
         <requiredWorkTags>Intellectual</requiredWorkTags>
@@ -2008,4 +2006,310 @@
         </spawnCategories>
         <possessions />
     </BackstoryDef>
+
+    <!--___ Confessors Flock ___-->
+
+    <!--__ Adulthood __-->
+
+    <!-- Elder Confessor -->
+    
+    <BackstoryDef>
+        <defName>FCP_Backstory_CF_Elder_Confessor</defName>
+        <identifier>FCP_Backstory_CF_Elder_Confessor</identifier>
+        <slot>Adulthood</slot>
+        <title>Elder Confessor</title>
+        <titleShort>Elder</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] leads the Confessors Flock with wisdom earned through years of study and practical experience. [PAWN_pronoun] balances the group's reverence for atomic science with diplomatic pragmatism, maintaining alliances while pursuing radiation technology. [PAWN_possessive] followers respect both [PAWN_possessive] knowledge and [PAWN_possessive] judgment.</description>
+        <skillGains>
+            <Social>8</Social>
+            <Intellectual>8</Intellectual>
+        </skillGains>
+        <workDisables>ManualDumb</workDisables>
+        <requiredWorkTags>Intellectual</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Confessors_Flock</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Atomic Technician -->
+    
+    <BackstoryDef>
+        <defName>FCP_Backstory_CF_Technician</defName>
+        <identifier>FCP_Backstory_CF_Technician</identifier>
+        <slot>Adulthood</slot>
+        <title>Atomic Technician</title>
+        <titleShort>Technician</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] specializes in the practical maintenance and operation of radiation technology. [PAWN_pronoun] works with reactors, radiation equipment, and nuclear devices with the precision of a surgeon. [PAWN_possessive] technical skills are prized by the Flock, and [PAWN_pronoun] combines competence with respectful reverence for atomic power.</description>
+        <skillGains>
+            <Crafting>8</Crafting>
+            <Intellectual>7</Intellectual>
+            <Construction>5</Construction>
+        </skillGains>
+        <workDisables>Artistic, Social</workDisables>
+        <requiredWorkTags>Intellectual</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Confessors_Flock</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Radiation Sentinel -->
+    
+    <BackstoryDef>
+        <defName>FCP_Backstory_CF_Sentinel</defName>
+        <identifier>FCP_Backstory_CF_Sentinel</identifier>
+        <slot>Adulthood</slot>
+        <title>Radiation Sentinel</title>
+        <titleShort>Sentinel</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] guards the Confessors Flock's facilities and caravans with tactical skill and measured violence. [PAWN_pronoun] understands military discipline and strategic thinking, viewing [PAWN_possessive] role as protection of valuable knowledge and personnel. Unlike zealots, [PAWN_pronoun] sees combat as pragmatic necessity rather than spiritual calling.</description>
+        <skillGains>
+            <Shooting>8</Shooting>
+            <Melee>6</Melee>
+        </skillGains>
+        <workDisables>Artistic, Intellectual</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Confessors_Flock</li>
+        </spawnCategories>
+        <bodyTypeFemale>Hulk</bodyTypeFemale>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Confessor's Merchant -->
+    
+    <BackstoryDef>
+        <defName>FCP_Backstory_CF_Merchant</defName>
+        <identifier>FCP_Backstory_CF_Merchant</identifier>
+        <slot>Adulthood</slot>
+        <title>Confessor's Merchant</title>
+        <titleShort>Merchant</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] represents the Confessors Flock in trade, selling rare radiation equipment and buying scientific materials needed for research. [PAWN_pronoun] maintains profitable relationships with other factions while subtly spreading knowledge of atomic science. [PAWN_possessive] business sense and diplomatic skills benefit the Flock's expansion.</description>
+        <skillGains>
+            <Social>8</Social>
+            <Intellectual>5</Intellectual>
+            <Shooting>3</Shooting>
+        </skillGains>
+        <workDisables>ManualDumb</workDisables>
+        <requiredWorkTags>Social</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Confessors_Flock</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Nuclear Researcher -->
+    
+    <BackstoryDef>
+        <defName>FCP_Backstory_CF_Researcher</defName>
+        <identifier>FCP_Backstory_CF_Researcher</identifier>
+        <slot>Adulthood</slot>
+        <title>Nuclear Researcher</title>
+        <titleShort>Researcher</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] pursues knowledge of nuclear science and radiation effects, conducting experiments and maintaining research facilities. [PAWN_pronoun] views understanding atomic physics as the path to mastery and enlightenment, believing knowledge brings both power and responsibility. [PAWN_possessive] discoveries guide the Flock's future.</description>
+        <skillGains>
+            <Intellectual>10</Intellectual>
+            <Crafting>5</Crafting>
+            <Social>-2</Social>
+        </skillGains>
+        <workDisables>ManualDumb, Violent</workDisables>
+        <requiredWorkTags>Intellectual</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Confessors_Flock</li>
+        </spawnCategories>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Pragmatic Diplomat -->
+    
+    <BackstoryDef>
+        <defName>FCP_Backstory_CF_Diplomat</defName>
+        <identifier>FCP_Backstory_CF_Diplomat</identifier>
+        <slot>Adulthood</slot>
+        <title>Pragmatic Diplomat</title>
+        <titleShort>Diplomat</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] negotiates treaties and alliances on behalf of the Confessors Flock, maintaining relationships with factions that the zealots consider enemies. [PAWN_pronoun] understands that isolation means stagnation, and that diplomacy is a tool for acquiring resources and knowledge. [PAWN_possessive] negotiations have expanded the Flock's influence significantly.</description>
+        <skillGains>
+            <Social>9</Social>
+            <Intellectual>6</Intellectual>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <workDisables>ManualDumb</workDisables>
+        <requiredWorkTags>Social</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Confessors_Flock</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Salvage Master -->
+    
+    <BackstoryDef>
+        <defName>FCP_Backstory_CF_Salvage_Master</defName>
+        <identifier>FCP_Backstory_CF_Salvage_Master</identifier>
+        <slot>Adulthood</slot>
+        <title>Salvage Master</title>
+        <titleShort>Salvager</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] leads expeditions into irradiated ruins to recover pre-war technology and nuclear materials. [PAWN_pronoun] combines practical fieldcraft with technical knowledge, knowing exactly what to look for and how to extract it safely. [PAWN_possessive] salvage operations provide the Flock with irreplaceable resources and artifacts.</description>
+        <skillGains>
+            <Crafting>7</Crafting>
+            <Construction>6</Construction>
+            <Mining>6</Mining>
+            <Shooting>3</Shooting>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Confessors_Flock</li>
+        </spawnCategories>
+        <bodyTypeFemale>Fat</bodyTypeFemale>
+        <bodyTypeMale>Fat</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!--__ Childhood __-->
+
+    <!-- Scholar-in-Training -->
+    
+    <BackstoryDef>
+        <defName>FCP_Backstory_CF_Scholar_Training</defName>
+        <identifier>FCP_Backstory_CF_Scholar_Training</identifier>
+        <slot>Childhood</slot>
+        <title>Scholar-in-Training</title>
+        <titleShort>Scholar</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] received formal education in nuclear science and technology, learning from Confessors Flock mentors. [PAWN_pronoun] studied technical manuals, conducted supervised experiments, and developed a scientific mind. Knowledge is [PAWN_possessive] weapon and tool.</description>
+        <skillGains>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>FCP_Confessors_Flock_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Technician's Apprentice -->
+    
+    <BackstoryDef>
+        <defName>FCP_Backstory_CF_Tech_Apprentice</defName>
+        <identifier>FCP_Backstory_CF_Tech_Apprentice</identifier>
+        <slot>Childhood</slot>
+        <title>Technician's Apprentice</title>
+        <titleShort>Tech Apprentice</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] learned practical skills from experienced Confessors Flock technicians, understanding how to work safely with radiation equipment. [PAWN_pronoun] developed respect for technology through training and practice, rather than through blind faith.</description>
+        <skillGains>
+            <Crafting>3</Crafting>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>FCP_Confessors_Flock_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Guard's Trainee -->
+    
+    <BackstoryDef>
+        <defName>FCP_Backstory_CF_Guard_Trainee</defName>
+        <identifier>FCP_Backstory_CF_Guard_Trainee</identifier>
+        <slot>Childhood</slot>
+        <title>Guard's Trainee</title>
+        <titleShort>Guard Trainee</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] trained with Confessors Flock sentries, learning disciplined combat and tactical thinking. [PAWN_pronoun] understood that protection serves knowledge, and that a well-trained guard enables the work of researchers and technicians.</description>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Melee>2</Melee>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>FCP_Confessors_Flock_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Trader's Child -->
+    
+    <BackstoryDef>
+        <defName>FCP_Backstory_CF_Trader_Child</defName>
+        <identifier>FCP_Backstory_CF_Trader_Child</identifier>
+        <slot>Childhood</slot>
+        <title>Trader's Child</title>
+        <titleShort>Trader</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] learned commerce and diplomacy from parents or mentors engaged in Confessors Flock trading. [PAWN_pronoun] understood early that relationships and trade networks were essential to the group's survival and growth, more valuable than any religious dogma.</description>
+        <skillGains>
+            <Social>3</Social>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>FCP_Confessors_Flock_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Refuge Seeker -->
+    
+    <BackstoryDef>
+        <defName>FCP_Backstory_CF_Refuge_Seeker</defName>
+        <identifier>FCP_Backstory_CF_Refuge_Seeker</identifier>
+        <slot>Childhood</slot>
+        <title>Refuge Seeker</title>
+        <titleShort>Refugee</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] came to the Confessors Flock seeking refuge from violence or hardship, finding acceptance and practical training. [PAWN_pronoun] learned that the group values capability over background, and that knowledge and skills matter more than heritage.</description>
+        <skillGains>
+            <Social>2</Social>
+            <Crafting>1</Crafting>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>FCP_Confessors_Flock_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Equipment Handler -->
+    
+    <BackstoryDef>
+        <defName>FCP_Backstory_CF_Equipment_Handler</defName>
+        <identifier>FCP_Backstory_CF_Equipment_Handler</identifier>
+        <slot>Childhood</slot>
+        <title>Equipment Handler</title>
+        <titleShort>Handler</titleShort>
+        <shuffleable>true</shuffleable>
+        <description>[PAWN_nameDef] helped maintain and organize the Confessors Flock's equipment stores, learning how to care for valuable radiation gear and weapons. [PAWN_pronoun] developed meticulous habits and understood the importance of proper maintenance to group survival.</description>
+        <skillGains>
+            <Crafting>2</Crafting>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <spawnCategories>
+            <li>FCP_Confessors_Flock_Child</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
 </Defs>

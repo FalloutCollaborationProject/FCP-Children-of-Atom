@@ -9,22 +9,26 @@
 		<defName>FCP_Faction_Children_of_Atom</defName>
 		<label>Children of Atom</label>
 		<description>The Children of Atom are a zealous religious cult that worships radiation and atomic energy as divine gifts. They believe that exposure to radiation brings them closer to their god, Atom, and that through the power of Division - nuclear fission - they will achieve transcendence. Their faithful bear radiation scars proudly, and some have become "Glowing Ones," their bodies suffused with lethal radioactivity. They make their homes in irradiated craters and ruined facilities, viewing the wasteland's most dangerous zones as holy ground. Though seen as fanatics by many, the Children of Atom are devoted, organized, and surprisingly welcoming to those who embrace their faith.</description>
+		<basicMemberKind>FCP_Pawnkind_Children_of_Atom_Worker</basicMemberKind>
 		<colorSpectrum>
 			<li>(1, 1, 1)</li>
 		</colorSpectrum>
-		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+		<maxConfigurableAtWorldCreation>5</maxConfigurableAtWorldCreation>
+		<factionNameMaker>FCP_NamerFaction_Children_of_Atom</factionNameMaker>
+		<settlementNameMaker>FCP_NamerSettlement_Children_of_Atom</settlementNameMaker>
 		<pawnSingular>Child of Atom</pawnSingular>
 		<pawnsPlural>Children of Atom</pawnsPlural>
 		<categoryTag>Outlander</categoryTag>
-		<settlementGenerationWeight>0.5</settlementGenerationWeight>
+		<settlementGenerationWeight>0.15</settlementGenerationWeight>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
 		<canSiege>true</canSiege>
 		<canStageAttacks>true</canStageAttacks>
 		<leaderTitle>high confessor</leaderTitle>
 		<fixedLeaderKinds>
 			<li>FCP_Pawnkind_Children_of_Atom_High_Confessor</li>
+			<li>FCP_Pawnkind_Confessors_Flock_Elder_Confessor</li>
 		</fixedLeaderKinds>
-		<factionIconPath>World_Icon/FCP_Children_of_Atom_World_Icon</factionIconPath>
+		<factionIconPath>World_Icon/Children_of_Atom_Icon/FCP_Children_of_Atom_World_Icon</factionIconPath>
 		<techLevel>Industrial</techLevel>
 		<allowedCultures>
 			<li>FCP_Culture_Children_of_Atom</li>
@@ -37,7 +41,7 @@
 		<ideoDescription>Atom is the source of all creation and destruction. Through radiation, we are purified. Through Division, we are united. The Glow is sacred. Those who fear the atom's touch are blind to its divine truth.</ideoDescription>
 		<forcedMemes>
 			<!-- Structure -->
-			<li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">FCP_Structure_Children_of_Atom</li>
 			<!-- Memes -->
 			<li MayRequire="Ludeon.RimWorld.Ideology">FCP_Meme_Children_of_Atom_Faith</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">FCP_Meme_Children_of_Atom_Division</li>
@@ -72,15 +76,20 @@
 			<li>
 				<categories>
 					<li>FCP_Children_of_Atom</li>
-                    <li>FCP_Children_of_Atom_Child</li>
+					<li>FCP_Children_of_Atom_Child</li>
+					<li>FCP_Confessors_Flock</li>
+					<li>FCP_Confessors_Flock_Child</li>
 				</categories>
 			</li>
 		</backstoryFilters>
+
+		<!--__________ Kinds __________-->
 
 		<caravanTraderKinds>
 			<li>Caravan_Outlander_BulkGoods</li>
 			<li>Caravan_Outlander_CombatSupplier</li>
 			<li>Caravan_Outlander_Exotic</li>
+			<li>FCP_Caravan_Confessors_Flock</li>
 		</caravanTraderKinds>
 		<visitorTraderKinds>
 			<li>Visitor_Outlander_Standard</li>
@@ -98,26 +107,50 @@
 				<li>(100000, 10000)</li>
 			</points>
 		</maxPawnCostPerTotalPointsCurve>
+		<!--__________ Group Makers __________-->
+
 		<pawnGroupMakers>
+
+			<!-- Pilgrim Mob -->
+
 			<li>
-				<!-- Normal fights, standard mix -->
+				<!-- Zealot mob attack -->
 				<kindDef>Combat</kindDef>
+				<disallowedStrategies>
+					<li>EmergeFromWater</li>
+				</disallowedStrategies>
 				<options>
 					<FCP_Pawnkind_Children_of_Atom_Glowing_Sentinel>10</FCP_Pawnkind_Children_of_Atom_Glowing_Sentinel>
 					<FCP_Pawnkind_Children_of_Atom_Worker>5</FCP_Pawnkind_Children_of_Atom_Worker>
 					<FCP_Pawnkind_Children_of_Atom_High_Confessor>1</FCP_Pawnkind_Children_of_Atom_High_Confessor>
+					<FCP_Pawnkind_Confessors_Flock_Sentinel>8</FCP_Pawnkind_Confessors_Flock_Sentinel>
+					<FCP_Pawnkind_Confessors_Flock_Technician>5</FCP_Pawnkind_Confessors_Flock_Technician>
+					<FCP_Pawnkind_Confessors_Flock_Elder_Confessor>1</FCP_Pawnkind_Confessors_Flock_Elder_Confessor>
 				</options>
 			</li>
+
+			<!-- Pilgrims -->
+
 			<li>
 				<kindDef>Peaceful</kindDef>
 				<options>
 					<FCP_Pawnkind_Children_of_Atom_Worker>10</FCP_Pawnkind_Children_of_Atom_Worker>
 					<FCP_Pawnkind_Children_of_Atom_Glowing_Sentinel>3</FCP_Pawnkind_Children_of_Atom_Glowing_Sentinel>
 					<FCP_Pawnkind_Children_of_Atom_High_Confessor>1</FCP_Pawnkind_Children_of_Atom_High_Confessor>
+					<FCP_Pawnkind_Confessors_Flock_Technician>12</FCP_Pawnkind_Confessors_Flock_Technician>
+					<FCP_Pawnkind_Confessors_Flock_Sentinel>3</FCP_Pawnkind_Confessors_Flock_Sentinel>
+					<FCP_Pawnkind_Confessors_Flock_Elder_Confessor>1</FCP_Pawnkind_Confessors_Flock_Elder_Confessor>
 				</options>
 			</li>
-			<li>
+
+			<!-- Radiant Merchant -->
+
+			<li Class="FCP.Core.GroupMakerWithTraderKind">
 				<kindDef>Trader</kindDef>
+				<traderKinds>
+					<li>Caravan_Outlander_BulkGoods</li>
+					<li>Caravan_Outlander_Exotic</li>
+				</traderKinds>
 				<traders>
 					<FCP_Pawnkind_Children_of_Atom_Merchant>1</FCP_Pawnkind_Children_of_Atom_Merchant>
 				</traders>
@@ -130,20 +163,79 @@
 					<FCP_Pawnkind_Children_of_Atom_Glowing_Sentinel>3</FCP_Pawnkind_Children_of_Atom_Glowing_Sentinel>
 				</guards>
 			</li>
+
+			<!-- Confessor's Merchant -->
+
+			<li Class="FCP.Core.GroupMakerWithTraderKind">
+				<kindDef>Trader</kindDef>
+				<traderKinds>
+					<li>FCP_Caravan_Confessors_Flock</li>
+					<li>Caravan_Outlander_BulkGoods</li>
+				</traderKinds>
+				<traders>
+					<FCP_Pawnkind_Confessors_Flock_Merchant>1</FCP_Pawnkind_Confessors_Flock_Merchant>
+				</traders>
+				<carriers>
+					<Muffalo>6</Muffalo>
+					<Dromedary>5</Dromedary>
+				</carriers>
+				<guards>
+					<FCP_Pawnkind_Confessors_Flock_Technician>5</FCP_Pawnkind_Confessors_Flock_Technician>
+					<FCP_Pawnkind_Confessors_Flock_Sentinel>3</FCP_Pawnkind_Confessors_Flock_Sentinel>
+				</guards>
+			</li>
+
+			<!-- Settlement -->
+
 			<li>
 				<kindDef>Settlement</kindDef>
 				<options>
 					<FCP_Pawnkind_Children_of_Atom_Worker>10</FCP_Pawnkind_Children_of_Atom_Worker>
 					<FCP_Pawnkind_Children_of_Atom_Glowing_Sentinel>5</FCP_Pawnkind_Children_of_Atom_Glowing_Sentinel>
 					<FCP_Pawnkind_Children_of_Atom_High_Confessor>1</FCP_Pawnkind_Children_of_Atom_High_Confessor>
+					<FCP_Pawnkind_Confessors_Flock_Technician>10</FCP_Pawnkind_Confessors_Flock_Technician>
+					<FCP_Pawnkind_Confessors_Flock_Sentinel>4</FCP_Pawnkind_Confessors_Flock_Sentinel>
+					<FCP_Pawnkind_Confessors_Flock_Elder_Confessor>1</FCP_Pawnkind_Confessors_Flock_Elder_Confessor>
 				</options>
 			</li>
 		</pawnGroupMakers>
 		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
 		<naturalEnemy>false</naturalEnemy>
 		<permanentEnemy>false</permanentEnemy>
-		<goodwillDailyGain>0.10</goodwillDailyGain>
-		<goodwillDailyFall>0.10</goodwillDailyFall>
-        </FactionDef>
+		<modExtensions>
+			<!-- Faction tab label -->
+			<li Class="FCP.Factions.FactionExtension_FlavorOverride">
+				<newLabel>Atom's Faithful</newLabel>
+			</li>
+			<!-- Walk in as pilgrims, no drop pods -->
+			<li Class="FCP.Factions.FactionExtension_BannedArrivalModes">
+				<arrivalModes>
+					<li>EdgeDrop</li>
+					<li>EdgeDropGroups</li>
+					<li>CenterDrop</li>
+					<li>RandomDrop</li>
+				</arrivalModes>
+			</li>
+			<!-- Ideology settings -->
+			<li Class="FCP.Factions.FactionExtension_FixedIdeo" MayRequire="Ludeon.RimWorld.Ideology">
+				<ideoIconDef>FCP_Icon_Children_of_Atom</ideoIconDef>
+				<ideoColorDef>Green</ideoColorDef>
+				<memberName>Child of Atom</memberName>
+				<adjective>Atomist</adjective>
+				<roleOverrides>
+					<li>
+						<preceptDef>IdeoRole_Leader</preceptDef>
+						<newName>High Confessor</newName>
+						<disableApparelRequirements>true</disableApparelRequirements>
+					</li>
+					<li>
+						<preceptDef>IdeoRole_Moralist</preceptDef>
+						<newName>Confessor</newName>
+						<disableApparelRequirements>true</disableApparelRequirements>
+					</li>
+				</roleOverrides>
+			</li>
+		</modExtensions>
+	</FactionDef>
 
 </Defs>

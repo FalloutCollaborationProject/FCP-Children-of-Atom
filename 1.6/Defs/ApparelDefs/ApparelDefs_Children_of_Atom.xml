@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!--__________ Children of Atom & Confessors Flock Apparel __________-->
+
+	<!--___ Robes ___-->
+
+	<!-- Robes of Atom -->
+
+	<ThingDef ParentName="FCP_Apparel_Makeable_Base">
+		<defName>FCP_Apparel_Robes_of_Atom</defName>
+		<label>robes of Atom</label>
+		<description>Heavy, tattered robes marked with radiation symbols and prayers. Provides minimal protection but carries profound spiritual significance to the Children of Atom. The robes are stained with radioactive dust and glow faintly in the dark.</description>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>3</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Apparel/CoA_Robes/AtomRobes</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<costStuffCount>35</costStuffCount>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<WorkToMake>4500</WorkToMake>
+			<Mass>2.5</Mass>
+			<Flammability>0.4</Flammability>
+			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.10</ArmorRating_Sharp>
+			<Insulation_Cold>15</Insulation_Cold>
+			<Insulation_Heat>8</Insulation_Heat>
+		</statBases>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/CoA_Robes/AtomRobes</wornGraphicPath>
+			<layers>
+				<li>Middle</li>
+			</layers>
+			<tags>
+				<li>FCP_Children_of_Atom_Worker</li>
+				<li>FCP_Children_of_Atom_Combat</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+		</apparel>
+		<comps>
+			<li Class="FCP.Core.CompProperties_LabelColored">
+				<rarity>Common</rarity>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<!--___ Armor ___-->
+
+	<!-- Zealot Armor -->
+
+	<ThingDef ParentName="ApparelBase">
+		<defName>FCP_Apparel_Zealot_Armor</defName>
+		<label>zealot armor</label>
+		<description>Heavy combat armor worn only by the most devoted Children of Atom, blessed by High Confessors and infused with sacred radiation. This is the armor of zealots willing to sacrifice everything in Atom's name. Only the faithful are ever seen wearing it.</description>
+		<graphicData>
+			<texPath>Armor/CoA_Zelot_Marine_Armor/MarineArmorZ</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Industrial</techLevel>
+		<smeltable>false</smeltable>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Mass>5.5</Mass>
+			<Flammability>0.1</Flammability>
+			<ArmorRating_Blunt>0.40</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+			<Insulation_Cold>25</Insulation_Cold>
+			<Insulation_Heat>3</Insulation_Heat>
+		</statBases>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Armor/CoA_Zelot_Marine_Armor/MarineArmorZ</wornGraphicPath>
+			<layers>
+				<li>Shell</li>
+			</layers>
+			<tags>
+				<li>FCP_Children_of_Atom_Combat</li>
+				<li>FCP_Children_of_Atom_Leader</li>
+			</tags>
+			<canBeDesiredForIdeo>true</canBeDesiredForIdeo>
+		</apparel>
+		<tradeTags>
+			<li>ExoticMisc</li>
+		</tradeTags>
+		<comps>
+			<li Class="FCP.Core.CompProperties_LabelColored">
+				<rarity>Rare</rarity>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<!--___ Headgear ___-->
+
+	<!-- Inquisitor's Cowl -->
+
+	<ThingDef ParentName="ApparelBase">
+		<defName>FCP_Apparel_Inquisitor_Cowl</defName>
+		<label>inquisitor's cowl</label>
+		<description>A rare and sacred hood worn only by the most devout inquisitors of the Children of Atom. Adorned with radiation symbols and steeped in religious significance, this unique garment marks its wearer as a judge and enforcer of Atom's will. No two are the same.</description>
+		<graphicData>
+			<texPath>Headgear/CoA_Inquisitor_Cowl/InquisitorCowl</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Industrial</techLevel>
+		<smeltable>false</smeltable>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<Mass>0.9</Mass>
+			<Flammability>0.15</Flammability>
+			<ArmorRating_Blunt>0.18</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.12</ArmorRating_Sharp>
+		</statBases>
+		<apparel>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Headgear/CoA_Inquisitor_Cowl/InquisitorCowl</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>FCP_Children_of_Atom_Unique</li>
+			</tags>
+			<canBeDesiredForIdeo>true</canBeDesiredForIdeo>
+		</apparel>
+		<tradeTags>
+			<li>ExoticMisc</li>
+		</tradeTags>
+		<comps>
+			<li Class="FCP.Core.CompProperties_LabelColored">
+				<rarity>Unique</rarity>
+			</li>
+		</comps>
+        <modExtensions>
+            <li Class="FCP.Core.UniqueThingExtension" />
+        </modExtensions>
+	</ThingDef>
+
+	<!--___ Confessors Flock Apparel ___-->
+
+	<!-- Confessor's Robes -->
+
+	<ThingDef ParentName="ApparelBase">
+		<defName>FCP_Apparel_Confessors_Flock_Coat</defName>
+		<label>confessor's robes</label>
+		<description>A practical long coat worn by the Confessors Flock's most senior members. Unlike the Children of Atom's robes, this gear balances spiritual significance with tactical functionality. It bears subtle radiation symbols but prioritizes utility over display. No two are the same.</description>
+		<graphicData>
+			<texPath>Apparel/CoA_Confessor_Robes/ConfessorRobes</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Industrial</techLevel>
+		<smeltable>false</smeltable>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>2.8</Mass>
+			<Flammability>0.3</Flammability>
+			<ArmorRating_Blunt>0.20</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
+			<Insulation_Cold>18</Insulation_Cold>
+			<Insulation_Heat>6</Insulation_Heat>
+		</statBases>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/CoA_Confessor_Robes/ConfessorRobes</wornGraphicPath>
+			<layers>
+				<li>Middle</li>
+			</layers>
+			<tags>
+				<li>FCP_Confessors_Flock_Unique</li>
+			</tags>
+			<canBeDesiredForIdeo>true</canBeDesiredForIdeo>
+		</apparel>
+		<tradeTags>
+			<li>ExoticMisc</li>
+		</tradeTags>
+		<comps>
+			<li Class="FCP.Core.CompProperties_LabelColored">
+				<rarity>Unique</rarity>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="FCP.Core.UniqueThingExtension" />
+		</modExtensions>
+	</ThingDef>
+
+	<!-- Confessor's Helm -->
+
+	<ThingDef ParentName="ApparelBase">
+		<defName>FCP_Apparel_Confessors_Flock_Helm</defName>
+		<label>confessor's helm</label>
+		<description>A sleek tactical helmet with radiation shielding, precision-crafted by Confessors Flock artisans. Worn exclusively by their leaders and sentries, it represents years of practical study and mastery of radiation defense. Rarely seen outside Flock hands.</description>
+		<graphicData>
+			<texPath>Headgear/CoA_Confessors_Helm/ConfessorHelm</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Industrial</techLevel>
+		<smeltable>false</smeltable>
+		<statBases>
+			<MaxHitPoints>120</MaxHitPoints>
+			<Mass>2.0</Mass>
+			<Flammability>0.1</Flammability>
+			<ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.20</ArmorRating_Sharp>
+		</statBases>
+		<apparel>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Headgear/CoA_Confessors_Helm/ConfessorHelm</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>FCP_Confessors_Flock_Unique</li>
+			</tags>
+			<canBeDesiredForIdeo>true</canBeDesiredForIdeo>
+		</apparel>
+		<tradeTags>
+			<li>ExoticMisc</li>
+		</tradeTags>
+		<comps>
+			<li Class="FCP.Core.CompProperties_LabelColored">
+				<rarity>Unique</rarity>
+			</li>
+		</comps>
+        <modExtensions>
+            <li Class="FCP.Core.UniqueThingExtension" />
+        </modExtensions>
+	</ThingDef>
+
+</Defs>

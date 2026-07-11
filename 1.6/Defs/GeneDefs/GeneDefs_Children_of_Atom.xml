@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!--__________ Children of Atom Genes __________-->
+
+	<!-- Gene for radiation affinity (tox lovers) -->
+
+	<GeneDef MayRequire="Ludeon.RimWorld.Biotech">
+		<defName>FCP_Gene_RadiationAficionado</defName>
+		<label>radiation aficionado</label>
+		<labelShortAdj>rad aficionado</labelShortAdj>
+		<description>Carriers of this gene have an unusual affinity for radiation. They gain mood bonuses from exposure to radioactive environments and are drawn to atomic technology. Their biology has adapted to thrive where others would sicken.</description>
+		<displayCategory>ResistanceAndWeakness</displayCategory>
+		<biostatCpx>3</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<biostatArc>1</biostatArc>
+		<statOffsets>
+			<ToxicResistance>0.15</ToxicResistance>
+		</statOffsets>
+		<statFactors>
+			<PsychicSensitivity>0.85</PsychicSensitivity>
+		</statFactors>
+	</GeneDef>
+
+</Defs>

@@ -19,6 +19,11 @@
     </modDependencies>
     <loadAfter>
         <li>Rick.FCP.Core.Tools</li>
+        <li>Rick.FCP.BallisticWeapons</li>
+        <li>Rick.FCP.EnergyWeapons</li>
+        <li>Rick.FCP.MeleeWeapons</li>
+        <li>Ludeon.RimWorld.Ideology</li>
+        <li>Ludeon.RimWorld.Biotech</li>
     </loadAfter>
 
 </ModMetaData>

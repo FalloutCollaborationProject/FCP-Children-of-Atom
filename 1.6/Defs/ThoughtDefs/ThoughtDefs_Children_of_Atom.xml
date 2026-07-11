@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!--__________ Children of Atom Social Thoughts __________-->
+
+	<!-- Zealots look down on the more cautious Congregants -->
+
+	<ThoughtDef>
+		<defName>FCP_Thought_ZealotDislikesCongregant</defName>
+		<thoughtClass>Thought_SituationalSocial</thoughtClass>
+		<workerClass>FCP.Core.Thoughts.ThoughtWorker_ZealotOfAtom_Social</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+		<stages>
+			<li>
+				<label>lukewarm in the faith</label>
+				<description>{0} treats Atom's gift like something to be studied at arm's length instead of lived. Their caution insults everything I've given to the Glow.</description>
+				<baseOpinionOffset>-10</baseOpinionOffset>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!-- Congregants see the Zealots as reckless -->
+
+	<ThoughtDef>
+		<defName>FCP_Thought_CongregantDislikesZealot</defName>
+		<thoughtClass>Thought_SituationalSocial</thoughtClass>
+		<workerClass>FCP.Core.Thoughts.ThoughtWorker_CongregantOfAtom_Social</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+		<stages>
+			<li>
+				<label>reckless fanatic</label>
+				<description>{0} throws themselves at the Glow without a shred of caution and calls it devotion. It's not faith, it's carelessness with extra steps.</description>
+				<baseOpinionOffset>-10</baseOpinionOffset>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+</Defs>

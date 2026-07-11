@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!--__________ Ideology Icon Defs __________-->
+
+    <!-- Children of Atom Ideology Icon -->
+
+    <IdeoIconDef MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>FCP_Icon_Children_of_Atom</defName>
+        <iconPath>Ideo_Icon/FCP_CoA_Ideo_Icon</iconPath>
+        <cultures>
+            <li>FCP_Culture_Children_of_Atom</li>
+        </cultures>
+    </IdeoIconDef>
+
+</Defs>

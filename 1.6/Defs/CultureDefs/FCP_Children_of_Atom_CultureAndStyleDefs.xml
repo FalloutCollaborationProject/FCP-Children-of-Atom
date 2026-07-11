@@ -13,70 +13,70 @@
 		<description>The Children of Atom are religious zealots who worship radiation as a divine force. They make their homes in irradiated zones, view Glowing Ones as holy figures, and believe that exposure to radiation brings spiritual enlightenment. Their faith centers on Atom and the sacred act of Division.</description>
 		<pawnNameMaker>FCP_Retro_Namer_Male</pawnNameMaker>
 		<pawnNameMakerFemale>FCP_Retro_Namer_Female</pawnNameMakerFemale>
-		<ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoMythological</ideoNameMaker>
-		<deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeityMythological</deityNameMaker>
-		<deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DeityTypeMakerMythological</deityTypeMaker>
+		<ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoGlobal</ideoNameMaker>
+		<deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">FCP_NamerDeity_Atom</deityNameMaker>
+		<deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">FCP_DeityTypeMaker_Atom</deityTypeMaker>
 		<leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">FCP_LeaderTitleMaker_Children_of_Atom</leaderTitleMaker>
-		<festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalMythological</festivalNameMaker>
+		<festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalGlobal</festivalNameMaker>
 		<allowedPlaceTags>
 			<li>OriginOutlander</li>
 			<li>OriginTribal</li>
 		</allowedPlaceTags>
-		<iconPath>World_Icon/FCP_Children_of_Atom_World_Icon</iconPath>
+		<iconPath>World_Icon/Children_of_Atom_Icon/FCP_Children_of_Atom_World_Icon</iconPath>
 		<styleItemTags>
 			<li>
 				<tag>Urban</tag>
-				<baseWeight>0.5</baseWeight>
+				<baseWeight>0.75</baseWeight>
 				<weightFactor>1</weightFactor>
 			</li>
 			<li>
 				<tag>Rural</tag>
-				<baseWeight>1</baseWeight>
+				<baseWeight>0.9</baseWeight>
 				<weightFactor>1</weightFactor>
 			</li>
 			<li>
 				<tag>Punk</tag>
-				<baseWeight>0.3</baseWeight>
+				<baseWeight>0.25</baseWeight>
 				<weightFactor>1</weightFactor>
 			</li>
 			<li>
 				<tag>NoBeard</tag>
-				<baseWeight>2</baseWeight>
+				<baseWeight>1.75</baseWeight>
 				<weightFactor>1</weightFactor>
 			</li>
 			<li>
 				<tag>BeardUrban</tag>
-				<baseWeight>0.5</baseWeight>
+				<baseWeight>0.75</baseWeight>
 				<weightFactor>1</weightFactor>
 			</li>
 			<li>
 				<tag>BeardRural</tag>
-				<baseWeight>1</baseWeight>
+				<baseWeight>0.85</baseWeight>
 				<weightFactor>1</weightFactor>
 			</li>
 			<li>
 				<tag>BeardFeral</tag>
-				<baseWeight>0.8</baseWeight>
+				<baseWeight>0.6</baseWeight>
 				<weightFactor>1</weightFactor>
 			</li>
 			<li>
 				<tag>MoustacheOnly</tag>
-				<baseWeight>0.3</baseWeight>
+				<baseWeight>0.4</baseWeight>
 				<weightFactor>1</weightFactor>
 			</li>
 			<li>
 				<tag>NoTattoo</tag>
-				<baseWeight>0.5</baseWeight>
+				<baseWeight>0.75</baseWeight>
 				<weightFactor>1</weightFactor>
 			</li>
 			<li>
 				<tag>TattooTribal</tag>
-				<baseWeight>0.8</baseWeight>
+				<baseWeight>0.55</baseWeight>
 				<weightFactor>1</weightFactor>
 			</li>
 			<li>
 				<tag>TattooUrban</tag>
-				<baseWeight>0.6</baseWeight>
+				<baseWeight>0.9</baseWeight>
 				<weightFactor>1</weightFactor>
 			</li>
 		</styleItemTags>
@@ -88,12 +88,12 @@
 		<defName>FCP_LeaderTitleMaker_Children_of_Atom</defName>
 		<rulePack>
 			<rulesStrings>
-				<li>leader_title(p=10)->[leaderTitleWord]</li>
-				<li>leader_title(p=2)->[leaderTitleWord] of [place]</li>
-				<li>leader_title(p=2)->[leaderTitleWord] of the [religiousConcept]</li>
-				<li>leader_title(p=1)->[leaderTitleWord] of Atom's [religiousConcept]</li>
+				<li>r_leaderTitle(p=10)->[leaderTitleWord]</li>
+				<li>r_leaderTitle(p=3)->[leaderTitleWord] of the [religiousConcept]</li>
+				<li>r_leaderTitle(p=2)->[leaderTitleWord] of Atom's [religiousConcept]</li>
 
 				<li>leaderTitleWord(p=2)->High Confessor</li>
+				<li>leaderTitleWord(p=2)->Elder Confessor</li>
 				<li>leaderTitleWord->Grand Zealot</li>
 				<li>leaderTitleWord->High Priest</li>
 				<li>leaderTitleWord->Prophet</li>
@@ -101,6 +101,11 @@
 				<li>leaderTitleWord->Herald</li>
 				<li>leaderTitleWord->Shepherd</li>
 				<li>leaderTitleWord->Guardian</li>
+				<li>leaderTitleWord->Scholar</li>
+				<li>leaderTitleWord->Chief Technician</li>
+				<li>leaderTitleWord->Keeper</li>
+				<li>leaderTitleWord->Warden</li>
+				<li>leaderTitleWord->Archon</li>
 
 				<li>religiousConcept->Glow</li>
 				<li>religiousConcept->Light</li>
@@ -110,6 +115,68 @@
 				<li>religiousConcept->Flame</li>
 				<li>religiousConcept->Radiance</li>
 				<li>religiousConcept->Blessing</li>
+				<li>religiousConcept->Knowledge</li>
+				<li>religiousConcept->Wisdom</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<!--_____ Deity Namer _____-->
+
+	<!-- Atom is the one and only deity - never procedurally generated -->
+
+	<RulePackDef>
+		<defName>FCP_NamerDeity_Atom</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_deityName->Atom</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<!--_____ Deity Type Maker _____-->
+
+	<!-- Atom's epithet - self-contained, no dependency on other memes' symbol content -->
+
+	<RulePackDef>
+		<defName>FCP_DeityTypeMaker_Atom</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_deityType->God of Radiation</li>
+				<li>r_deityType->God of Division</li>
+				<li>r_deityType->The Glow Incarnate</li>
+				<li>r_deityType->Master of the Atom</li>
+				<li>r_deityType->The Undying Flame</li>
+				<li>r_deityType->Sovereign of the Blast</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<!--_____ Faction Namer _____-->
+
+	<RulePackDef>
+		<defName>FCP_NamerFaction_Children_of_Atom</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name->Children of Atom</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<!--_____ Settlement Namer _____-->
+
+	<RulePackDef>
+		<defName>FCP_NamerSettlement_Children_of_Atom</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name->The Crater</li>
+				<li>r_name->Ground Zero</li>
+				<li>r_name->Division Point</li>
+				<li>r_name->The Glow</li>
+				<li>r_name->Atom's Hollow</li>
+				<li>r_name->The Blast Site</li>
+				<li>r_name->Reactor Row</li>
+				<li>r_name->The Fallout Shrine</li>
 			</rulesStrings>
 		</rulePack>
 	</RulePackDef>

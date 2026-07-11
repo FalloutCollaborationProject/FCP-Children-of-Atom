@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!--__________ Children of Atom Traits __________-->
+
+	<!-- Zealot of Atom - militant, fanatical wing -->
+
+	<TraitDef>
+		<defName>FCP_Trait_ZealotOfAtom</defName>
+		<commonality>0</commonality>
+		<degreeDatas>
+			<li>
+				<label>zealot of Atom</label>
+				<description>{PAWN_nameDef} has given {PAWN_possessive} whole self to Atom's cause. {PAWN_pronoun} sees radiation as a holy weapon and believes conversion - by word or by force - is a sacred duty. The Glow steadies {PAWN_possessive} nerves and stokes {PAWN_possessive} fervor, but {PAWN_possessive} zealotry unsettles those who do not share the faith.</description>
+				<statFactors>
+					<SocialImpact>0.9</SocialImpact>
+				</statFactors>
+				<statOffsets>
+					<ToxicResistance>0.10</ToxicResistance>
+					<ConversionPower MayRequire="Ludeon.RimWorld.Ideology">0.10</ConversionPower>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+		<conflictingTraits>
+			<li>FCP_Trait_CongregantOfAtom</li>
+		</conflictingTraits>
+	</TraitDef>
+
+	<!-- Congregant of Atom - pragmatic, studious wing -->
+
+	<TraitDef>
+		<defName>FCP_Trait_CongregantOfAtom</defName>
+		<commonality>0</commonality>
+		<degreeDatas>
+			<li>
+				<label>congregant of Atom</label>
+				<description>{PAWN_nameDef} reveres Atom without losing {PAWN_possessive} head. {PAWN_pronoun} studies radiation as a tool to be understood rather than a fire to be worshipped blindly, favoring careful research and diplomacy over fanaticism. {PAWN_possessive} measured faith earns the trust of believers and outsiders alike.</description>
+				<statFactors>
+					<SocialImpact>1.05</SocialImpact>
+				</statFactors>
+				<statOffsets>
+					<ToxicResistance>0.05</ToxicResistance>
+					<ResearchSpeed>0.10</ResearchSpeed>
+				</statOffsets>
+			</li>
+		</degreeDatas>
+		<conflictingTraits>
+			<li>FCP_Trait_ZealotOfAtom</li>
+		</conflictingTraits>
+	</TraitDef>
+
+</Defs>
