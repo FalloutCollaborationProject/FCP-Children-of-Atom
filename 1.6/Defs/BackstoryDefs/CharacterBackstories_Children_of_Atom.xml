@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!--__________ Confessor Cromwell __________-->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Confessor_Cromwell_Child</defName>
+        <title>wasteland wanderer</title>
+        <titleShort>wanderer</titleShort>
+        <baseDesc>[PAWN_nameDef] wandered the ruins of the Capital Wasteland as a child, drawn again and again to the glow of shattered reactors others feared to approach.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Cromwell_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>3</Intellectual>
+            <Social>3</Social>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Confessor_Cromwell_Adult</defName>
+        <title>prophet of Atom</title>
+        <titleShort>confessor</titleShort>
+        <baseDesc>[PAWN_nameDef] leads the Church of Atom, husband to Mother Maya and father to a faith that spans the wasteland. [PAWN_pronoun] sent Confessors north to spread Atom's word long before the Nucleus ever rose.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_CoA_Confessor_Cromwell</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>8</Social>
+            <Intellectual>6</Intellectual>
+            <Melee>2</Melee>
+        </skillGains>
+    </BackstoryDef>
+
+    <!--__________ Mother Maya __________-->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Mother_Maya_Child</defName>
+        <title>scavenger's daughter</title>
+        <titleShort>scavenger kid</titleShort>
+        <baseDesc>[PAWN_nameDef] grew up among wasteland scavengers who taught her that the ruins reward only the faithful and the careful.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Maya_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>3</Crafting>
+            <Social>2</Social>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Mother_Maya_Adult</defName>
+        <title>mother of the church</title>
+        <titleShort>mother</titleShort>
+        <baseDesc>[PAWN_nameDef] stands as Cromwell's counterpart in the Church of Atom, keeping the Megaton congregation devoted while [PAWN_possessive] husband preaches.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_CoA_Mother_Maya</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>7</Social>
+            <Crafting>3</Crafting>
+        </skillGains>
+    </BackstoryDef>
+
+    <!--__________ High Confessor Tektus __________-->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_High_Confessor_Tektus_Child</defName>
+        <title>Capital Wasteland orphan</title>
+        <titleShort>orphan</titleShort>
+        <baseDesc>[PAWN_nameDef] was taken in by the Church of Atom as an orphan, fascinated from the start by the glow the other children feared.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Tektus_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>3</Intellectual>
+            <Shooting>2</Shooting>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_High_Confessor_Tektus_Adult</defName>
+        <title>High Confessor of the Nucleus</title>
+        <titleShort>high confessor</titleShort>
+        <baseDesc>[PAWN_nameDef] was sent from Megaton to found a new congregation on the coast. [PAWN_pronoun] seized an old nuclear submarine, declared it the Nucleus, and now rules its faithful through fervor and fear of heresy.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_CoA_High_Confessor_Tektus</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>7</Social>
+            <Shooting>5</Shooting>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+    </BackstoryDef>
+
+    <!--__________ Grand Zealot Richter __________-->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Grand_Zealot_Richter_Child</defName>
+        <title>raider territory survivor</title>
+        <titleShort>survivor</titleShort>
+        <baseDesc>[PAWN_nameDef] fought for scraps in raider territory before the Children of Atom took him in and gave him a purpose worth fighting for.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Richter_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>3</Melee>
+            <Shooting>2</Shooting>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Grand_Zealot_Richter_Adult</defName>
+        <title>Grand Zealot</title>
+        <titleShort>grand zealot</titleShort>
+        <baseDesc>[PAWN_nameDef] commands the Nucleus's Zealots, Atom's enforcers against heretics and unbelievers alike. [PAWN_pronoun] questions the High Confessor's paranoia in private, but never in front of the faithful.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_CoA_Grand_Zealot_Richter</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>7</Shooting>
+            <Melee>6</Melee>
+            <Social>3</Social>
+        </skillGains>
+    </BackstoryDef>
+
+    <!--__________ Sister Gwyneth __________-->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Sister_Gwyneth_Child</defName>
+        <title>born to the faith</title>
+        <titleShort>faith-born</titleShort>
+        <baseDesc>[PAWN_nameDef] was born into the Children of Atom and recited Atom's teachings before she could walk.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Gwyneth_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>3</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Sister_Gwyneth_Adult</defName>
+        <title>the heretic</title>
+        <titleShort>heretic</titleShort>
+        <baseDesc>[PAWN_nameDef] grew disillusioned with the High Confessor's rule and turned against the Nucleus. Her former family now hunts her as a heretic.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_CoA_Sister_Gwyneth</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>5</Social>
+            <Shooting>4</Shooting>
+        </skillGains>
+    </BackstoryDef>
+
+    <!--__________ Brother Devin __________-->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Brother_Devin_Child</defName>
+        <title>fisherman's son</title>
+        <titleShort>fisherman's boy</titleShort>
+        <baseDesc>[PAWN_nameDef] grew up on the coast, son of a fisherman who lost everything to the Fog that rolled in off the water.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Devin_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Animals>2</Animals>
+            <Social>2</Social>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Brother_Devin_Adult</defName>
+        <title>tested brother</title>
+        <titleShort>brother</titleShort>
+        <baseDesc>[PAWN_nameDef] found purpose in Atom's teachings after the Fog took his family, though his devotion has been tried more harshly than most of the faithful's.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_CoA_Brother_Devin</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>4</Social>
+            <Shooting>3</Shooting>
+        </skillGains>
+    </BackstoryDef>
+
+    <!--__________ Sister Aubert __________-->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Sister_Aubert_Child</defName>
+        <title>salvager's apprentice</title>
+        <titleShort>apprentice</titleShort>
+        <baseDesc>[PAWN_nameDef] spent her childhood tinkering with pre-war machinery salvaged along the coast, always curious how the old world's engines worked.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Aubert_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>3</Crafting>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Sister_Aubert_Adult</defName>
+        <title>reactor keeper</title>
+        <titleShort>reactor keeper</titleShort>
+        <baseDesc>[PAWN_nameDef] maintains the Nucleus's aging reactor, chasing the High Confessor's dream of one day arming the submarine's dormant warheads in Atom's name.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_CoA_Sister_Aubert</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>7</Crafting>
+            <Intellectual>5</Intellectual>
+        </skillGains>
+    </BackstoryDef>
+
+    <!--__________ Zealot Ware __________-->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Zealot_Ware_Child</defName>
+        <title>Nucleus deckhand</title>
+        <titleShort>deckhand</titleShort>
+        <baseDesc>[PAWN_nameDef] was raised in the Nucleus's lower decks, taught every corridor of the old submarine before he was taught to read.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Ware_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>2</Melee>
+            <Social>2</Social>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Zealot_Ware_Adult</defName>
+        <title>Zealot</title>
+        <titleShort>zealot</titleShort>
+        <baseDesc>[PAWN_nameDef] serves as a Zealot of the Nucleus, entrusted with guiding new converts through the faith's holy sites and trials.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_CoA_Zealot_Ware</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>6</Shooting>
+            <Social>4</Social>
+        </skillGains>
+    </BackstoryDef>
+
+    <!--__________ Zealot Theil __________-->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Zealot_Theil_Child</defName>
+        <title>scripture-taught</title>
+        <titleShort>devotee</titleShort>
+        <baseDesc>[PAWN_nameDef] memorized Atom's scripture before he learned to read anything else, raised from birth on the Nucleus's teachings.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Theil_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>3</Intellectual>
+            <Melee>2</Melee>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Zealot_Theil_Adult</defName>
+        <title>Zealot</title>
+        <titleShort>zealot</titleShort>
+        <baseDesc>[PAWN_nameDef] instructs new arrivals in the Nucleus's structure, and hunts down whoever Atom's Confessors have marked as heretics.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_CoA_Zealot_Theil</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Intellectual>4</Intellectual>
+            <Social>3</Social>
+        </skillGains>
+    </BackstoryDef>
+
+    <!--__________ Brother Kane __________-->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Brother_Kane_Child</defName>
+        <title>gunsmith's apprentice</title>
+        <titleShort>apprentice</titleShort>
+        <baseDesc>[PAWN_nameDef] apprenticed to a wasteland gunsmith before the Children of Atom found him and gave his skill a higher purpose.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Kane_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>3</Crafting>
+            <Shooting>2</Shooting>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Brother_Kane_Adult</defName>
+        <title>arms keeper</title>
+        <titleShort>armorer</titleShort>
+        <baseDesc>[PAWN_nameDef] keeps the Nucleus armed against heretics, cannibals, and the creatures that stalk the Fog, trading blessed weapons to the faithful.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_CoA_Brother_Kane</li>
+        </spawnCategories>
+        <skillGains>
+            <Crafting>6</Crafting>
+            <Social>4</Social>
+            <Shooting>3</Shooting>
+        </skillGains>
+    </BackstoryDef>
+
+    <!--__________ Sister Mai __________-->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Sister_Mai_Child</defName>
+        <title>coast road trader's kid</title>
+        <titleShort>trader's kid</titleShort>
+        <baseDesc>[PAWN_nameDef] traded scavenged goods along the coast roads as a girl, learning the value of everything the wasteland offered.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Mai_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>3</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Sister_Mai_Adult</defName>
+        <title>keeper of stores</title>
+        <titleShort>storekeeper</titleShort>
+        <baseDesc>[PAWN_nameDef] runs the Nucleus's stores, trading what the faithful need for what the wasteland offers in return.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_CoA_Sister_Mai</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>7</Social>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+    </BackstoryDef>
+
+    <!--__________ Brother Alders __________-->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Brother_Alders_Child</defName>
+        <title>quiet convert</title>
+        <titleShort>convert</titleShort>
+        <baseDesc>[PAWN_nameDef] was a quiet, devoted convert to Atom's faith who never once questioned the Confessors' word.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Alders_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>2</Social>
+            <Melee>2</Melee>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Brother_Alders_Adult</defName>
+        <title>the suspected</title>
+        <titleShort>suspected</titleShort>
+        <baseDesc>[PAWN_nameDef] fell under the High Confessor's suspicion despite a lifetime of devotion, and was made to prove a loyalty he never doubted.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_CoA_Brother_Alders</li>
+        </spawnCategories>
+        <skillGains>
+            <Social>4</Social>
+            <Melee>3</Melee>
+        </skillGains>
+    </BackstoryDef>
+
+    <!--__________ Sister Harper __________-->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Sister_Harper_Child</defName>
+        <title>hard lesson learned</title>
+        <titleShort>survivor</titleShort>
+        <baseDesc>[PAWN_nameDef] learned early that hesitation gets you killed in the wasteland, a lesson she never once forgot.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Harper_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Melee>3</Melee>
+            <Shooting>2</Shooting>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Sister_Harper_Adult</defName>
+        <title>the proven</title>
+        <titleShort>proven</titleShort>
+        <baseDesc>[PAWN_nameDef] proved her devotion to the High Confessor in blood, and nothing Atom asks of her gives her pause anymore.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_CoA_Sister_Harper</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>6</Shooting>
+            <Melee>5</Melee>
+        </skillGains>
+    </BackstoryDef>
+
+    <!--__________ The Archemist __________-->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_The_Archemist_Child</defName>
+        <title>chemist's understudy</title>
+        <titleShort>understudy</titleShort>
+        <baseDesc>[PAWN_nameDef] apprenticed under a pre-war chemist's salvaged notes, piecing together medicine from what little the wasteland left behind.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Archemist_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Intellectual>3</Intellectual>
+            <Medicine>2</Medicine>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_The_Archemist_Adult</defName>
+        <title>the Archemist</title>
+        <titleShort>archemist</titleShort>
+        <baseDesc>[PAWN_nameDef] serves as the Nucleus's doctor, tending Atom's faithful with whatever medicine the wasteland allows.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_CoA_The_Archemist</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>8</Medicine>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+    </BackstoryDef>
+
+</Defs>

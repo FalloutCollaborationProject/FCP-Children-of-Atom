@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!--__________ Church of Atom, Megaton (Fallout 3) __________-->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_CoA_Confessor_Cromwell</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Confessor_Cromwell</pawnKind>
+        <faction>FCP_Faction_Children_of_Atom</faction>
+        <xenotype>Baseliner</xenotype>
+        <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>1000</seniority>
+            </li>
+        </roles>
+        <definitions>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Confessor</firstName>
+                <lastName>Cromwell</lastName>
+                <gender>Male</gender>
+                <age>44</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(90, 80, 70)</hairColor>
+                <hairDef>FCP_Hair_Balding</hairDef>
+                <beardDef>Full</beardDef>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+            <li Class="FCP.Core.CharacterUniqueItemDefinition">
+                <uniqueItem>FCP_Apparel_Robes_of_Atom</uniqueItem>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_CoA_Mother_Maya</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Mother_Maya</pawnKind>
+        <faction>FCP_Faction_Children_of_Atom</faction>
+        <xenotype>Baseliner</xenotype>
+        <definitions>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Mother</firstName>
+                <lastName>Maya</lastName>
+                <gender>Female</gender>
+                <age>42</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(70, 60, 50)</hairColor>
+                <hairDef>Wavy</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <headTypeDef>Female_AverageNormal</headTypeDef>
+                <bodyTypeDef>Female</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!--__________ The Nucleus, Far Harbor (Fallout 4) __________-->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_CoA_High_Confessor_Tektus</defName>
+        <pawnKind>FCP_Unique_Pawnkind_High_Confessor_Tektus</pawnKind>
+        <faction>FCP_Faction_Children_of_Atom</faction>
+        <xenotype>Baseliner</xenotype>
+        <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>500</seniority>
+            </li>
+        </roles>
+        <definitions>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>High Confessor</firstName>
+                <lastName>Tektus</lastName>
+                <gender>Male</gender>
+                <age>39</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(40, 35, 30)</hairColor>
+                <hairDef>Shaved</hairDef>
+                <beardDef>Stubble</beardDef>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_CoA_Grand_Zealot_Richter</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Grand_Zealot_Richter</pawnKind>
+        <faction>FCP_Faction_Children_of_Atom</faction>
+        <xenotype>Baseliner</xenotype>
+        <definitions>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Grand Zealot</firstName>
+                <lastName>Richter</lastName>
+                <gender>Male</gender>
+                <age>37</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(20, 20, 20)</hairColor>
+                <hairDef>Mohawk</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <headTypeDef>Male_AverageWide</headTypeDef>
+                <bodyTypeDef>Hulk</bodyTypeDef>
+            </li>
+            <li Class="FCP.Core.CharacterUniqueItemDefinition">
+                <uniqueItem>FCP_Apparel_Inquisitor_Cowl</uniqueItem>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_CoA_Sister_Gwyneth</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Sister_Gwyneth</pawnKind>
+        <faction>FCP_Faction_Children_of_Atom</faction>
+        <xenotype>Baseliner</xenotype>
+        <definitions>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Sister</firstName>
+                <lastName>Gwyneth</lastName>
+                <gender>Female</gender>
+                <age>27</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(120, 100, 70)</hairColor>
+                <hairDef>Messy</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <headTypeDef>Female_AverageNormal</headTypeDef>
+                <bodyTypeDef>Female</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_CoA_Brother_Devin</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Brother_Devin</pawnKind>
+        <faction>FCP_Faction_Children_of_Atom</faction>
+        <xenotype>Baseliner</xenotype>
+        <definitions>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Brother</firstName>
+                <lastName>Devin</lastName>
+                <gender>Male</gender>
+                <age>30</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(50, 40, 30)</hairColor>
+                <hairDef>Topdog</hairDef>
+                <beardDef>Stubble</beardDef>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_CoA_Sister_Aubert</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Sister_Aubert</pawnKind>
+        <faction>FCP_Faction_Children_of_Atom</faction>
+        <xenotype>Baseliner</xenotype>
+        <definitions>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Sister</firstName>
+                <lastName>Aubert</lastName>
+                <gender>Female</gender>
+                <age>33</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(30, 25, 20)</hairColor>
+                <hairDef>Flowy</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <headTypeDef>Female_AverageNormal</headTypeDef>
+                <bodyTypeDef>Thin</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_CoA_Zealot_Ware</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Zealot_Ware</pawnKind>
+        <faction>FCP_Faction_Children_of_Atom</faction>
+        <xenotype>Baseliner</xenotype>
+        <definitions>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Zealot</firstName>
+                <lastName>Ware</lastName>
+                <gender>Male</gender>
+                <age>34</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(60, 55, 50)</hairColor>
+                <hairDef>Shaved</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <headTypeDef>Male_AveragePointy</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_CoA_Zealot_Theil</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Zealot_Theil</pawnKind>
+        <faction>FCP_Faction_Children_of_Atom</faction>
+        <xenotype>Baseliner</xenotype>
+        <definitions>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Zealot</firstName>
+                <lastName>Theil</lastName>
+                <gender>Male</gender>
+                <age>36</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(25, 25, 25)</hairColor>
+                <hairDef>Mohawk</hairDef>
+                <beardDef>Stubble</beardDef>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_CoA_Brother_Kane</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Brother_Kane</pawnKind>
+        <faction>FCP_Faction_Children_of_Atom</faction>
+        <xenotype>Baseliner</xenotype>
+        <definitions>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Brother</firstName>
+                <lastName>Kane</lastName>
+                <gender>Male</gender>
+                <age>41</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(80, 65, 50)</hairColor>
+                <hairDef>Wavy</hairDef>
+                <beardDef>Full</beardDef>
+                <headTypeDef>Male_AverageWide</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_CoA_Sister_Mai</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Sister_Mai</pawnKind>
+        <faction>FCP_Faction_Children_of_Atom</faction>
+        <xenotype>Baseliner</xenotype>
+        <definitions>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Sister</firstName>
+                <lastName>Mai</lastName>
+                <gender>Female</gender>
+                <age>29</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(15, 10, 10)</hairColor>
+                <hairDef>Afro</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <headTypeDef>Female_AverageNormal</headTypeDef>
+                <bodyTypeDef>Female</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_CoA_Brother_Alders</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Brother_Alders</pawnKind>
+        <faction>FCP_Faction_Children_of_Atom</faction>
+        <xenotype>Baseliner</xenotype>
+        <definitions>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Brother</firstName>
+                <lastName>Alders</lastName>
+                <gender>Male</gender>
+                <age>28</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(90, 75, 60)</hairColor>
+                <hairDef>Messy</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Thin</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_CoA_Sister_Harper</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Sister_Harper</pawnKind>
+        <faction>FCP_Faction_Children_of_Atom</faction>
+        <xenotype>Baseliner</xenotype>
+        <definitions>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Sister</firstName>
+                <lastName>Harper</lastName>
+                <gender>Female</gender>
+                <age>31</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(10, 10, 10)</hairColor>
+                <hairDef>FCP_Hair_Buzz_Cut</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <headTypeDef>Female_AverageNormal</headTypeDef>
+                <bodyTypeDef>Female</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_CoA_The_Archemist</defName>
+        <pawnKind>FCP_Unique_Pawnkind_The_Archemist</pawnKind>
+        <faction>FCP_Faction_Children_of_Atom</faction>
+        <xenotype>Baseliner</xenotype>
+        <definitions>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>The</firstName>
+                <lastName>Archemist</lastName>
+                <gender>Female</gender>
+                <age>45</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(55, 50, 45)</hairColor>
+                <hairDef>Flowy</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <headTypeDef>Female_AverageNormal</headTypeDef>
+                <bodyTypeDef>Thin</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+</Defs>

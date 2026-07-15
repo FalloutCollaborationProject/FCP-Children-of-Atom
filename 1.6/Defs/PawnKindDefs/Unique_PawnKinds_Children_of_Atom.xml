@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!--__________ Unique Character Base __________-->
+
+    <PawnKindDef Name="FCP_ChildrenOfAtom_UniqueCharacterBase" ParentName="FCP_ChildrenOfAtomkindBase" Abstract="true">
+        <showInDebugSpawner>false</showInDebugSpawner>
+        <apparelMoney>9999</apparelMoney>
+        <gearHealthRange>10</gearHealthRange>
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+        <weaponMoney>9999</weaponMoney>
+        <initialWillRange>4~8</initialWillRange>
+        <initialResistanceRange>15~25</initialResistanceRange>
+    </PawnKindDef>
+
+    <!--__________ Church of Atom, Megaton (Fallout 3) __________-->
+
+    <!-- Confessor Cromwell -->
+
+    <PawnKindDef ParentName="FCP_ChildrenOfAtom_UniqueCharacterBase">
+        <defName>FCP_Unique_Pawnkind_Confessor_Cromwell</defName>
+        <label>Confessor Cromwell</label>
+        <factionLeader>true</factionLeader>
+        <combatPower>120</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_Robes_of_Atom</li>
+        </apparelRequired>
+        <weaponTags>
+            <li>FCP_Gamma_Gun</li>
+        </weaponTags>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Cromwell_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_CoA_Confessor_Cromwell</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <!-- Mother Maya -->
+
+    <PawnKindDef ParentName="FCP_ChildrenOfAtom_UniqueCharacterBase">
+        <defName>FCP_Unique_Pawnkind_Mother_Maya</defName>
+        <label>Mother Maya</label>
+        <combatPower>90</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_Robes_of_Atom</li>
+        </apparelRequired>
+        <weaponTags>
+            <li>FCP_Gamma_Gun</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Maya_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_CoA_Mother_Maya</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <!--__________ The Nucleus, Far Harbor (Fallout 4) __________-->
+
+    <!-- High Confessor Tektus -->
+
+    <PawnKindDef ParentName="FCP_ChildrenOfAtom_UniqueCharacterBase">
+        <defName>FCP_Unique_Pawnkind_High_Confessor_Tektus</defName>
+        <label>High Confessor Tektus</label>
+        <factionLeader>true</factionLeader>
+        <combatPower>140</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_Zealot_Armor</li>
+        </apparelRequired>
+        <weaponTags>
+            <li>FCP_Radium_Rifle</li>
+        </weaponTags>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Tektus_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_CoA_High_Confessor_Tektus</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <!-- Grand Zealot Richter -->
+
+    <PawnKindDef ParentName="FCP_ChildrenOfAtom_UniqueCharacterBase">
+        <defName>FCP_Unique_Pawnkind_Grand_Zealot_Richter</defName>
+        <label>Grand Zealot Richter</label>
+        <combatPower>150</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_Zealot_Armor</li>
+            <li>FCP_Apparel_Inquisitor_Cowl</li>
+        </apparelRequired>
+        <weaponTags>
+            <li>FCP_Radium_Rifle</li>
+        </weaponTags>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Richter_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_CoA_Grand_Zealot_Richter</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <!-- Sister Gwyneth -->
+
+    <PawnKindDef ParentName="FCP_ChildrenOfAtom_UniqueCharacterBase">
+        <defName>FCP_Unique_Pawnkind_Sister_Gwyneth</defName>
+        <label>Sister Gwyneth</label>
+        <combatPower>80</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_Robes_of_Atom</li>
+        </apparelRequired>
+        <weaponTags>
+            <li>FCP_Gamma_Gun</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Gwyneth_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_CoA_Sister_Gwyneth</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <!-- Brother Devin -->
+
+    <PawnKindDef ParentName="FCP_ChildrenOfAtom_UniqueCharacterBase">
+        <defName>FCP_Unique_Pawnkind_Brother_Devin</defName>
+        <label>Brother Devin</label>
+        <combatPower>75</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_Robes_of_Atom</li>
+        </apparelRequired>
+        <weaponTags>
+            <li>FCP_Gamma_Gun</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Devin_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_CoA_Brother_Devin</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <!-- Sister Aubert -->
+
+    <PawnKindDef ParentName="FCP_ChildrenOfAtom_UniqueCharacterBase">
+        <defName>FCP_Unique_Pawnkind_Sister_Aubert</defName>
+        <label>Sister Aubert</label>
+        <combatPower>70</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_Robes_of_Atom</li>
+        </apparelRequired>
+        <weaponTags>
+            <li>FCP_Gamma_Gun</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Aubert_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_CoA_Sister_Aubert</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <!-- Zealot Ware -->
+
+    <PawnKindDef ParentName="FCP_ChildrenOfAtom_UniqueCharacterBase">
+        <defName>FCP_Unique_Pawnkind_Zealot_Ware</defName>
+        <label>Zealot Ware</label>
+        <combatPower>110</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_Zealot_Armor</li>
+        </apparelRequired>
+        <weaponTags>
+            <li>FCP_Radium_Rifle</li>
+        </weaponTags>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Ware_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_CoA_Zealot_Ware</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <!-- Zealot Theil -->
+
+    <PawnKindDef ParentName="FCP_ChildrenOfAtom_UniqueCharacterBase">
+        <defName>FCP_Unique_Pawnkind_Zealot_Theil</defName>
+        <label>Zealot Theil</label>
+        <combatPower>110</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_Zealot_Armor</li>
+        </apparelRequired>
+        <weaponTags>
+            <li>FCP_Radium_Rifle</li>
+        </weaponTags>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Theil_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_CoA_Zealot_Theil</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <!-- Brother Kane -->
+
+    <PawnKindDef ParentName="FCP_ChildrenOfAtom_UniqueCharacterBase">
+        <defName>FCP_Unique_Pawnkind_Brother_Kane</defName>
+        <label>Brother Kane</label>
+        <trader>true</trader>
+        <combatPower>85</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_Robes_of_Atom</li>
+        </apparelRequired>
+        <weaponTags>
+            <li>FCP_Radium_Rifle</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Kane_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_CoA_Brother_Kane</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <!-- Sister Mai -->
+
+    <PawnKindDef ParentName="FCP_ChildrenOfAtom_UniqueCharacterBase">
+        <defName>FCP_Unique_Pawnkind_Sister_Mai</defName>
+        <label>Sister Mai</label>
+        <trader>true</trader>
+        <combatPower>65</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_Robes_of_Atom</li>
+        </apparelRequired>
+        <weaponTags>
+            <li>FCP_Gamma_Gun</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Mai_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_CoA_Sister_Mai</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <!-- Brother Alders -->
+
+    <PawnKindDef ParentName="FCP_ChildrenOfAtom_UniqueCharacterBase">
+        <defName>FCP_Unique_Pawnkind_Brother_Alders</defName>
+        <label>Brother Alders</label>
+        <combatPower>70</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_Robes_of_Atom</li>
+        </apparelRequired>
+        <weaponTags>
+            <li>FCP_Gamma_Gun</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Alders_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_CoA_Brother_Alders</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <!-- Sister Harper -->
+
+    <PawnKindDef ParentName="FCP_ChildrenOfAtom_UniqueCharacterBase">
+        <defName>FCP_Unique_Pawnkind_Sister_Harper</defName>
+        <label>Sister Harper</label>
+        <combatPower>115</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_Zealot_Armor</li>
+        </apparelRequired>
+        <weaponTags>
+            <li>FCP_Radium_Rifle</li>
+        </weaponTags>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Harper_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_CoA_Sister_Harper</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <!-- The Archemist -->
+
+    <PawnKindDef ParentName="FCP_ChildrenOfAtom_UniqueCharacterBase">
+        <defName>FCP_Unique_Pawnkind_The_Archemist</defName>
+        <label>the Archemist</label>
+        <combatPower>60</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_Robes_of_Atom</li>
+        </apparelRequired>
+        <weaponTags>
+            <li>FCP_Gamma_Gun</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Archemist_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_CoA_The_Archemist</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+</Defs>

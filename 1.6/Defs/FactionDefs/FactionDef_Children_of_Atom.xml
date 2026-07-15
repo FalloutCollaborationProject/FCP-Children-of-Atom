@@ -111,10 +111,10 @@
 
 		<pawnGroupMakers>
 
-			<!-- Pilgrim Mob -->
+			<!-- Nucleus Zealot Guard -->
 
-			<li>
-				<!-- Zealot mob attack -->
+			<li Class="FCP.Core.GroupMakerWithCustomChar">
+				<!-- Richter's rank-and-file enforcers -->
 				<kindDef>Combat</kindDef>
 				<disallowedStrategies>
 					<li>EmergeFromWater</li>
@@ -122,25 +122,69 @@
 				<options>
 					<FCP_Pawnkind_Children_of_Atom_Glowing_Sentinel>10</FCP_Pawnkind_Children_of_Atom_Glowing_Sentinel>
 					<FCP_Pawnkind_Children_of_Atom_Worker>5</FCP_Pawnkind_Children_of_Atom_Worker>
-					<FCP_Pawnkind_Children_of_Atom_High_Confessor>1</FCP_Pawnkind_Children_of_Atom_High_Confessor>
 					<FCP_Pawnkind_Confessors_Flock_Sentinel>8</FCP_Pawnkind_Confessors_Flock_Sentinel>
 					<FCP_Pawnkind_Confessors_Flock_Technician>5</FCP_Pawnkind_Confessors_Flock_Technician>
-					<FCP_Pawnkind_Confessors_Flock_Elder_Confessor>1</FCP_Pawnkind_Confessors_Flock_Elder_Confessor>
 				</options>
+				<characterDefs>
+					<li>FCP_Character_CoA_Grand_Zealot_Richter</li>
+					<li>FCP_Character_CoA_Zealot_Ware</li>
+					<li>FCP_Character_CoA_Zealot_Theil</li>
+					<li>FCP_Character_CoA_Sister_Harper</li>
+				</characterDefs>
+				<characterChance>0.30</characterChance>
 			</li>
 
-			<!-- Pilgrims -->
+			<!-- High Confessor's Escort -->
 
-			<li>
+			<li Class="FCP.Core.GroupMakerWithCustomChar">
+				<!-- Tektus rarely leaves the Nucleus himself -->
+				<kindDef>Combat</kindDef>
+				<disallowedStrategies>
+					<li>EmergeFromWater</li>
+				</disallowedStrategies>
+				<options>
+					<FCP_Pawnkind_Children_of_Atom_Glowing_Sentinel>6</FCP_Pawnkind_Children_of_Atom_Glowing_Sentinel>
+					<FCP_Pawnkind_Confessors_Flock_Sentinel>4</FCP_Pawnkind_Confessors_Flock_Sentinel>
+				</options>
+				<characterDefs>
+					<li>FCP_Character_CoA_High_Confessor_Tektus</li>
+				</characterDefs>
+				<characterChance>0.15</characterChance>
+			</li>
+
+			<!-- Nucleus Congregation -->
+
+			<li Class="FCP.Core.GroupMakerWithCustomChar">
 				<kindDef>Peaceful</kindDef>
 				<options>
 					<FCP_Pawnkind_Children_of_Atom_Worker>10</FCP_Pawnkind_Children_of_Atom_Worker>
 					<FCP_Pawnkind_Children_of_Atom_Glowing_Sentinel>3</FCP_Pawnkind_Children_of_Atom_Glowing_Sentinel>
-					<FCP_Pawnkind_Children_of_Atom_High_Confessor>1</FCP_Pawnkind_Children_of_Atom_High_Confessor>
 					<FCP_Pawnkind_Confessors_Flock_Technician>12</FCP_Pawnkind_Confessors_Flock_Technician>
 					<FCP_Pawnkind_Confessors_Flock_Sentinel>3</FCP_Pawnkind_Confessors_Flock_Sentinel>
-					<FCP_Pawnkind_Confessors_Flock_Elder_Confessor>1</FCP_Pawnkind_Confessors_Flock_Elder_Confessor>
 				</options>
+				<characterDefs>
+					<li>FCP_Character_CoA_Brother_Devin</li>
+					<li>FCP_Character_CoA_Sister_Aubert</li>
+					<li>FCP_Character_CoA_Brother_Alders</li>
+					<li>FCP_Character_CoA_The_Archemist</li>
+				</characterDefs>
+				<characterChance>0.20</characterChance>
+			</li>
+
+			<!-- Church of Atom Pilgrimage -->
+
+			<li Class="FCP.Core.GroupMakerWithCustomChar">
+				<!-- Cromwell and Maya travel out from Megaton only rarely; the church itself is not a Children of Atom settlement -->
+				<kindDef>Peaceful</kindDef>
+				<options>
+					<FCP_Pawnkind_Children_of_Atom_Worker>10</FCP_Pawnkind_Children_of_Atom_Worker>
+					<FCP_Pawnkind_Children_of_Atom_High_Confessor>1</FCP_Pawnkind_Children_of_Atom_High_Confessor>
+				</options>
+				<characterDefs>
+					<li>FCP_Character_CoA_Confessor_Cromwell</li>
+					<li>FCP_Character_CoA_Mother_Maya</li>
+				</characterDefs>
+				<characterChance>0.10</characterChance>
 			</li>
 
 			<!-- Radiant Merchant -->
@@ -162,6 +206,21 @@
 					<FCP_Pawnkind_Children_of_Atom_Worker>7</FCP_Pawnkind_Children_of_Atom_Worker>
 					<FCP_Pawnkind_Children_of_Atom_Glowing_Sentinel>3</FCP_Pawnkind_Children_of_Atom_Glowing_Sentinel>
 				</guards>
+				<characterDefs>
+					<li>FCP_Character_CoA_Brother_Kane</li>
+					<li>FCP_Character_CoA_Sister_Mai</li>
+				</characterDefs>
+				<characterTraderKinds>
+					<li>
+						<key>FCP_Character_CoA_Brother_Kane</key>
+						<value>FCP_Trader_CoA_Kane_Arms</value>
+					</li>
+					<li>
+						<key>FCP_Character_CoA_Sister_Mai</key>
+						<value>FCP_Trader_CoA_Mai_Goods</value>
+					</li>
+				</characterTraderKinds>
+				<characterChance>0.30</characterChance>
 			</li>
 
 			<!-- Confessor's Merchant -->
@@ -234,6 +293,31 @@
 						<disableApparelRequirements>true</disableApparelRequirements>
 					</li>
 				</roleOverrides>
+			</li>
+			<!-- Enlistment stuff -->
+			<li Class="FCP.Enlist.FactionEnlistOptions">
+				<enlistOptionsDefs>
+					<li>FCP_Enlistment_ChildrenOfAtom</li>
+				</enlistOptionsDefs>
+				<ignoreAutoAssignedDefs>true</ignoreAutoAssignedDefs>
+			</li>
+			<!-- Named settlement: the Nucleus, Tektus and Richter's stronghold -->
+			<li Class="FCP.Factions.FactionExtension_SettlementControl">
+				<namedSettlements>
+					<li>
+						<name>The Nucleus</name>
+						<traders>
+							<li>
+								<traderName>Kane's Arms</traderName>
+								<traderKind>FCP_Trader_CoA_Kane_Arms</traderKind>
+							</li>
+							<li>
+								<traderName>Sister Mai's Stores</traderName>
+								<traderKind>FCP_Trader_CoA_Mai_Goods</traderKind>
+							</li>
+						</traders>
+					</li>
+				</namedSettlements>
 			</li>
 		</modExtensions>
 	</FactionDef>

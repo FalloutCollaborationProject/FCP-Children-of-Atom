@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Radiation Weapons __________-->
+
+    <!-- Gamma Gun -->
+
+    <ThingDef ParentName="FCP_Machining_Gun_Base">
+        <defName>FCP_Gun_Gamma</defName>
+        <label>Gamma Gun</label>
+        <description>A pre-war sidearm repurposed by the Children of Atom, the gamma gun fires a bolt of concentrated radiation instead of conventional ammunition. The Division prizes it as a relic touched by Atom's own glow, and its wounds fester long after the shot lands.</description>
+        <graphicData>
+            <texPath>Weapons/Gamma_pistol</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>FCP_Sound_Interact_Plasma_Pistol</soundInteract>
+        <statBases>
+            <MarketValue>1200</MarketValue>
+            <Mass>3.6</Mass>
+            <AccuracyTouch>0.80</AccuracyTouch>
+            <AccuracyShort>0.75</AccuracyShort>
+            <AccuracyMedium>0.55</AccuracyMedium>
+            <AccuracyLong>0.45</AccuracyLong>
+            <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+        </statBases>
+        <thingSetMakerTags>
+            <li>RewardStandardLowFreq</li>
+            <li>RewardStandardQualitySuper</li>
+        </thingSetMakerTags>
+        <weaponTags>
+            <li>FCP_Energy_Weapon</li>
+            <li>FCP_Gamma_Gun</li>
+        </weaponTags>
+        <weaponClasses>
+            <li>RangedLight</li>
+        </weaponClasses>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>FCP_Bullet_Gamma</defaultProjectile>
+                <warmupTime>1.0</warmupTime>
+                <range>18.9</range>
+                <soundCast>FCP_Sound_Shot_Plasma_Pistol</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
+        <modExtensions>
+            <li Class="FCP.Core.DeathEffectModExtension">
+                <effectChance>0.10</effectChance>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+    <!-- Radium Rifle -->
+
+    <ThingDef ParentName="FCP_Machining_Gun_Base">
+        <defName>FCP_Gun_Radium_Rifle</defName>
+        <label>Radium Rifle</label>
+        <description>A lever-action rifle rebuilt around a radioactive core, the radium rifle is a favored weapon of the Children of Atom's faithful. Every round it fires carries Atom's glow to whoever stands in its path.</description>
+        <graphicData>
+            <texPath>Weapons/Radium_Rifle</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>FCP_Sound_Interact_Laser_Rifle</soundInteract>
+        <statBases>
+            <MarketValue>1200</MarketValue>
+            <Mass>3.6</Mass>
+            <AccuracyTouch>0.85</AccuracyTouch>
+            <AccuracyShort>0.80</AccuracyShort>
+            <AccuracyMedium>0.75</AccuracyMedium>
+            <AccuracyLong>0.70</AccuracyLong>
+            <RangedWeapon_Cooldown>0.88</RangedWeapon_Cooldown>
+        </statBases>
+        <thingSetMakerTags>
+            <li>RewardStandardLowFreq</li>
+            <li>RewardStandardQualitySuper</li>
+        </thingSetMakerTags>
+        <weaponTags>
+            <li>FCP_Energy_Weapon</li>
+            <li>FCP_Radium_Rifle</li>
+        </weaponTags>
+        <weaponClasses>
+            <li>RangedLight</li>
+        </weaponClasses>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>FCP_Bullet_Gamma_Heavy</defaultProjectile>
+                <warmupTime>1.0</warmupTime>
+                <range>25.9</range>
+                <soundCast>FCP_Sound_Shot_Laser_Rifle</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
+        <modExtensions>
+            <li Class="FCP.Core.DeathEffectModExtension">
+                <effectChance>0.25</effectChance>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+    <!-- Projectiles -->
+
+    <ThingDef ParentName="BaseBullet">
+        <defName>FCP_Bullet_Gamma</defName>
+        <label>gamma bolt</label>
+        <graphicData>
+            <texPath>Things/Projectile/FCP_Plasma</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile>
+            <damageDef>FCP_Damage_Plasma_Burn</damageDef>
+            <damageAmountBase>22</damageAmountBase>
+            <armorPenetrationBase>2.2</armorPenetrationBase>
+            <speed>50</speed>
+        </projectile>
+    </ThingDef>
+
+    <ThingDef ParentName="BaseBullet">
+        <defName>FCP_Bullet_Gamma_Heavy</defName>
+        <label>radium round</label>
+        <graphicData>
+            <texPath>Things/Projectile/FCP_Plasma_Heavy</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile>
+            <damageDef>FCP_Damage_Plasma_Burn</damageDef>
+            <damageAmountBase>30</damageAmountBase>
+            <armorPenetrationBase>3.0</armorPenetrationBase>
+            <speed>58</speed>
+        </projectile>
+    </ThingDef>
+
+</Defs>

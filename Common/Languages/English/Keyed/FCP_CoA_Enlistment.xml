@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!--__________ Enlistments with Factions Letter Text __________-->
+
+	<!--_____ Children of Atom _____-->
+
+	<!-- Enlistment Options -->
+
+	<FCP_CoA_Enlist_Letter_Title>You have joined the Children of Atom.</FCP_CoA_Enlist_Letter_Title>
+	<FCP_CoA_Enlist_Letter_Label>Child, you have taken your first step toward Division. The faithful welcome you, and Atom's glow will provide - wages, provisions, and shelter wherever the faithful gather.\n\n Walk in His light.</FCP_CoA_Enlist_Letter_Label>
+	<FCP_CoA_Enlist_Button_Label>Join the Children of Atom.</FCP_CoA_Enlist_Button_Label>
+	<FCP_CoA_Enlist_Button_Desc>Take your vows with the Children of Atom.</FCP_CoA_Enlist_Button_Desc>
+	<FCP_CoA_Enlist_Requrements_Not_Satisfied>You need to have minimum of 10 goodwill, currently you have only {0} goodwill.</FCP_CoA_Enlist_Requrements_Not_Satisfied>
+	<FCP_CoA_Enlisted_With_Key>Enlisted with: The Children of Atom</FCP_CoA_Enlisted_With_Key>
+
+	<!-- Mission Options -->
+
+	<FCP_CoA_Missions_Label>Tasks</FCP_CoA_Missions_Label>
+	<FCP_CoA_Missions_Desc>Task descriptions</FCP_CoA_Missions_Desc>
+	<FCP_CoA_Menu_Missions_Desc>A confessor asks whether the faithful might be willing to serve Atom's will.</FCP_CoA_Menu_Missions_Desc>
+	<FCP_CoA_Menu_Missions_Select_Quest>Select a Task: </FCP_CoA_Menu_Missions_Select_Quest>
+	<FCP_CoA_Menu_Missions_Start_Quest>Start Task ({0})</FCP_CoA_Menu_Missions_Start_Quest>
+	<FCP_CoA_Not_Enough_Money>Not enough caps</FCP_CoA_Not_Enough_Money>
+
+	<!-- Salary Options -->
+
+	<FCP_CoA_Salary_Label>Tithe</FCP_CoA_Salary_Label>
+	<FCP_CoA_Salary_Desc>You are entitled to collect your tithe from this faction every 14 days.</FCP_CoA_Salary_Desc>
+
+	<!-- Provision Options -->
+
+	<FCP_CoA_Provisions_Label>Provisions</FCP_CoA_Provisions_Label>
+	<FCP_CoA_Provisions_Desc>Provisions will arrive via your caravan inventory every 10 days:\n\n- Survival meals\n- Pemmican</FCP_CoA_Provisions_Desc>
+
+	<!-- Storage Options -->
+
+	<FCP_CoA_Storage_Label>Storage</FCP_CoA_Storage_Label>
+	<FCP_CoA_Storage_Desc>Store items from your caravan to your faction stash. Faction stashes transfer across all of the faction's shrines and will save contents even if you are no longer enlisted.</FCP_CoA_Storage_Desc>
+
+	<!-- Work Options -->
+
+	<FCP_CoA_Sermon_Duty_Label>Sermon Duty</FCP_CoA_Sermon_Duty_Label>
+	<FCP_CoA_Sermon_Duty_Desc>Preach Atom's word and gather tithes for $7 an hour.</FCP_CoA_Sermon_Duty_Desc>
+	<FCP_CoA_Ministration_Label>Ministration</FCP_CoA_Ministration_Label>
+	<FCP_CoA_Ministration_Desc>Receive the laying on of hands from the faithful. This service tends to all of your team with herbal medicine. Immunity gain is also increased while your team is under care.</FCP_CoA_Ministration_Desc>
+	<FCP_CoA_Devotion_Drills_Label>Devotion Drills</FCP_CoA_Devotion_Drills_Label>
+	<FCP_CoA_Devotion_Drills_Desc>Train alongside the faithful with hourly experience gain on the following skills:\n\n- Shooting, Melee, Intellectual\n\nHourly experience gain stops when this faction is resting at night.</FCP_CoA_Devotion_Drills_Desc>
+
+	<!-- Resign Options -->
+
+	<FCP_CoA_Resign_Menu_Text>You will resign from the Children of Atom effective immediately. (-25 in relations)</FCP_CoA_Resign_Menu_Text>
+	<FCP_CoA_Resign_Letter_Title>Resigned</FCP_CoA_Resign_Letter_Title>
+	<FCP_CoA_Resign_Letter_Label>Resign</FCP_CoA_Resign_Letter_Label>
+	<FCP_CoA_Resign_Button_Label>You have successfully resigned from the Children of Atom. (-25 relations)</FCP_CoA_Resign_Button_Label>
+	<FCP_CoA_Resign_Button_Desc>Leave this faction.</FCP_CoA_Resign_Button_Desc>
+	<FCP_CoA_Enlisted_To_Hostile_Faction>cannot join because you are enlisted with their enemy, {HOSTILEFACTION_name}</FCP_CoA_Enlisted_To_Hostile_Faction>
+
+	<!-- Kicked Out Options -->
+
+	<FCP_CoA_Kick_Out_Letter_Title>Kicked out</FCP_CoA_Kick_Out_Letter_Title>
+	<FCP_CoA_Kick_Out_Label_Title>The confessors have declared your vows broken. You have been let go from the {FACTION_name}.</FCP_CoA_Kick_Out_Label_Title>
+
+	<!-- Reinforcement Options -->
+
+	<FCP_CoA_Reinforcements_Button_Label>Reinforcements</FCP_CoA_Reinforcements_Button_Label>
+	<FCP_CoA_Reinforcements_Button_Desc>Call for reinforcements from your faction. Amount of the faithful they send depends on your current relations.</FCP_CoA_Reinforcements_Button_Desc>
+
+</LanguageData>

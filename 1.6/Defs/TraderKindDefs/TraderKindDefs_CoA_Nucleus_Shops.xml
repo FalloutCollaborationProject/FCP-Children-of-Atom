@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ The Nucleus Settlement Traders __________-->
+
+    <!-- Brother Kane's Arms -->
+
+    <TraderKindDef>
+        <defName>FCP_Trader_CoA_Kane_Arms</defName>
+        <label>Kane's Arms</label>
+        <stockGenerators>
+
+            <!-- Resources -->
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Silver</thingDef>
+                <countRange>800~1800</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Steel</thingDef>
+                <countRange>100~300</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>ComponentIndustrial</thingDef>
+                <countRange>10~30</countRange>
+            </li>
+
+            <!-- Radiation Weapons -->
+            <li Class="StockGenerator_MultiDef">
+                <thingDefs>
+                    <li>FCP_Gun_Gamma</li>
+                    <li>FCP_Gun_Radium_Rifle</li>
+                </thingDefs>
+            </li>
+
+            <!-- Zealot Armor -->
+            <li Class="StockGenerator_MultiDef">
+                <thingDefs>
+                    <li>FCP_Apparel_Zealot_Armor</li>
+                </thingDefs>
+            </li>
+
+            <!-- Ballistic Weapons -->
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.BallisticWeapons">
+                <thingDefs>
+                    <li>FCP_Gun_10mm_Pistol</li>
+                    <li>FCP_Gun_Chinese_Pistol</li>
+                    <li>FCP_Gun_SawnOff_Shotgun</li>
+                    <li>FCP_Gun_32_Hunting_Rifle</li>
+                </thingDefs>
+            </li>
+
+            <!-- Melee Weapons -->
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.MeleeWeapons">
+                <thingDefs>
+                    <li>FCP_Melee_Rebar_Club</li>
+                    <li>FCP_Melee_Sledgehammer</li>
+                    <li>FCP_Melee_Ripper</li>
+                </thingDefs>
+            </li>
+
+            <!-- Vanilla Weapons -->
+            <li Class="StockGenerator_MarketValue">
+                <tradeTag>WeaponRanged</tradeTag>
+                <countRange>2~4</countRange>
+            </li>
+            <li Class="StockGenerator_MarketValue">
+                <tradeTag>WeaponMelee</tradeTag>
+                <countRange>1~3</countRange>
+            </li>
+
+            <!-- Armor -->
+            <li Class="StockGenerator_Tag">
+                <tradeTag>Armor</tradeTag>
+                <thingDefCountRange>1~3</thingDefCountRange>
+                <countRange>1~2</countRange>
+            </li>
+
+            <!-- Buying -->
+            <li Class="StockGenerator_BuyExpensiveSimple" />
+            <li Class="StockGenerator_BuyTradeTag">
+                <tag>Armor</tag>
+            </li>
+
+        </stockGenerators>
+    </TraderKindDef>
+
+    <!-- Sister Mai's General Store -->
+
+    <TraderKindDef>
+        <defName>FCP_Trader_CoA_Mai_Goods</defName>
+        <label>Sister Mai's Stores</label>
+        <stockGenerators>
+
+            <!-- Resources -->
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Silver</thingDef>
+                <countRange>600~1400</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Cloth</thingDef>
+                <countRange>50~150</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>MedicineIndustrial</thingDef>
+                <countRange>5~15</countRange>
+            </li>
+
+            <!-- Food -->
+            <li Class="StockGenerator_Category">
+                <categoryDef>Foods</categoryDef>
+                <thingDefCountRange>2~4</thingDefCountRange>
+                <totalPriceRange>150~400</totalPriceRange>
+            </li>
+
+            <!-- Robes of Atom -->
+            <li Class="StockGenerator_MultiDef">
+                <thingDefs>
+                    <li>FCP_Apparel_Robes_of_Atom</li>
+                </thingDefs>
+            </li>
+
+            <!-- Apparel -->
+            <li Class="StockGenerator_MarketValue">
+                <tradeTag>BasicClothing</tradeTag>
+                <countRange>3~6</countRange>
+            </li>
+
+            <!-- Basic Medical Chems -->
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.Chems">
+                <thingDefs>
+                    <li>FCP_Chem_Stimpak</li>
+                    <li>FCP_Chem_RadX</li>
+                    <li>FCP_Chem_Radaway</li>
+                </thingDefs>
+            </li>
+
+            <!-- Buying -->
+            <li Class="StockGenerator_BuyExpensiveSimple" />
+            <li Class="StockGenerator_Category">
+                <categoryDef>Manufactured</categoryDef>
+            </li>
+            <li Class="StockGenerator_Category">
+                <categoryDef>ResourcesRaw</categoryDef>
+            </li>
+
+        </stockGenerators>
+    </TraderKindDef>
+
+</Defs>

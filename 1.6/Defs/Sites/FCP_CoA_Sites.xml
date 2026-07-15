@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- Site: Heretics at the Vigil -->
+
+    <SitePartDef>
+        <defName>FCP_Site_CoA_Heretic_Vigil</defName>
+        <label>defiled vigil</label>
+        <description>Heretics occupying a glow vigil sacred to the Division.</description>
+        <workerClass>SitePartWorker_Outpost</workerClass>
+        <siteTexture>World/WorldObjects/DefaultSettlement</siteTexture>
+        <expandingIconTexture>MapIcons/Sites/FCP_Old_North_Church_Site</expandingIconTexture>
+        <forceExitAndRemoveMapCountdownDurationDays>6</forceExitAndRemoveMapCountdownDurationDays>
+        <requiresFaction>true</requiresFaction>
+        <wantsThreatPoints>true</wantsThreatPoints>
+        <tags>
+            <li>FCP_Site_CoA_Heretic_Vigil</li>
+        </tags>
+    </SitePartDef>
+
+    <GenStepDef>
+        <defName>FCP_Site_CoA_Heretic_Vigil_Outpost</defName>
+        <linkWithSite>FCP_Site_CoA_Heretic_Vigil</linkWithSite>
+        <order>450</order>
+        <genStep Class="GenStep_Outpost"/>
+    </GenStepDef>
+
+    <GenStepDef>
+        <defName>FCP_Site_CoA_Heretic_Vigil_Power</defName>
+        <linkWithSite>FCP_Site_CoA_Heretic_Vigil</linkWithSite>
+        <order>451</order>
+        <genStep Class="GenStep_Power"/>
+    </GenStepDef>
+
+    <!-- Site: The Glowing Relic -->
+
+    <SitePartDef>
+        <defName>FCP_Site_CoA_Glowing_Relic</defName>
+        <label>hostile camp</label>
+        <description>Hostiles holding a pre-war relic soaked in Atom's glow.</description>
+        <workerClass>SitePartWorker_Outpost</workerClass>
+        <siteTexture>World/WorldObjects/DefaultSettlement</siteTexture>
+        <expandingIconTexture>MapIcons/Sites/FCP_Radioactive_Site</expandingIconTexture>
+        <forceExitAndRemoveMapCountdownDurationDays>6</forceExitAndRemoveMapCountdownDurationDays>
+        <requiresFaction>true</requiresFaction>
+        <wantsThreatPoints>true</wantsThreatPoints>
+        <tags>
+            <li>FCP_Site_CoA_Glowing_Relic</li>
+        </tags>
+    </SitePartDef>
+
+    <GenStepDef>
+        <defName>FCP_Site_CoA_Glowing_Relic_Outpost</defName>
+        <linkWithSite>FCP_Site_CoA_Glowing_Relic</linkWithSite>
+        <order>450</order>
+        <genStep Class="GenStep_Outpost"/>
+    </GenStepDef>
+
+    <GenStepDef>
+        <defName>FCP_Site_CoA_Glowing_Relic_Power</defName>
+        <linkWithSite>FCP_Site_CoA_Glowing_Relic</linkWithSite>
+        <order>451</order>
+        <genStep Class="GenStep_Power"/>
+    </GenStepDef>
+
+</Defs>

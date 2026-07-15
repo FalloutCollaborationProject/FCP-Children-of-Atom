@@ -48,6 +48,7 @@
 			<tags>
 				<li>FCP_Children_of_Atom_Worker</li>
 				<li>FCP_Children_of_Atom_Combat</li>
+				<li>FCP_Children_of_Atom_Leader</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Worker</li>
@@ -95,7 +96,6 @@
 			</layers>
 			<tags>
 				<li>FCP_Children_of_Atom_Combat</li>
-				<li>FCP_Children_of_Atom_Leader</li>
 			</tags>
 			<canBeDesiredForIdeo>true</canBeDesiredForIdeo>
 		</apparel>

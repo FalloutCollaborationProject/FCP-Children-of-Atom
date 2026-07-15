@@ -3,7 +3,7 @@
 
 	<!--__________ Children of Atom Traits __________-->
 
-	<!-- Zealot of Atom - militant, fanatical wing -->
+	<!-- Zealot of Atom -->
 
 	<TraitDef>
 		<defName>FCP_Trait_ZealotOfAtom</defName>
@@ -26,7 +26,7 @@
 		</conflictingTraits>
 	</TraitDef>
 
-	<!-- Congregant of Atom - pragmatic, studious wing -->
+	<!-- Congregant of Atom -->
 
 	<TraitDef>
 		<defName>FCP_Trait_CongregantOfAtom</defName>
