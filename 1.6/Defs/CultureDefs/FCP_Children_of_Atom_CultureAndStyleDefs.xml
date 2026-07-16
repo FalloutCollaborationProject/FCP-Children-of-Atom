@@ -19,7 +19,6 @@
 		<leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">FCP_LeaderTitleMaker_Children_of_Atom</leaderTitleMaker>
 		<festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalGlobal</festivalNameMaker>
 		<allowedPlaceTags>
-			<li>OriginOutlander</li>
 			<li>OriginTribal</li>
 		</allowedPlaceTags>
 		<iconPath>World_Icon/Children_of_Atom_Icon/FCP_Children_of_Atom_World_Icon</iconPath>

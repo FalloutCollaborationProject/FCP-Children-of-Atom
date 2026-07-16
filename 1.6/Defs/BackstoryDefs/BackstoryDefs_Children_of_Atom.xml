@@ -1332,6 +1332,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_CoA_Born_in_Glow</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Backstory_CoA_Born_in_Glow</identifier>
         <slot>Childhood</slot>
         <title>Born in the Glow</title>
@@ -1356,6 +1358,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_CoA_Crater_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Backstory_CoA_Crater_Child</identifier>
         <slot>Childhood</slot>
         <title>Crater Child</title>
@@ -1377,6 +1381,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_CoA_Temple_Youth</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Backstory_CoA_Temple_Youth</identifier>
         <slot>Childhood</slot>
         <title>Temple Youth</title>
@@ -1398,6 +1404,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_CoA_Converts_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Backstory_CoA_Converts_Child</identifier>
         <slot>Childhood</slot>
         <title>Convert's Child</title>
@@ -1419,6 +1427,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_CoA_Pilgrim_Youth</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Backstory_CoA_Pilgrim_Youth</identifier>
         <slot>Childhood</slot>
         <title>Pilgrim Youth</title>
@@ -1440,6 +1450,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_CoA_Scavenger_Youth</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Backstory_CoA_Scavenger_Youth</identifier>
         <slot>Childhood</slot>
         <title>Scavenger Youth</title>
@@ -1465,6 +1477,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_CoA_Altar_Server</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Backstory_CoA_Altar_Server</identifier>
         <slot>Childhood</slot>
         <title>Altar Server</title>
@@ -1486,6 +1500,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_CoA_Ghoul_Apprentice</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Backstory_CoA_Ghoul_Apprentice</identifier>
         <slot>Childhood</slot>
         <title>Ghoul's Apprentice</title>
@@ -1510,6 +1526,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_CoA_Blessed_Gardener</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Backstory_CoA_Blessed_Gardener</identifier>
         <slot>Childhood</slot>
         <title>Blessed Gardener</title>
@@ -1535,6 +1553,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_CoA_Missionary_Helper</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Backstory_CoA_Missionary_Helper</identifier>
         <slot>Childhood</slot>
         <title>Missionary's Helper</title>
@@ -1556,6 +1576,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_CoA_Reactor_Shadow</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Backstory_CoA_Reactor_Shadow</identifier>
         <slot>Childhood</slot>
         <title>Reactor's Shadow</title>
@@ -1580,6 +1602,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_CoA_Hunter_Youth</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Backstory_CoA_Hunter_Youth</identifier>
         <slot>Childhood</slot>
         <title>Hunter of the Wastes</title>
@@ -1604,6 +1628,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_CoA_Scholar_Pupil</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Backstory_CoA_Scholar_Pupil</identifier>
         <slot>Childhood</slot>
         <title>Scholar's Pupil</title>
@@ -1627,6 +1653,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_CoA_Shrine_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Backstory_CoA_Shrine_Child</identifier>
         <slot>Childhood</slot>
         <title>Shrine Keeper's Child</title>
@@ -1648,6 +1676,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_CoA_Radiation_Resistant</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Backstory_CoA_Radiation_Resistant</identifier>
         <slot>Childhood</slot>
         <title>Radiation Resistant</title>
@@ -1673,6 +1703,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_CoA_Zealot_Offspring</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Backstory_CoA_Zealot_Offspring</identifier>
         <slot>Childhood</slot>
         <title>Zealot's Offspring</title>
@@ -1697,6 +1729,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_CoA_Cook_Assistant</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Backstory_CoA_Cook_Assistant</identifier>
         <slot>Childhood</slot>
         <title>Cook's Assistant</title>
@@ -1721,6 +1755,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_CoA_Relic_Finder</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Backstory_CoA_Relic_Finder</identifier>
         <slot>Childhood</slot>
         <title>Relic Finder</title>
@@ -1745,6 +1781,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_CoA_Healer_Apprentice</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Backstory_CoA_Healer_Apprentice</identifier>
         <slot>Childhood</slot>
         <title>Healer's Apprentice</title>
@@ -1769,6 +1807,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_CoA_Builder_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Backstory_CoA_Builder_Child</identifier>
         <slot>Childhood</slot>
         <title>Builder's Child</title>
@@ -1790,6 +1830,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_CoA_Choir_Singer</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Backstory_CoA_Choir_Singer</identifier>
         <slot>Childhood</slot>
         <title>Choir Singer</title>
@@ -1814,6 +1856,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_CoA_Storyteller_Listener</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Backstory_CoA_Storyteller_Listener</identifier>
         <slot>Childhood</slot>
         <title>Storyteller's Listener</title>
@@ -1835,6 +1879,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_CoA_Merchant_Aide</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Backstory_CoA_Merchant_Aide</identifier>
         <slot>Childhood</slot>
         <title>Merchant's Aide</title>
@@ -1856,6 +1902,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_CoA_Tinkerer_Shadow</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Backstory_CoA_Tinkerer_Shadow</identifier>
         <slot>Childhood</slot>
         <title>Tinkerer's Shadow</title>
@@ -1877,6 +1925,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_CoA_Guard_Student</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Backstory_CoA_Guard_Student</identifier>
         <slot>Childhood</slot>
         <title>Guard's Student</title>
@@ -1899,6 +1949,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_CoA_Wasteland_Wanderer</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Backstory_CoA_Wasteland_Wanderer</identifier>
         <slot>Childhood</slot>
         <title>Wasteland Wanderer</title>
@@ -1921,6 +1973,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_CoA_Blessed_Outcast</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Backstory_CoA_Blessed_Outcast</identifier>
         <slot>Childhood</slot>
         <title>Blessed Outcast</title>
@@ -1946,6 +2000,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_CoA_Confessor_Attendant</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Backstory_CoA_Confessor_Attendant</identifier>
         <slot>Childhood</slot>
         <title>Confessor's Attendant</title>
@@ -1967,6 +2023,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_CoA_Artist_Helper</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Backstory_CoA_Artist_Helper</identifier>
         <slot>Childhood</slot>
         <title>Artist's Helper</title>
@@ -1990,6 +2048,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_CoA_Chronicler_Page</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Backstory_CoA_Chronicler_Page</identifier>
         <slot>Childhood</slot>
         <title>Chronicler's Page</title>
@@ -2191,6 +2251,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_CF_Scholar_Training</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Backstory_CF_Scholar_Training</identifier>
         <slot>Childhood</slot>
         <title>Scholar-in-Training</title>
@@ -2211,6 +2273,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_CF_Tech_Apprentice</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Backstory_CF_Tech_Apprentice</identifier>
         <slot>Childhood</slot>
         <title>Technician's Apprentice</title>
@@ -2232,6 +2296,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_CF_Guard_Trainee</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Backstory_CF_Guard_Trainee</identifier>
         <slot>Childhood</slot>
         <title>Guard's Trainee</title>
@@ -2253,6 +2319,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_CF_Trader_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Backstory_CF_Trader_Child</identifier>
         <slot>Childhood</slot>
         <title>Trader's Child</title>
@@ -2274,6 +2342,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_CF_Refuge_Seeker</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Backstory_CF_Refuge_Seeker</identifier>
         <slot>Childhood</slot>
         <title>Refuge Seeker</title>
@@ -2295,6 +2365,8 @@
     
     <BackstoryDef>
         <defName>FCP_Backstory_CF_Equipment_Handler</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <identifier>FCP_Backstory_CF_Equipment_Handler</identifier>
         <slot>Childhood</slot>
         <title>Equipment Handler</title>

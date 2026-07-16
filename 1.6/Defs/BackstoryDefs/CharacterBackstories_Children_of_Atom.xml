@@ -5,6 +5,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_CoA_Confessor_Cromwell_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>wasteland wanderer</title>
         <titleShort>wanderer</titleShort>
         <baseDesc>[PAWN_nameDef] wandered the ruins of the Capital Wasteland as a child, drawn again and again to the glow of shattered reactors others feared to approach.</baseDesc>
@@ -20,6 +22,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_CoA_Confessor_Cromwell_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>prophet of Atom</title>
         <titleShort>confessor</titleShort>
         <baseDesc>[PAWN_nameDef] leads the Church of Atom, husband to Mother Maya and father to a faith that spans the wasteland. [PAWN_pronoun] sent Confessors north to spread Atom's word long before the Nucleus ever rose.</baseDesc>
@@ -38,6 +42,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_CoA_Mother_Maya_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>scavenger's daughter</title>
         <titleShort>scavenger kid</titleShort>
         <baseDesc>[PAWN_nameDef] grew up among wasteland scavengers who taught her that the ruins reward only the faithful and the careful.</baseDesc>
@@ -53,6 +59,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_CoA_Mother_Maya_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>mother of the church</title>
         <titleShort>mother</titleShort>
         <baseDesc>[PAWN_nameDef] stands as Cromwell's counterpart in the Church of Atom, keeping the Megaton congregation devoted while [PAWN_possessive] husband preaches.</baseDesc>
@@ -70,6 +78,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_CoA_High_Confessor_Tektus_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Capital Wasteland orphan</title>
         <titleShort>orphan</titleShort>
         <baseDesc>[PAWN_nameDef] was taken in by the Church of Atom as an orphan, fascinated from the start by the glow the other children feared.</baseDesc>
@@ -85,6 +95,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_CoA_High_Confessor_Tektus_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>High Confessor of the Nucleus</title>
         <titleShort>high confessor</titleShort>
         <baseDesc>[PAWN_nameDef] was sent from Megaton to found a new congregation on the coast. [PAWN_pronoun] seized an old nuclear submarine, declared it the Nucleus, and now rules its faithful through fervor and fear of heresy.</baseDesc>
@@ -103,6 +115,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_CoA_Grand_Zealot_Richter_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>raider territory survivor</title>
         <titleShort>survivor</titleShort>
         <baseDesc>[PAWN_nameDef] fought for scraps in raider territory before the Children of Atom took him in and gave him a purpose worth fighting for.</baseDesc>
@@ -118,6 +132,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_CoA_Grand_Zealot_Richter_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Grand Zealot</title>
         <titleShort>grand zealot</titleShort>
         <baseDesc>[PAWN_nameDef] commands the Nucleus's Zealots, Atom's enforcers against heretics and unbelievers alike. [PAWN_pronoun] questions the High Confessor's paranoia in private, but never in front of the faithful.</baseDesc>
@@ -136,6 +152,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_CoA_Sister_Gwyneth_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>born to the faith</title>
         <titleShort>faith-born</titleShort>
         <baseDesc>[PAWN_nameDef] was born into the Children of Atom and recited Atom's teachings before she could walk.</baseDesc>
@@ -151,6 +169,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_CoA_Sister_Gwyneth_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>the heretic</title>
         <titleShort>heretic</titleShort>
         <baseDesc>[PAWN_nameDef] grew disillusioned with the High Confessor's rule and turned against the Nucleus. Her former family now hunts her as a heretic.</baseDesc>
@@ -168,6 +188,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_CoA_Brother_Devin_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>fisherman's son</title>
         <titleShort>fisherman's boy</titleShort>
         <baseDesc>[PAWN_nameDef] grew up on the coast, son of a fisherman who lost everything to the Fog that rolled in off the water.</baseDesc>
@@ -183,6 +205,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_CoA_Brother_Devin_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>tested brother</title>
         <titleShort>brother</titleShort>
         <baseDesc>[PAWN_nameDef] found purpose in Atom's teachings after the Fog took his family, though his devotion has been tried more harshly than most of the faithful's.</baseDesc>
@@ -200,6 +224,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_CoA_Sister_Aubert_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>salvager's apprentice</title>
         <titleShort>apprentice</titleShort>
         <baseDesc>[PAWN_nameDef] spent her childhood tinkering with pre-war machinery salvaged along the coast, always curious how the old world's engines worked.</baseDesc>
@@ -215,6 +241,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_CoA_Sister_Aubert_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>reactor keeper</title>
         <titleShort>reactor keeper</titleShort>
         <baseDesc>[PAWN_nameDef] maintains the Nucleus's aging reactor, chasing the High Confessor's dream of one day arming the submarine's dormant warheads in Atom's name.</baseDesc>
@@ -232,6 +260,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_CoA_Zealot_Ware_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Nucleus deckhand</title>
         <titleShort>deckhand</titleShort>
         <baseDesc>[PAWN_nameDef] was raised in the Nucleus's lower decks, taught every corridor of the old submarine before he was taught to read.</baseDesc>
@@ -247,6 +277,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_CoA_Zealot_Ware_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Zealot</title>
         <titleShort>zealot</titleShort>
         <baseDesc>[PAWN_nameDef] serves as a Zealot of the Nucleus, entrusted with guiding new converts through the faith's holy sites and trials.</baseDesc>
@@ -264,6 +296,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_CoA_Zealot_Theil_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>scripture-taught</title>
         <titleShort>devotee</titleShort>
         <baseDesc>[PAWN_nameDef] memorized Atom's scripture before he learned to read anything else, raised from birth on the Nucleus's teachings.</baseDesc>
@@ -279,6 +313,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_CoA_Zealot_Theil_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>Zealot</title>
         <titleShort>zealot</titleShort>
         <baseDesc>[PAWN_nameDef] instructs new arrivals in the Nucleus's structure, and hunts down whoever Atom's Confessors have marked as heretics.</baseDesc>
@@ -297,6 +333,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_CoA_Brother_Kane_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>gunsmith's apprentice</title>
         <titleShort>apprentice</titleShort>
         <baseDesc>[PAWN_nameDef] apprenticed to a wasteland gunsmith before the Children of Atom found him and gave his skill a higher purpose.</baseDesc>
@@ -312,6 +350,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_CoA_Brother_Kane_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>arms keeper</title>
         <titleShort>armorer</titleShort>
         <baseDesc>[PAWN_nameDef] keeps the Nucleus armed against heretics, cannibals, and the creatures that stalk the Fog, trading blessed weapons to the faithful.</baseDesc>
@@ -330,6 +370,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_CoA_Sister_Mai_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>coast road trader's kid</title>
         <titleShort>trader's kid</titleShort>
         <baseDesc>[PAWN_nameDef] traded scavenged goods along the coast roads as a girl, learning the value of everything the wasteland offered.</baseDesc>
@@ -345,6 +387,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_CoA_Sister_Mai_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>keeper of stores</title>
         <titleShort>storekeeper</titleShort>
         <baseDesc>[PAWN_nameDef] runs the Nucleus's stores, trading what the faithful need for what the wasteland offers in return.</baseDesc>
@@ -362,6 +406,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_CoA_Brother_Alders_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>quiet convert</title>
         <titleShort>convert</titleShort>
         <baseDesc>[PAWN_nameDef] was a quiet, devoted convert to Atom's faith who never once questioned the Confessors' word.</baseDesc>
@@ -377,6 +423,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_CoA_Brother_Alders_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>the suspected</title>
         <titleShort>suspected</titleShort>
         <baseDesc>[PAWN_nameDef] fell under the High Confessor's suspicion despite a lifetime of devotion, and was made to prove a loyalty he never doubted.</baseDesc>
@@ -394,6 +442,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_CoA_Sister_Harper_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>hard lesson learned</title>
         <titleShort>survivor</titleShort>
         <baseDesc>[PAWN_nameDef] learned early that hesitation gets you killed in the wasteland, a lesson she never once forgot.</baseDesc>
@@ -409,6 +459,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_CoA_Sister_Harper_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>the proven</title>
         <titleShort>proven</titleShort>
         <baseDesc>[PAWN_nameDef] proved her devotion to the High Confessor in blood, and nothing Atom asks of her gives her pause anymore.</baseDesc>
@@ -426,6 +478,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_CoA_The_Archemist_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>chemist's understudy</title>
         <titleShort>understudy</titleShort>
         <baseDesc>[PAWN_nameDef] apprenticed under a pre-war chemist's salvaged notes, piecing together medicine from what little the wasteland left behind.</baseDesc>
@@ -441,6 +495,8 @@
 
     <BackstoryDef>
         <defName>FCP_Backstory_CoA_The_Archemist_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
         <title>the Archemist</title>
         <titleShort>archemist</titleShort>
         <baseDesc>[PAWN_nameDef] serves as the Nucleus's doctor, tending Atom's faithful with whatever medicine the wasteland allows.</baseDesc>
