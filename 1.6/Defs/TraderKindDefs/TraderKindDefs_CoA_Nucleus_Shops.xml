@@ -58,6 +58,20 @@
                 </thingDefs>
             </li>
 
+            <!-- Pre-War Relic Ordnance (rare) -->
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.ExplosiveWeapons">
+                <thingDef>FCP_Gun_25MM_Grenade_Launcher</thingDef>
+                <countRange>0~1</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.ExplosiveWeapons">
+                <thingDef>FCP_Gun_Missile_Launcher</thingDef>
+                <countRange>0~1</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.ExplosiveWeapons">
+                <thingDef>FCP_Gun_Fatman</thingDef>
+                <countRange>0~1</countRange>
+            </li>
+
             <!-- Vanilla Weapons -->
             <li Class="StockGenerator_MarketValue">
                 <tradeTag>WeaponRanged</tradeTag>
