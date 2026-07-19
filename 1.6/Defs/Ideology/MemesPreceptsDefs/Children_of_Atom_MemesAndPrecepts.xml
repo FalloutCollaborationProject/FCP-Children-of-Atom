@@ -17,6 +17,8 @@
         <randomizationSelectionWeightFactor>0</randomizationSelectionWeightFactor>
         <hiddenInChooseMemes>true</hiddenInChooseMemes>
         <deityCount>1</deityCount>
+        <deityNameMakerOverride>FCP_NamerDeity_Atom</deityNameMakerOverride>
+        <deityTypeMakerOverride>FCP_DeityTypeMaker_Atom</deityTypeMakerOverride>
         <generalRules>
             <rulesStrings>
                 <li>memeCreed->congregation</li>

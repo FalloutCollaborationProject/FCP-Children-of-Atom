@@ -126,9 +126,14 @@
 
 	<RulePackDef>
 		<defName>FCP_NamerDeity_Atom</defName>
+		<include>
+			<li>GlobalUtility</li>
+		</include>
 		<rulePack>
 			<rulesStrings>
-				<li>r_deityName->Atom</li>
+				<li>r_deityName(p=10)->Atom</li>
+				<li>r_deityName->The Atom</li>
+				<li>r_deityName->Atom Everlasting</li>
 			</rulesStrings>
 		</rulePack>
 	</RulePackDef>
