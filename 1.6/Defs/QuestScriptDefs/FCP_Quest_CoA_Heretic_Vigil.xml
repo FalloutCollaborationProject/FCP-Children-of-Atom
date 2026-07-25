@@ -19,10 +19,11 @@
         </questNameRules>
         <questDescriptionRules>
             <rulesStrings>
-                <li>questDescription->The faithful are holding a glow vigil, and word is heretics mean to defile it before it's done. [asker_nameFull] wants the faithful protected until the ceremony ends.</li>
-                <li>questDescription->[asker_nameFull]: "A vigil is underway and there are those who'd see it defiled. The faithful cannot defend themselves and pray. See that no harm comes to them."</li>
-                <li>questDescription->Word has reached [asker_nameFull] of heretics moving against a glow vigil already in progress. The Division asks the faithful be guarded until Atom's rite is complete.</li>
-                <li>questDescription->[asker_nameFull] fears the vigil will be interrupted by unworthy hands. Protect the faithful until the ceremony sees them through.</li>
+                <li>requirements->Requirements: keep at least one member of the faithful alive until the vigil ends. If they're all killed, the vigil is defiled.</li>
+                <li>questDescription->The faithful are holding a glow vigil, and word is heretics mean to defile it before it's done. [asker_nameFull] wants the faithful protected until the ceremony ends.\n\n[requirements]</li>
+                <li>questDescription->[asker_nameFull]: "A vigil is underway and there are those who'd see it defiled. The faithful cannot defend themselves and pray. See that no harm comes to them."\n\n[requirements]</li>
+                <li>questDescription->Word has reached [asker_nameFull] of heretics moving against a glow vigil already in progress. The Division asks the faithful be guarded until Atom's rite is complete.\n\n[requirements]</li>
+                <li>questDescription->[asker_nameFull] fears the vigil will be interrupted by unworthy hands. Protect the faithful until the ceremony sees them through.\n\n[requirements]</li>
             </rulesStrings>
         </questDescriptionRules>
         <root Class="QuestNode_Sequence">

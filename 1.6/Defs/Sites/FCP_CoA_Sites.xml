@@ -63,4 +63,35 @@
         <genStep Class="GenStep_Power"/>
     </GenStepDef>
 
+    <!-- Site: Apostate Cell -->
+
+    <SitePartDef>
+        <defName>FCP_Site_CoA_Apostate_Cell</defName>
+        <label>apostate cell</label>
+        <description>A cell of apostates twisting Atom's word.</description>
+        <workerClass>SitePartWorker_Outpost</workerClass>
+        <siteTexture>World/WorldObjects/DefaultSettlement</siteTexture>
+        <expandingIconTexture>MapIcons/Sites/FCP_Generic_Quest_Site</expandingIconTexture>
+        <forceExitAndRemoveMapCountdownDurationDays>6</forceExitAndRemoveMapCountdownDurationDays>
+        <requiresFaction>true</requiresFaction>
+        <wantsThreatPoints>true</wantsThreatPoints>
+        <tags>
+            <li>FCP_Site_CoA_Apostate_Cell</li>
+        </tags>
+    </SitePartDef>
+
+    <GenStepDef>
+        <defName>FCP_Site_CoA_Apostate_Cell_Outpost</defName>
+        <linkWithSite>FCP_Site_CoA_Apostate_Cell</linkWithSite>
+        <order>450</order>
+        <genStep Class="GenStep_Outpost"/>
+    </GenStepDef>
+
+    <GenStepDef>
+        <defName>FCP_Site_CoA_Apostate_Cell_Power</defName>
+        <linkWithSite>FCP_Site_CoA_Apostate_Cell</linkWithSite>
+        <order>451</order>
+        <genStep Class="GenStep_Power"/>
+    </GenStepDef>
+
 </Defs>

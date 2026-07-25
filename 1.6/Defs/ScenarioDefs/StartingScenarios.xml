@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ScenarioDef ParentName="ScenarioBase">
+        <defName>FCP_Scenario_ChildrenOfAtom_Pilgrimage</defName>
+        <label>Atom's Pilgrimage</label>
+        <description>Atom does not create, Atom does not destroy - Atom transforms. Your small congregation has left the glow of the old grounds to carry that truth somewhere new, trusting the divergence to guide their steps.</description>
+        <scenario>
+            <summary>A handful of the Children of Atom carry their faith to a new stretch of wasteland.</summary>
+            <parts>
+
+                <li Class="ScenPart_ConfigPage_ConfigureStartingPawns_KindDefs">
+                    <def>ConfigurePawnsKindDefs</def>
+                    <pawnChoiceCount>8</pawnChoiceCount>
+                    <leftBehindPawnKind>FCP_Pawnkind_Children_of_Atom_Worker</leftBehindPawnKind>
+                    <kindCounts>
+                        <li>
+                            <kindDef>FCP_Pawnkind_Confessors_Flock_Technician</kindDef>
+                            <count>1</count>
+                            <requiredAtStart>true</requiredAtStart>
+                        </li>
+                        <li>
+                            <kindDef>FCP_Pawnkind_Children_of_Atom_Worker</kindDef>
+                            <count>3</count>
+                            <requiredAtStart>false</requiredAtStart>
+                        </li>
+                        <li>
+                            <kindDef>FCP_Pawnkind_Confessors_Flock_Sentinel</kindDef>
+                            <count>1</count>
+                            <requiredAtStart>false</requiredAtStart>
+                        </li>
+                    </kindCounts>
+                </li>
+
+                <li Class="ScenPart_PlayerPawnsArriveMethod">
+                    <def>PlayerPawnsArriveMethod</def>
+                    <method>DropPods</method>
+                    <visible>false</visible>
+                </li>
+
+                <li Class="FCP.Enlist.ScenPart_StartEnlisted">
+                    <def>FCP_StartEnlisted</def>
+                    <factionDef>FCP_Faction_Children_of_Atom</factionDef>
+                    <enlistOptionsDef>FCP_Enlistment_ChildrenOfAtom</enlistOptionsDef>
+                </li>
+
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>FCP_Currency_Caps</thingDef>
+                    <count>60</count>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>FCP_Apparel_Robes_of_Atom</thingDef>
+                    <count>5</count>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>FCP_Gun_Gamma</thingDef>
+                    <count>5</count>
+                </li>
+
+                <li Class="ScenPart_GameStartDialog">
+                    <def>GameStartDialog</def>
+                    <text>It is the year [FCP_Year]. The Confessor spoke of a divergence beyond the old grounds, a place Atom's glow had not yet touched. Your congregation walked until the geiger clicks fell quiet and made camp there, certain the walk itself was the point.\n\nAtom does not abandon the faithful. Whatever becomes of this place, it will be a testament.</text>
+                </li>
+
+            </parts>
+        </scenario>
+    </ScenarioDef>
+
+</Defs>
