@@ -302,11 +302,16 @@
 				</enlistOptionsDefs>
 				<ignoreAutoAssignedDefs>true</ignoreAutoAssignedDefs>
 			</li>
-			<!-- Named settlement: the Nucleus, Tektus and Richter's stronghold -->
+			<!-- Named settlements: the Nucleus (Far Harbor) and the Crater of Atom (Commonwealth) -->
 			<li Class="FCP.Factions.FactionExtension_SettlementControl">
+				<maxSettlements>2</maxSettlements>
 				<namedSettlements>
 					<li>
 						<name>The Nucleus</name>
+						<guaranteedCharacters>
+							<li>FCP_Character_CoA_High_Confessor_Tektus</li>
+							<li>FCP_Character_CoA_Grand_Zealot_Richter</li>
+						</guaranteedCharacters>
 						<traders>
 							<li>
 								<traderName>Kane's Arms</traderName>
@@ -315,6 +320,23 @@
 							<li>
 								<traderName>Sister Mai's Stores</traderName>
 								<traderKind>FCP_Trader_CoA_Mai_Goods</traderKind>
+							</li>
+						</traders>
+					</li>
+					<li>
+						<name>Crater of Atom</name>
+						<guaranteedCharacters>
+							<li>FCP_Character_CoA_Sister_Gwyneth</li>
+							<li>FCP_Character_CoA_The_Archemist</li>
+						</guaranteedCharacters>
+						<traders>
+							<li>
+								<traderName>Gwyneth's Shrine</traderName>
+								<traderKind>FCP_Trader_CoA_Gwyneth_Shrine</traderKind>
+							</li>
+							<li>
+								<traderName>Archemist's Cache</traderName>
+								<traderKind>FCP_Trader_CoA_Archemist_Cache</traderKind>
 							</li>
 						</traders>
 					</li>

@@ -75,6 +75,7 @@
 		</graphicData>
 		<techLevel>Industrial</techLevel>
 		<smeltable>false</smeltable>
+		<generateAllowChance>0</generateAllowChance>
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
 			<Mass>5.5</Mass>

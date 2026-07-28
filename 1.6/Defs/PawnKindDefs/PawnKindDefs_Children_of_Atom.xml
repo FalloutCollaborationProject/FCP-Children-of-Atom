@@ -64,6 +64,9 @@
         <combatPower>110</combatPower>
         <gearHealthRange>0.7~0.9</gearHealthRange>
         <apparelMoney>500~700</apparelMoney>
+        <apparelRequired>
+            <li>FCP_Apparel_Zealot_Armor</li>
+        </apparelRequired>
         <apparelTags>
             <li>FCP_Children_of_Atom_Combat</li>
         </apparelTags>
