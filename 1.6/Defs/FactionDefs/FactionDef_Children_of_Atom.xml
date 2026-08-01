@@ -302,7 +302,7 @@
 				</enlistOptionsDefs>
 				<ignoreAutoAssignedDefs>true</ignoreAutoAssignedDefs>
 			</li>
-			<!-- Named settlements: the Nucleus (Far Harbor), the Crater of Atom, Kingsport Lighthouse, and Jalbert Brothers Disposal (Commonwealth) -->
+			<!-- Named settlements -->
 			<li Class="FCP.Factions.FactionExtension_SettlementControl">
 				<maxSettlements>4</maxSettlements>
 				<namedSettlements>
