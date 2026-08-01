@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Jalbert Brothers Disposal Settlement Traders __________-->
+
+    <!-- Brother Edmund's Cache -->
+
+    <TraderKindDef>
+        <defName>FCP_Trader_CoA_Edmund_Cache</defName>
+        <label>Brother Edmund's Cache</label>
+        <stockGenerators>
+
+            <!-- Resources (a scrapyard shrine, picked clean and rebuilt) -->
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Silver</thingDef>
+                <countRange>500~1100</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Steel</thingDef>
+                <countRange>100~250</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>ComponentIndustrial</thingDef>
+                <countRange>8~20</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Uranium</thingDef>
+                <countRange>10~25</countRange>
+            </li>
+
+            <!-- Salvaged Pre-War Ordnance (echoes of the disposal site's buried mini nuke) -->
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.ExplosiveWeapons">
+                <thingDef>FCP_Gun_25MM_Grenade_Launcher</thingDef>
+                <countRange>0~1</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.ExplosiveWeapons">
+                <thingDef>FCP_Gun_Missile_Launcher</thingDef>
+                <countRange>0~1</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef" MayRequire="Rick.FCP.ExplosiveWeapons">
+                <thingDef>FCP_Gun_Fatman</thingDef>
+                <countRange>0~1</countRange>
+            </li>
+
+            <!-- Robes of Atom (Edmund's pilgrims built their shrine here) -->
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_Robes_of_Atom</thingDef>
+                <countRange>1~3</countRange>
+            </li>
+
+            <!-- Melee Weapons (scrapyard salvage) -->
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.MeleeWeapons">
+                <thingDefs>
+                    <li>FCP_Melee_Rebar_Club</li>
+                    <li>FCP_Melee_Ripper</li>
+                </thingDefs>
+                <countRange>1~3</countRange>
+            </li>
+
+            <!-- Anti-Radiation Medicine (the site is heavily irradiated) -->
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>MedicineIndustrial</thingDef>
+                <countRange>5~15</countRange>
+            </li>
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.Chems">
+                <thingDefs>
+                    <li>FCP_Chem_RadX</li>
+                    <li>FCP_Chem_Radaway</li>
+                </thingDefs>
+                <countRange>10~25</countRange>
+            </li>
+
+            <!-- Buying -->
+            <li Class="StockGenerator_BuyExpensiveSimple" />
+            <li Class="StockGenerator_Category">
+                <categoryDef>ResourcesRaw</categoryDef>
+            </li>
+            <li Class="StockGenerator_Category">
+                <categoryDef>Manufactured</categoryDef>
+            </li>
+
+        </stockGenerators>
+    </TraderKindDef>
+
+</Defs>

@@ -302,9 +302,9 @@
 				</enlistOptionsDefs>
 				<ignoreAutoAssignedDefs>true</ignoreAutoAssignedDefs>
 			</li>
-			<!-- Named settlements: the Nucleus (Far Harbor) and the Crater of Atom (Commonwealth) -->
+			<!-- Named settlements: the Nucleus (Far Harbor), the Crater of Atom, Kingsport Lighthouse, and Jalbert Brothers Disposal (Commonwealth) -->
 			<li Class="FCP.Factions.FactionExtension_SettlementControl">
-				<maxSettlements>2</maxSettlements>
+				<maxSettlements>4</maxSettlements>
 				<namedSettlements>
 					<li>
 						<name>The Nucleus</name>
@@ -337,6 +337,26 @@
 							<li>
 								<traderName>Archemist's Cache</traderName>
 								<traderKind>FCP_Trader_CoA_Archemist_Cache</traderKind>
+							</li>
+						</traders>
+					</li>
+					<!-- Kingsport Lighthouse -->
+					<li>
+						<name>Kingsport Lighthouse</name>
+						<traders>
+							<li>
+								<traderName>The Beacon of Atom</traderName>
+								<traderKind>FCP_Trader_CoA_Kingsport_Beacon</traderKind>
+							</li>
+						</traders>
+					</li>
+					<!-- Jalbert Brothers Disposal -->
+					<li>
+						<name>Jalbert Brothers Disposal</name>
+						<traders>
+							<li>
+								<traderName>Brother Edmund's Cache</traderName>
+								<traderKind>FCP_Trader_CoA_Edmund_Cache</traderKind>
 							</li>
 						</traders>
 					</li>

@@ -40,6 +40,9 @@
                     <li>FCP_Chem_Stimpak</li>
                     <li>FCP_Chem_RadX</li>
                     <li>FCP_Chem_Radaway</li>
+                    <li>FCP_Chem_MedX</li>
+                    <li>FCP_Chem_Doctors_Bag</li>
+                    <li>FCP_Chem_Diluted_Stimpak</li>
                 </thingDefs>
                 <countRange>10~25</countRange>
             </li>
@@ -112,6 +115,23 @@
                 <countRange>2~4</countRange>
             </li>
 
+            <!-- The Archemist's Remedies (she is the Children's healer) -->
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>MedicineIndustrial</thingDef>
+                <countRange>10~25</countRange>
+            </li>
+            <li Class="StockGenerator_MultiDef" MayRequire="Rick.FCP.Chems">
+                <thingDefs>
+                    <li>FCP_Chem_Stimpak</li>
+                    <li>FCP_Chem_RadX</li>
+                    <li>FCP_Chem_Radaway</li>
+                    <li>FCP_Chem_MedX</li>
+                    <li>FCP_Chem_Doctors_Bag</li>
+                    <li>FCP_Chem_Diluted_Stimpak</li>
+                </thingDefs>
+                <countRange>15~35</countRange>
+            </li>
+
             <!-- Buying -->
             <li Class="StockGenerator_BuyExpensiveSimple" />
             <li Class="StockGenerator_BuyTradeTag">
@@ -119,6 +139,9 @@
             </li>
             <li Class="StockGenerator_BuyTradeTag">
                 <tag>Armor</tag>
+            </li>
+            <li Class="StockGenerator_Category">
+                <categoryDef>Medicine</categoryDef>
             </li>
 
         </stockGenerators>
