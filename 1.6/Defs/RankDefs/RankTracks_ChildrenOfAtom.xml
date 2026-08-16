@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <FCP.Ranks.RankTrackDef>
+        <defName>FCP_RankTrack_ChildrenOfAtom</defName>
+        <label>Children of Atom Ranks</label>
+        <iconPath>World_Icon/Children_of_Atom_Icon/FCP_Children_of_Atom_World_Icon</iconPath>
+        <rootTier>FCP_Rank_CoA_Worker</rootTier>
+        <owningFaction>FCP_Faction_Children_of_Atom</owningFaction>
+        <collectiveNoun>the faithful</collectiveNoun>
+        <drillLabel>Trial of Faith...</drillLabel>
+        <drillDesc>Spar with any colonist to test their faith through combat. Both stop, stand apart, and draw their weapons. Both gain skill XP. Once per day.</drillDesc>
+        <studyLabel>Communion...</studyLabel>
+        <studyDesc>Study Atom's teachings with another colonist on the Confessor's path. Both gain skill XP. Once per day.</studyDesc>
+        <inspectLabel>Communion of Arms...</inspectLabel>
+        <inspectDesc>Examine a lower-ranked Zealot's weapon and armor as a rite of the faith. Well-kept gear is blessed, neglected gear is admonished.</inspectDesc>
+        <punishLabel>Assign Penance...</punishLabel>
+        <punishDesc>Sentence a lower-ranked Zealot to a stretch of penitent labor for a failure of devotion, souring their mood. Once per day per colonist.</punishDesc>
+        <rallyLabel>Sermon of Devotion</rallyLabel>
+        <rallyDesc>Rouse every combat-ranked member of {0} on this map with a burst of speed and righteous fervor. Once every few days.</rallyDesc>
+        <fallInLabel>Congregate</fallInLabel>
+        <fallInDesc>Call {0} to congregate behind you in ranks, up to four deep, interrupting whatever they're doing. They hold until dispersed.</fallInDesc>
+        <dismissLabel>Disperse</dismissLabel>
+        <dismissDesc>Disperse {0} from the congregation, letting them return to their duties.</dismissDesc>
+    </FCP.Ranks.RankTrackDef>
+
+</Defs>

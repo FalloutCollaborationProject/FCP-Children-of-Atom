@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Children of Atom Rank Perks __________-->
+
+    <HediffDef Name="FCP_Hediff_CoA_RankBase" Abstract="True">
+        <hediffClass>HediffWithComps</hediffClass>
+        <isBad>false</isBad>
+        <tendable>false</tendable>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <maxSeverity>1</maxSeverity>
+        <initialSeverity>1</initialSeverity>
+    </HediffDef>
+
+    <!--_____ Path of the Zealot _____-->
+
+    <HediffDef ParentName="FCP_Hediff_CoA_RankBase">
+        <defName>FCP_Hediff_CoA_Rank_Zealot</defName>
+        <label>zealot's resolve</label>
+        <description>Armed and trusted to defend holy ground in Atom's name.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ShootingAccuracyPawn>3</ShootingAccuracyPawn>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef ParentName="FCP_Hediff_CoA_RankBase">
+        <defName>FCP_Hediff_CoA_Rank_RadiationSentinel</defName>
+        <label>sentinel's authority</label>
+        <description>Trusted to lead a patrol of the faithful's armed defenders.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ShootingAccuracyPawn>5</ShootingAccuracyPawn>
+                    <SocialImpact>0.08</SocialImpact>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef ParentName="FCP_Hediff_CoA_RankBase">
+        <defName>FCP_Hediff_CoA_Rank_GrandZealot</defName>
+        <label>grand zealot's command</label>
+        <description>Command of every armed defender the faith has to offer.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ShootingAccuracyPawn>7</ShootingAccuracyPawn>
+                    <SocialImpact>0.12</SocialImpact>
+                    <ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <!--_____ Path of the Confessor _____-->
+
+    <HediffDef ParentName="FCP_Hediff_CoA_RankBase">
+        <defName>FCP_Hediff_CoA_Rank_Confessor</defName>
+        <label>confessor's word</label>
+        <description>Trusted to speak Atom's will to the faithful.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <SocialImpact>0.08</SocialImpact>
+                    <NegotiationAbility>0.05</NegotiationAbility>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef ParentName="FCP_Hediff_CoA_RankBase">
+        <defName>FCP_Hediff_CoA_Rank_ElderConfessor</defName>
+        <label>elder's wisdom</label>
+        <description>Senior clergy trusted to shepherd the rest of the flock.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <SocialImpact>0.14</SocialImpact>
+                    <NegotiationAbility>0.1</NegotiationAbility>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <!--_____ Summit _____-->
+
+    <HediffDef ParentName="FCP_Hediff_CoA_RankBase">
+        <defName>FCP_Hediff_CoA_Rank_HighConfessor</defName>
+        <label>voice of Atom</label>
+        <description>The final word on Atom's will, spoken to the whole of the faithful.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <ShootingAccuracyPawn>5</ShootingAccuracyPawn>
+                    <SocialImpact>0.16</SocialImpact>
+                    <NegotiationAbility>0.12</NegotiationAbility>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <!-- High Confessor Presence Aura -->
+
+    <HediffDef>
+        <defName>FCP_Hediff_CoA_HighConfessor_Presence</defName>
+        <hediffClass>HediffWithComps</hediffClass>
+        <label>the High Confessor's presence</label>
+        <description>The High Confessor walks among the faithful. Their devotion steadies every hand nearby.</description>
+        <isBad>false</isBad>
+        <tendable>false</tendable>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <maxSeverity>1</maxSeverity>
+        <initialSeverity>1</initialSeverity>
+        <comps>
+            <li Class="HediffCompProperties_Disappears">
+                <disappearsAfterTicks>310</disappearsAfterTicks>
+                <showRemainingTime>false</showRemainingTime>
+            </li>
+        </comps>
+        <stages>
+            <li>
+                <statOffsets>
+                    <MoveSpeed>0.2</MoveSpeed>
+                    <ShootingAccuracyPawn>3</ShootingAccuracyPawn>
+                    <MeleeDodgeChance>0.05</MeleeDodgeChance>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <!-- High Confessor Rally -->
+
+    <HediffDef>
+        <defName>FCP_Hediff_CoA_HighConfessor_Rally</defName>
+        <hediffClass>HediffWithComps</hediffClass>
+        <label>rallied</label>
+        <description>The High Confessor has called the faithful to defend the Glow. A surge of righteous fervor answers the call.</description>
+        <isBad>false</isBad>
+        <tendable>false</tendable>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <maxSeverity>1</maxSeverity>
+        <initialSeverity>1</initialSeverity>
+        <comps>
+            <li Class="HediffCompProperties_Disappears">
+                <disappearsAfterTicks>2500</disappearsAfterTicks>
+                <showRemainingTime>true</showRemainingTime>
+            </li>
+        </comps>
+        <stages>
+            <li>
+                <statOffsets>
+                    <MoveSpeed>1</MoveSpeed>
+                    <ShootingAccuracyPawn>5</ShootingAccuracyPawn>
+                    <MeleeDodgeChance>0.1</MeleeDodgeChance>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+</Defs>

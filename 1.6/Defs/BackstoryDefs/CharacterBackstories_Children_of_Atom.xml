@@ -63,7 +63,7 @@
         <bodyTypeFemale>Female</bodyTypeFemale>
         <title>mother of the church</title>
         <titleShort>mother</titleShort>
-        <baseDesc>[PAWN_nameDef] stands as Cromwell's counterpart in the Church of Atom, keeping the Megaton congregation devoted while [PAWN_possessive] husband preaches.</baseDesc>
+        <baseDesc>[PAWN_nameDef] holds no formal office in the Church of Atom - that belongs to Cromwell alone - but the Megaton congregation looks to her all the same, and she to the Glow.</baseDesc>
         <slot>Adulthood</slot>
         <spawnCategories>
             <li>FCP_Backstory_CoA_Mother_Maya</li>
@@ -71,6 +71,82 @@
         <skillGains>
             <Social>7</Social>
             <Crafting>3</Crafting>
+        </skillGains>
+    </BackstoryDef>
+
+    <!--__________ Mother Isolde __________-->
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Isolde_Child</defName>
+        <bodyTypeMale>Female</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <title>survivor of the Glow</title>
+        <titleShort>survivor</titleShort>
+        <baseDesc>[PAWN_nameDef] walked into the Glowing Sea half-dead and came out the other side convinced Atom had chosen not to take her. Not everyone who follows her that far in believes the same, but they follow anyway.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Isolde_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Social>3</Social>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Mother_Isolde_Adult</defName>
+        <bodyTypeMale>Female</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <title>Mother of the Crater</title>
+        <titleShort>mother</titleShort>
+        <baseDesc>[PAWN_nameDef] guided her flock through the Glowing Sea itself to found the Crater of Atom, a congregation as devoted as Cromwell's Megaton or Tektus's Nucleus but answering to neither. Patient and reasonable even by outsiders' account, she leads through calm certainty rather than command, and offers the same enlightenment to strangers brave enough to reach her that she offers her own.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_CoA_Mother_Isolde</li>
+        </spawnCategories>
+        <skillGains>
+            <Shooting>7</Shooting>
+            <Social>9</Social>
+            <Melee>3</Melee>
+        </skillGains>
+        <forcedTraits>
+            <Tough>0</Tough>
+        </forcedTraits>
+    </BackstoryDef>
+
+    <!--__________ Brother Ogden __________-->
+
+    <BackstoryDef>
+        <defName>FCP_Character_Backstory_Ogden_Child</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <title>caravan medic's apprentice</title>
+        <titleShort>apprentice</titleShort>
+        <baseDesc>[PAWN_nameDef] learned to patch up radiation sickness and worse trading caravans on the road long before finding the Crater. The skills traveled with him; only the reasons for using them changed.</baseDesc>
+        <slot>Childhood</slot>
+        <spawnCategories>
+            <li>FCP_Character_Backstory_Ogden_Child</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>3</Medicine>
+            <Social>2</Social>
+        </skillGains>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_CoA_Brother_Ogden_Adult</defName>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <title>keeper of the Crater's stores</title>
+        <titleShort>keeper</titleShort>
+        <baseDesc>[PAWN_nameDef] trades supplies at the Crater of Atom and tends the faithful when the Glow gets into their bones, easing radiation sickness with the same steady hands he uses to weigh out caps. Mother Isolde trusts few outsiders; she trusts [PAWN_objective] completely.</baseDesc>
+        <slot>Adulthood</slot>
+        <spawnCategories>
+            <li>FCP_Backstory_CoA_Brother_Ogden</li>
+        </spawnCategories>
+        <skillGains>
+            <Medicine>7</Medicine>
+            <Social>5</Social>
         </skillGains>
     </BackstoryDef>
 

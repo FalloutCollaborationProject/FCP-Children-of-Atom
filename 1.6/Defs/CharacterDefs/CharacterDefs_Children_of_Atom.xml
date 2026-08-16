@@ -14,6 +14,10 @@
             </li>
         </roles>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_CoA_Confessor</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Confessor</firstName>
                 <lastName>Cromwell</lastName>
@@ -39,6 +43,10 @@
         <faction>FCP_Faction_Children_of_Atom</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_CoA_Acolyte</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Mother</firstName>
                 <lastName>Maya</lastName>
@@ -51,6 +59,65 @@
                 <beardDef>NoBeard</beardDef>
                 <headTypeDef>Female_AverageNormal</headTypeDef>
                 <bodyTypeDef>Female</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <!--__________ Crater of Atom, Glowing Sea (Fallout 4) __________-->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_CoA_Mother_Isolde</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Mother_Isolde</pawnKind>
+        <faction>FCP_Faction_Children_of_Atom</faction>
+        <xenotype>Baseliner</xenotype>
+        <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>520</seniority>
+            </li>
+        </roles>
+        <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_CoA_HighConfessor</tier>
+            </li>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Mother</firstName>
+                <lastName>Isolde</lastName>
+                <gender>Female</gender>
+                <age>46</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(35, 30, 25)</hairColor>
+                <hairDef>Shaved</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <headTypeDef>Female_AverageNormal</headTypeDef>
+                <bodyTypeDef>Female</bodyTypeDef>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_CoA_Brother_Ogden</defName>
+        <pawnKind>FCP_Unique_Pawnkind_Brother_Ogden</pawnKind>
+        <faction>FCP_Faction_Children_of_Atom</faction>
+        <xenotype>Baseliner</xenotype>
+        <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_CoA_Acolyte</tier>
+            </li>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Brother</firstName>
+                <lastName>Ogden</lastName>
+                <gender>Male</gender>
+                <age>57</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(140, 135, 130)</hairColor>
+                <hairDef>FCP_Hair_Balding</hairDef>
+                <beardDef>Stubble</beardDef>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
             </li>
         </definitions>
     </FCP.Core.CharacterDef>
@@ -68,6 +135,10 @@
             </li>
         </roles>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_CoA_HighConfessor</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>High Confessor</firstName>
                 <lastName>Tektus</lastName>
@@ -90,6 +161,10 @@
         <faction>FCP_Faction_Children_of_Atom</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_CoA_GrandZealot</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Grand Zealot</firstName>
                 <lastName>Richter</lastName>
@@ -115,6 +190,10 @@
         <faction>FCP_Faction_Children_of_Atom</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_CoA_Acolyte</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Sister</firstName>
                 <lastName>Gwyneth</lastName>
@@ -137,6 +216,10 @@
         <faction>FCP_Faction_Children_of_Atom</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_CoA_Acolyte</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Brother</firstName>
                 <lastName>Devin</lastName>
@@ -159,6 +242,10 @@
         <faction>FCP_Faction_Children_of_Atom</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_CoA_Acolyte</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Sister</firstName>
                 <lastName>Aubert</lastName>
@@ -181,6 +268,10 @@
         <faction>FCP_Faction_Children_of_Atom</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_CoA_Zealot</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Zealot</firstName>
                 <lastName>Ware</lastName>
@@ -203,6 +294,10 @@
         <faction>FCP_Faction_Children_of_Atom</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_CoA_Zealot</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Zealot</firstName>
                 <lastName>Theil</lastName>
@@ -225,6 +320,10 @@
         <faction>FCP_Faction_Children_of_Atom</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_CoA_Acolyte</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Brother</firstName>
                 <lastName>Kane</lastName>
@@ -247,6 +346,10 @@
         <faction>FCP_Faction_Children_of_Atom</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_CoA_Acolyte</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Sister</firstName>
                 <lastName>Mai</lastName>
@@ -269,6 +372,10 @@
         <faction>FCP_Faction_Children_of_Atom</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_CoA_Acolyte</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Brother</firstName>
                 <lastName>Alders</lastName>
@@ -291,6 +398,10 @@
         <faction>FCP_Faction_Children_of_Atom</faction>
         <xenotype>Baseliner</xenotype>
         <definitions>
+            <!-- Rank -->
+            <li Class="FCP.Core.CharacterRankDefinition">
+                <tier>FCP_Rank_CoA_Acolyte</tier>
+            </li>
             <li Class="FCP.Core.CharacterStoryDefinition">
                 <firstName>Sister</firstName>
                 <lastName>Harper</lastName>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Children of Atom Titles __________-->
+
+    <!-- Worker -->
+
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_ChildrenOfAtom_Worker</defName>
+        <label>faithful worker</label>
+        <description>The newest of the faithful, given over to labor in service of the Nucleus while they learn the mysteries of Atom.</description>
+        <tags>
+            <li>FCP_Title_ChildrenOfAtom</li>
+        </tags>
+        <seniority>0</seniority>
+        <favorCost>1</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <allowDignifiedMeditationFocus>False</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <requiredApparel>
+            <li>
+                <bodyPartGroupsMatchAny>
+                    <li>Torso</li>
+                </bodyPartGroupsMatchAny>
+                <requiredTags>
+                    <li>FCP_Children_of_Atom_Worker</li>
+                </requiredTags>
+            </li>
+        </requiredApparel>
+        <permitPointsAwarded>1</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <!-- Acolyte -->
+
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_ChildrenOfAtom_Acolyte</defName>
+        <label>acolyte</label>
+        <description>Workers who have shown enough devotion to be trusted with a path: the sword of the Zealots, or the word of the Confessors.</description>
+        <tags>
+            <li>FCP_Title_ChildrenOfAtom</li>
+        </tags>
+        <seniority>150</seniority>
+        <favorCost>4</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <allowDignifiedMeditationFocus>False</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <permitPointsAwarded>1</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <!-- Zealot -->
+
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_ChildrenOfAtom_Zealot</defName>
+        <label>zealot</label>
+        <description>Armed defenders of the faith, trusted with gamma weapons and the duty of guarding holy ground.</description>
+        <tags>
+            <li>FCP_Title_ChildrenOfAtom</li>
+        </tags>
+        <seniority>300</seniority>
+        <favorCost>8</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <requiredApparel>
+            <li>
+                <bodyPartGroupsMatchAny>
+                    <li>Torso</li>
+                </bodyPartGroupsMatchAny>
+                <requiredTags>
+                    <li>FCP_Children_of_Atom_Combat</li>
+                </requiredTags>
+            </li>
+        </requiredApparel>
+        <permitPointsAwarded>2</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <!-- Radiation Sentinel -->
+
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_ChildrenOfAtom_Radiation_Sentinel</defName>
+        <label>radiation sentinel</label>
+        <description>Zealots who have proven themselves in enough skirmishes to lead their own patrol.</description>
+        <tags>
+            <li>FCP_Title_ChildrenOfAtom</li>
+        </tags>
+        <seniority>600</seniority>
+        <favorCost>10</favorCost>
+        <changeHeirQuestPoints>1500</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <requiredApparel>
+            <li>
+                <bodyPartGroupsMatchAny>
+                    <li>Torso</li>
+                </bodyPartGroupsMatchAny>
+                <requiredTags>
+                    <li>FCP_Children_of_Atom_Combat</li>
+                </requiredTags>
+            </li>
+        </requiredApparel>
+        <permitPointsAwarded>3</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <!-- Grand Zealot -->
+
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_ChildrenOfAtom_Grand_Zealot</defName>
+        <label>grand zealot</label>
+        <description>Commander of the faithful's armed defenders, answering only to the High Confessor.</description>
+        <tags>
+            <li>FCP_Title_ChildrenOfAtom</li>
+        </tags>
+        <seniority>900</seniority>
+        <favorCost>12</favorCost>
+        <changeHeirQuestPoints>2000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <requiredApparel>
+            <li>
+                <bodyPartGroupsMatchAny>
+                    <li>Torso</li>
+                </bodyPartGroupsMatchAny>
+                <requiredTags>
+                    <li>FCP_Children_of_Atom_Combat</li>
+                </requiredTags>
+            </li>
+        </requiredApparel>
+        <permitPointsAwarded>4</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <!-- Confessor -->
+
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_ChildrenOfAtom_Confessor</defName>
+        <label>confessor</label>
+        <description>Spiritual guides who interpret Atom's will and lead the faithful in worship of the Glow.</description>
+        <tags>
+            <li>FCP_Title_ChildrenOfAtom</li>
+        </tags>
+        <seniority>600</seniority>
+        <favorCost>10</favorCost>
+        <changeHeirQuestPoints>1500</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <permitPointsAwarded>3</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <!-- Elder Confessor -->
+
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_ChildrenOfAtom_Elder_Confessor</defName>
+        <label>elder confessor</label>
+        <description>Senior clergy trusted to speak for the High Confessor and shepherd the rest of the flock.</description>
+        <tags>
+            <li>FCP_Title_ChildrenOfAtom</li>
+        </tags>
+        <seniority>900</seniority>
+        <favorCost>12</favorCost>
+        <changeHeirQuestPoints>2000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <permitPointsAwarded>4</permitPointsAwarded>
+    </RoyalTitleDef>
+
+    <!-- High Confessor -->
+
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_ChildrenOfAtom_High_Confessor</defName>
+        <label>high confessor</label>
+        <description>The voice of Atom on the surface, leader of the faithful and keeper of the Glow.</description>
+        <tags>
+            <li>FCP_Title_ChildrenOfAtom</li>
+        </tags>
+        <seniority>1200</seniority>
+        <favorCost>15</favorCost>
+        <changeHeirQuestPoints>3000</changeHeirQuestPoints>
+        <commonality>1</commonality>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <requiredApparel>
+            <li>
+                <bodyPartGroupsMatchAny>
+                    <li>Torso</li>
+                </bodyPartGroupsMatchAny>
+                <requiredTags>
+                    <li>FCP_Children_of_Atom_Leader</li>
+                </requiredTags>
+            </li>
+        </requiredApparel>
+        <permitPointsAwarded>5</permitPointsAwarded>
+    </RoyalTitleDef>
+
+</Defs>

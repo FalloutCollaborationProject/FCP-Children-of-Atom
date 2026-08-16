@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!--__________ Expedition Return Flavor Text __________-->
+
+	<!-- Novice -->
+
+	<FCP_Rank_Expedition_CoA_Novice_1>{PAWN} prayed at the crater's edge and came back with a pocket full of scrap the Glow hadn't claimed yet.</FCP_Rank_Expedition_CoA_Novice_1>
+	<FCP_Rank_Expedition_CoA_Novice_2>{PAWN} chased off a handful of scavengers picking through hallowed ground and came back with little to show for it.</FCP_Rank_Expedition_CoA_Novice_2>
+	<FCP_Rank_Expedition_CoA_Novice_3>{PAWN} found a small camp of the fearful and spent the day trying to open their eyes to Atom's truth.</FCP_Rank_Expedition_CoA_Novice_3>
+	<FCP_Rank_Expedition_CoA_Novice_4>{PAWN} spent the pilgrimage clearing raiders out of a shrine they had no business squatting in.</FCP_Rank_Expedition_CoA_Novice_4>
+
+	<!-- Veteran -->
+
+	<FCP_Rank_Expedition_CoA_Veteran_1>{PAWN} broke a settlement that refused to hear Atom's word and made sure the next one would listen.</FCP_Rank_Expedition_CoA_Veteran_1>
+	<FCP_Rank_Expedition_CoA_Veteran_2>{PAWN} hunted down a band of apostates and reminded them what the Glow does to the faithless.</FCP_Rank_Expedition_CoA_Veteran_2>
+	<FCP_Rank_Expedition_CoA_Veteran_3>{PAWN} spent the mission charting a stretch of hot ground, marking it fit for the next shrine.</FCP_Rank_Expedition_CoA_Veteran_3>
+	<FCP_Rank_Expedition_CoA_Veteran_4>{PAWN} came back with radiation scars and a handful of new converts in tow.</FCP_Rank_Expedition_CoA_Veteran_4>
+
+	<!-- Elite -->
+
+	<FCP_Rank_Expedition_CoA_Elite_1>{PAWN} walked into a crater hot enough to kill most of the faithful, and walked back out untouched.</FCP_Rank_Expedition_CoA_Elite_1>
+	<FCP_Rank_Expedition_CoA_Elite_2>{PAWN} carried out the pilgrimage exactly as Atom demanded, no witnesses left to doubt it.</FCP_Rank_Expedition_CoA_Elite_2>
+	<FCP_Rank_Expedition_CoA_Elite_3>{PAWN} spent the better part of two weeks deep in the Glow and returned with a vision the Nucleus will want to hear.</FCP_Rank_Expedition_CoA_Elite_3>
+	<FCP_Rank_Expedition_CoA_Elite_4>{PAWN} didn't speak much of what was seen out there, only that Atom's will had been done.</FCP_Rank_Expedition_CoA_Elite_4>
+
+	<!-- Sentinel -->
+
+	<FCP_Rank_Expedition_CoA_Sentinel_1>{PAWN} pushed past the edge of any ground the faithful hold, charting a crater for the next crusade.</FCP_Rank_Expedition_CoA_Sentinel_1>
+	<FCP_Rank_Expedition_CoA_Sentinel_2>{PAWN} came back from unclaimed land with word of a crater ready to kneel to Atom.</FCP_Rank_Expedition_CoA_Sentinel_2>
+	<FCP_Rank_Expedition_CoA_Sentinel_3>{PAWN} spent nearly two weeks beyond contact and returned with news the High Confessor will want to hear directly.</FCP_Rank_Expedition_CoA_Sentinel_3>
+	<FCP_Rank_Expedition_CoA_Sentinel_4>{PAWN} walked back into the Nucleus carrying proof of what was found at the edge of the map, ash and radiance in equal measure.</FCP_Rank_Expedition_CoA_Sentinel_4>
+
+</LanguageData>

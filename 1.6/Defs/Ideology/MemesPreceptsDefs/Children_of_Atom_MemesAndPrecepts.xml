@@ -214,4 +214,37 @@
         </roleApparelRequirements>
     </PreceptDef>
 
+    <!-- Zealot Role -->
+
+    <PreceptDef ParentName="PreceptRoleMultiBase">
+        <defName>FCP_IdeoRole_Children_of_Atom_Zealot</defName>
+        <label>Zealot</label>
+        <description>Zealots are the armed hand of the Children of Atom, trusted to guard holy ground and carry out Atom's will against those who would defile it.</description>
+        <iconPath>World_Icon/Children_of_Atom_Icon/FCP_Children_of_Atom_World_Icon</iconPath>
+        <roleRequirements>
+            <li Class="RoleRequirement_MinSkillAny">
+                <skills>
+                    <Shooting>13</Shooting>
+                </skills>
+            </li>
+        </roleRequirements>
+        <roleRequiredWorkTags>
+            <li>Violent</li>
+        </roleRequiredWorkTags>
+        <requiredMemes>
+            <li>FCP_Meme_Children_of_Atom_Division</li>
+        </requiredMemes>
+        <roleEffects>
+            <li Class="RoleEffect_PawnStatOffset">
+                <statDef>ShootingAccuracyPawn</statDef>
+                <modifier>5</modifier>
+            </li>
+            <li Class="RoleEffect_PawnStatOffset">
+                <statDef>SocialImpact</statDef>
+                <modifier>0.08</modifier>
+            </li>
+        </roleEffects>
+        <displayOrderInImpact>2</displayOrderInImpact>
+    </PreceptDef>
+
 </Defs>

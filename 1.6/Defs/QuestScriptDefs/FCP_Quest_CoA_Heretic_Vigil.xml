@@ -46,7 +46,7 @@
                     <storeAs>enemyFaction</storeAs>
                     <!--The faction def that will raid-->
                     <factionDefs>
-                        <li MayRequire="Rick.FCP.Raiders">FCP_Faction_Raider</li>
+                        <li MayRequire="Rick.FCP.Raiders">FCP_Faction_Jackals</li>
                         <li>PirateWaster</li>
                     </factionDefs>
                 </li>

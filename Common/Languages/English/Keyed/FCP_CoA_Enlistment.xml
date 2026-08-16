@@ -20,7 +20,8 @@
 	<FCP_CoA_Missions_Desc>Task descriptions</FCP_CoA_Missions_Desc>
 	<FCP_CoA_Menu_Missions_Desc>A confessor asks whether the faithful might be willing to serve Atom's will.</FCP_CoA_Menu_Missions_Desc>
 	<FCP_CoA_Menu_Missions_Select_Quest>Select a Task: </FCP_CoA_Menu_Missions_Select_Quest>
-	<FCP_CoA_Menu_Missions_Start_Quest>Start Task ({0})</FCP_CoA_Menu_Missions_Start_Quest>
+	<FCP_CoA_Menu_Missions_Start_Quest>Accept Task</FCP_CoA_Menu_Missions_Start_Quest>
+	<FCP_CoA_Menu_Missions_Collect_Bounty>Collect Reward</FCP_CoA_Menu_Missions_Collect_Bounty>
 	<FCP_CoA_Not_Enough_Money>Not enough caps</FCP_CoA_Not_Enough_Money>
 
 	<!-- Salary Options -->

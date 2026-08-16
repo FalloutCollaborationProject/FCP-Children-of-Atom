@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Children of Atom Ranks __________-->
+
+    <!--_____ Trunk _____-->
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_CoA_Worker</defName>
+        <label>faithful worker</label>
+        <description>The newest of the faithful, given over to labor in service of the Nucleus while they learn the mysteries of Atom.</description>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_ChildrenOfAtom_Worker</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_CoA_Acolyte</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_CoA_Acolyte</defName>
+        <label>acolyte</label>
+        <description>Workers who have shown enough devotion to be trusted with a path: the sword of the Zealots, or the word of the Confessors.</description>
+        <minDaysInRank>3</minDaysInRank>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_ChildrenOfAtom_Acolyte</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_CoA_Zealot</li>
+            <li>FCP_Rank_CoA_Confessor</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <!--_____ Path of the Zealot _____-->
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_CoA_Zealot</defName>
+        <label>zealot</label>
+        <description>Armed defenders of the faith, trusted with gamma weapons and the duty of guarding holy ground.</description>
+        <pathName>Path of the Zealot</pathName>
+        <minDaysInRank>9</minDaysInRank>
+        <skillRequirements>
+            <Shooting>9</Shooting>
+        </skillRequirements>
+        <grantHediff>FCP_Hediff_CoA_Rank_Zealot</grantHediff>
+        <trainingXpPerHour>
+            <Shooting>700</Shooting>
+            <Social>50</Social>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_CoA_Novice</expedition>
+        <discipline>Combat</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_ChildrenOfAtom_Zealot</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_CoA_RadiationSentinel</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_CoA_RadiationSentinel</defName>
+        <label>radiation sentinel</label>
+        <description>Zealots who have proven themselves in enough skirmishes to lead their own patrol.</description>
+        <minDaysInRank>13</minDaysInRank>
+        <skillRequirements>
+            <Shooting>13</Shooting>
+            <Social>5</Social>
+        </skillRequirements>
+        <minSquiresTrained>1</minSquiresTrained>
+        <grantHediff>FCP_Hediff_CoA_Rank_RadiationSentinel</grantHediff>
+        <trainingXpPerHour>
+            <Shooting>850</Shooting>
+            <Social>100</Social>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_CoA_Veteran</expedition>
+        <discipline>Combat</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_ChildrenOfAtom_Radiation_Sentinel</correspondingRoyalTitle>
+        <correspondingIdeoRole MayRequire="Ludeon.RimWorld.Ideology">FCP_IdeoRole_Children_of_Atom_Zealot</correspondingIdeoRole>
+        <nextTierOptions>
+            <li>FCP_Rank_CoA_GrandZealot</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_CoA_GrandZealot</defName>
+        <label>grand zealot</label>
+        <description>Commander of the faithful's armed defenders, answering only to the High Confessor.</description>
+        <minDaysInRank>21</minDaysInRank>
+        <skillRequirements>
+            <Shooting>18</Shooting>
+            <Social>9</Social>
+        </skillRequirements>
+        <minSquiresTrained>2</minSquiresTrained>
+        <minMissionsCompleted>2</minMissionsCompleted>
+        <grantHediff>FCP_Hediff_CoA_Rank_GrandZealot</grantHediff>
+        <trainingXpPerHour>
+            <Shooting>1050</Shooting>
+            <Social>175</Social>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_CoA_Elite</expedition>
+        <discipline>Combat</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_ChildrenOfAtom_Grand_Zealot</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_CoA_HighConfessor</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <!--_____ Path of the Confessor _____-->
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_CoA_Confessor</defName>
+        <label>confessor</label>
+        <description>Spiritual guides who interpret Atom's will and lead the faithful in worship of the Glow.</description>
+        <pathName>Path of the Confessor</pathName>
+        <minDaysInRank>9</minDaysInRank>
+        <skillRequirements>
+            <Intellectual>6</Intellectual>
+            <Social>8</Social>
+        </skillRequirements>
+        <grantHediff>FCP_Hediff_CoA_Rank_Confessor</grantHediff>
+        <trainingXpPerHour>
+            <Intellectual>600</Intellectual>
+            <Social>200</Social>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_CoA_Novice</expedition>
+        <discipline>Scholarly</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_ChildrenOfAtom_Confessor</correspondingRoyalTitle>
+        <correspondingIdeoRole MayRequire="Ludeon.RimWorld.Ideology">FCP_IdeoRole_Children_of_Atom_Confessor</correspondingIdeoRole>
+        <nextTierOptions>
+            <li>FCP_Rank_CoA_ElderConfessor</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_CoA_ElderConfessor</defName>
+        <label>elder confessor</label>
+        <description>Senior clergy trusted to speak for the High Confessor and shepherd the rest of the flock.</description>
+        <minDaysInRank>17</minDaysInRank>
+        <skillRequirements>
+            <Intellectual>12</Intellectual>
+            <Social>14</Social>
+        </skillRequirements>
+        <minMissionsCompleted>2</minMissionsCompleted>
+        <grantHediff>FCP_Hediff_CoA_Rank_ElderConfessor</grantHediff>
+        <trainingXpPerHour>
+            <Intellectual>800</Intellectual>
+            <Social>350</Social>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_CoA_Veteran</expedition>
+        <discipline>Scholarly</discipline>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_ChildrenOfAtom_Elder_Confessor</correspondingRoyalTitle>
+        <nextTierOptions>
+            <li>FCP_Rank_CoA_HighConfessor</li>
+        </nextTierOptions>
+    </FCP.Ranks.RankTierDef>
+
+    <!--_____ Summit _____-->
+
+    <FCP.Ranks.RankTierDef>
+        <defName>FCP_Rank_CoA_HighConfessor</defName>
+        <label>high confessor</label>
+        <description>The voice of Atom on the surface, leader of the faithful and keeper of the Glow.</description>
+        <minDaysInRank>26</minDaysInRank>
+        <skillRequirements>
+            <Social>18</Social>
+        </skillRequirements>
+        <minSquiresTrained>2</minSquiresTrained>
+        <minMissionsCompleted>3</minMissionsCompleted>
+        <grantHediff>FCP_Hediff_CoA_Rank_HighConfessor</grantHediff>
+        <trainingXpPerHour>
+            <Shooting>600</Shooting>
+            <Intellectual>600</Intellectual>
+            <Social>400</Social>
+        </trainingXpPerHour>
+        <expedition>FCP_Expedition_CoA_Sentinel</expedition>
+        <correspondingRoyalTitle MayRequire="Ludeon.RimWorld.Royalty">FCP_Title_ChildrenOfAtom_High_Confessor</correspondingRoyalTitle>
+        <isCommanderTier>true</isCommanderTier>
+        <auraRadius>16</auraRadius>
+        <auraHediff>FCP_Hediff_CoA_HighConfessor_Presence</auraHediff>
+        <rallyHediff>FCP_Hediff_CoA_HighConfessor_Rally</rallyHediff>
+        <rallyCooldownDays>2</rallyCooldownDays>
+    </FCP.Ranks.RankTierDef>
+
+</Defs>

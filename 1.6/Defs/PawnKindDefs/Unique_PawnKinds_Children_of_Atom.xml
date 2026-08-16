@@ -68,6 +68,61 @@
         </backstoryFiltersOverride>
     </PawnKindDef>
 
+    <!--__________ Crater of Atom, Glowing Sea (Fallout 4) __________-->
+
+    <!-- Mother Isolde -->
+
+    <PawnKindDef ParentName="FCP_ChildrenOfAtom_UniqueCharacterBase">
+        <defName>FCP_Unique_Pawnkind_Mother_Isolde</defName>
+        <label>Mother Isolde</label>
+        <factionLeader>true</factionLeader>
+        <combatPower>140</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_Zealot_Armor</li>
+        </apparelRequired>
+        <weaponTags>
+            <li>FCP_Radium_Rifle</li>
+        </weaponTags>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Isolde_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_CoA_Mother_Isolde</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <!-- Brother Ogden -->
+
+    <PawnKindDef ParentName="FCP_ChildrenOfAtom_UniqueCharacterBase">
+        <defName>FCP_Unique_Pawnkind_Brother_Ogden</defName>
+        <label>Brother Ogden</label>
+        <trader>true</trader>
+        <combatPower>65</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_Robes_of_Atom</li>
+        </apparelRequired>
+        <weaponTags>
+            <li>FCP_Gamma_Gun</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Character_Backstory_Ogden_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_CoA_Brother_Ogden</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
     <!--__________ The Nucleus, Far Harbor (Fallout 4) __________-->
 
     <!-- High Confessor Tektus -->

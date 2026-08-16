@@ -34,6 +34,18 @@
 			<li>FCP_Culture_Children_of_Atom</li>
 		</allowedCultures>
 
+		<!--__________ Royalty __________-->
+
+		<royalTitleTags>
+			<li>FCP_Title_ChildrenOfAtom</li>
+		</royalTitleTags>
+		<royalFavorLabel>devotion</royalFavorLabel>
+		<royalTitleInheritanceWorkerClass>RoyalTitleInheritanceWorker</royalTitleInheritanceWorkerClass>
+		<royalTitleInheritanceRelations>
+			<li>Child</li>
+			<li>Spouse</li>
+		</royalTitleInheritanceRelations>
+
 		<!--__________ Ideology __________-->
 
 		<fixedIdeo>true</fixedIdeo>
@@ -293,6 +305,10 @@
 						<newName>Confessor</newName>
 						<disableApparelRequirements>true</disableApparelRequirements>
 					</li>
+					<li>
+						<preceptDef>FCP_IdeoRole_Children_of_Atom_Zealot</preceptDef>
+						<disableApparelRequirements>true</disableApparelRequirements>
+					</li>
 				</roleOverrides>
 			</li>
 			<!-- Enlistment stuff -->
@@ -301,6 +317,12 @@
 					<li>FCP_Enlistment_ChildrenOfAtom</li>
 				</enlistOptionsDefs>
 				<ignoreAutoAssignedDefs>true</ignoreAutoAssignedDefs>
+			</li>
+			<!-- Rank track -->
+			<li Class="FCP.Ranks.FactionExtension_RankTracks">
+				<rankTracks>
+					<li>FCP_RankTrack_ChildrenOfAtom</li>
+				</rankTracks>
 			</li>
 			<!-- Named settlements -->
 			<li Class="FCP.Factions.FactionExtension_SettlementControl">
