@@ -180,6 +180,7 @@
 					<li>FCP_Character_CoA_Brother_Alders</li>
 					<li>FCP_Character_CoA_The_Archemist</li>
 					<li>FCP_Character_CoA_Sister_Gwyneth</li>
+					<li>FCP_Character_CoA_Brother_Ogden</li>
 				</characterDefs>
 				<characterChance>0.20</characterChance>
 			</li>
@@ -212,8 +213,7 @@
 					<FCP_Pawnkind_Children_of_Atom_Merchant>1</FCP_Pawnkind_Children_of_Atom_Merchant>
 				</traders>
 				<carriers>
-					<Muffalo>6</Muffalo>
-					<Dromedary>5</Dromedary>
+					<FCP_Animal_Brahmin>11</FCP_Animal_Brahmin>
 				</carriers>
 				<guards>
 					<FCP_Pawnkind_Children_of_Atom_Worker>7</FCP_Pawnkind_Children_of_Atom_Worker>
@@ -248,8 +248,7 @@
 					<FCP_Pawnkind_Confessors_Flock_Merchant>1</FCP_Pawnkind_Confessors_Flock_Merchant>
 				</traders>
 				<carriers>
-					<Muffalo>6</Muffalo>
-					<Dromedary>5</Dromedary>
+					<FCP_Animal_Brahmin>11</FCP_Animal_Brahmin>
 				</carriers>
 				<guards>
 					<FCP_Pawnkind_Confessors_Flock_Technician>5</FCP_Pawnkind_Confessors_Flock_Technician>

@@ -7,6 +7,9 @@
         <showInDebugSpawner>false</showInDebugSpawner>
         <apparelMoney>9999</apparelMoney>
         <gearHealthRange>10</gearHealthRange>
+        <apparelTags>
+            <li>FCP_Children_of_Atom_Worker</li>
+        </apparelTags>
         <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
         <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
         <weaponMoney>9999</weaponMoney>
@@ -23,6 +26,9 @@
         <label>Confessor Cromwell</label>
         <factionLeader>true</factionLeader>
         <combatPower>120</combatPower>
+        <apparelTags>
+            <li>FCP_Children_of_Atom_Leader</li>
+        </apparelTags>
         <apparelRequired>
             <li>FCP_Apparel_Robes_of_Atom</li>
         </apparelRequired>
@@ -77,6 +83,9 @@
         <label>Mother Isolde</label>
         <factionLeader>true</factionLeader>
         <combatPower>140</combatPower>
+        <apparelTags>
+            <li>FCP_Children_of_Atom_Combat</li>
+        </apparelTags>
         <apparelRequired>
             <li>FCP_Apparel_Zealot_Armor</li>
         </apparelRequired>
@@ -132,6 +141,9 @@
         <label>High Confessor Tektus</label>
         <factionLeader>true</factionLeader>
         <combatPower>140</combatPower>
+        <apparelTags>
+            <li>FCP_Children_of_Atom_Combat</li>
+        </apparelTags>
         <apparelRequired>
             <li>FCP_Apparel_Zealot_Armor</li>
         </apparelRequired>
@@ -159,6 +171,9 @@
         <defName>FCP_Unique_Pawnkind_Grand_Zealot_Richter</defName>
         <label>Grand Zealot Richter</label>
         <combatPower>150</combatPower>
+        <apparelTags>
+            <li>FCP_Children_of_Atom_Combat</li>
+        </apparelTags>
         <apparelRequired>
             <li>FCP_Apparel_Zealot_Armor</li>
             <li>FCP_Apparel_Inquisitor_Cowl</li>
@@ -259,6 +274,9 @@
         <defName>FCP_Unique_Pawnkind_Zealot_Ware</defName>
         <label>Zealot Ware</label>
         <combatPower>110</combatPower>
+        <apparelTags>
+            <li>FCP_Children_of_Atom_Combat</li>
+        </apparelTags>
         <apparelRequired>
             <li>FCP_Apparel_Zealot_Armor</li>
         </apparelRequired>
@@ -286,6 +304,9 @@
         <defName>FCP_Unique_Pawnkind_Zealot_Theil</defName>
         <label>Zealot Theil</label>
         <combatPower>110</combatPower>
+        <apparelTags>
+            <li>FCP_Children_of_Atom_Combat</li>
+        </apparelTags>
         <apparelRequired>
             <li>FCP_Apparel_Zealot_Armor</li>
         </apparelRequired>
@@ -387,6 +408,9 @@
         <defName>FCP_Unique_Pawnkind_Sister_Harper</defName>
         <label>Sister Harper</label>
         <combatPower>115</combatPower>
+        <apparelTags>
+            <li>FCP_Children_of_Atom_Combat</li>
+        </apparelTags>
         <apparelRequired>
             <li>FCP_Apparel_Zealot_Armor</li>
         </apparelRequired>

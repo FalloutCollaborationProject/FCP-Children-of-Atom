@@ -34,6 +34,15 @@
             <li Class="FCP.Core.CharacterUniqueItemDefinition">
                 <uniqueItem>FCP_Apparel_Robes_of_Atom</uniqueItem>
             </li>
+            <!-- Family -->
+            <li Class="FCP.Core.CharacterRelationDefinition">
+                <relations>
+                    <li>
+                        <relation>Spouse</relation>
+                        <otherCharacter>FCP_Character_CoA_Mother_Maya</otherCharacter>
+                    </li>
+                </relations>
+            </li>
         </definitions>
     </FCP.Core.CharacterDef>
 
@@ -51,7 +60,7 @@
                 <firstName>Mother</firstName>
                 <lastName>Maya</lastName>
                 <gender>Female</gender>
-                <age>42</age>
+                <age>41</age>
             </li>
             <li Class="FCP.Core.CharacterAppearanceDefinition">
                 <hairColor>(70, 60, 50)</hairColor>
