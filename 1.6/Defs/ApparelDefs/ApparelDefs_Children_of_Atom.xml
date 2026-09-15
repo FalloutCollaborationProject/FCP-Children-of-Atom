@@ -49,6 +49,12 @@
 				<li>FCP_Children_of_Atom_Worker</li>
 				<li>FCP_Children_of_Atom_Combat</li>
 				<li>FCP_Children_of_Atom_Leader</li>
+				<li>FCP_Children_of_Atom_Traveler</li>
+				<li>FCP_Children_of_Atom_Priest</li>
+				<li>FCP_Confessors_Flock_Leader</li>
+				<li>FCP_Confessors_Flock_Combat</li>
+				<li>FCP_Confessors_Flock_Worker</li>
+				<li>FCP_Confessors_Flock_Traveler</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Worker</li>
@@ -76,6 +82,9 @@
 		<techLevel>Industrial</techLevel>
 		<smeltable>false</smeltable>
 		<generateAllowChance>0</generateAllowChance>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
 			<Mass>5.5</Mass>
@@ -124,6 +133,9 @@
 		</graphicData>
 		<techLevel>Industrial</techLevel>
 		<smeltable>false</smeltable>
+		<thingCategories>
+			<li>ArmorHeadgear</li>
+		</thingCategories>
 		<statBases>
 			<MaxHitPoints>80</MaxHitPoints>
 			<Mass>0.9</Mass>
@@ -171,6 +183,9 @@
 		</graphicData>
 		<techLevel>Industrial</techLevel>
 		<smeltable>false</smeltable>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
 			<Mass>2.8</Mass>
@@ -221,6 +236,9 @@
 		</graphicData>
 		<techLevel>Industrial</techLevel>
 		<smeltable>false</smeltable>
+		<thingCategories>
+			<li>ArmorHeadgear</li>
+		</thingCategories>
 		<statBases>
 			<MaxHitPoints>120</MaxHitPoints>
 			<Mass>2.0</Mass>

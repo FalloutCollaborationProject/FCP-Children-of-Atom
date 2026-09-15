@@ -575,7 +575,7 @@
         <bodyTypeFemale>Female</bodyTypeFemale>
         <title>the Archemist</title>
         <titleShort>archemist</titleShort>
-        <baseDesc>[PAWN_nameDef] serves as the Nucleus's doctor, tending Atom's faithful with whatever medicine the wasteland allows.</baseDesc>
+        <baseDesc>[PAWN_nameDef] serves as the Crater's doctor, tending Atom's faithful with whatever medicine the wasteland allows.</baseDesc>
         <slot>Adulthood</slot>
         <spawnCategories>
             <li>FCP_Backstory_CoA_The_Archemist</li>

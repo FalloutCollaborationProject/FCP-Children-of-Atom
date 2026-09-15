@@ -181,6 +181,7 @@
 					<li>FCP_Character_CoA_The_Archemist</li>
 					<li>FCP_Character_CoA_Sister_Gwyneth</li>
 					<li>FCP_Character_CoA_Brother_Ogden</li>
+					<li>FCP_Character_CoA_Mother_Isolde</li>
 				</characterDefs>
 				<characterChance>0.20</characterChance>
 			</li>
@@ -347,6 +348,7 @@
 					<li>
 						<name>Crater of Atom</name>
 						<guaranteedCharacters>
+							<li>FCP_Character_CoA_Mother_Isolde</li>
 							<li>FCP_Character_CoA_Sister_Gwyneth</li>
 							<li>FCP_Character_CoA_The_Archemist</li>
 						</guaranteedCharacters>
