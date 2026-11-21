@@ -122,7 +122,6 @@
 
 	<!--_____ Deity Namer _____-->
 
-	<!-- Atom is the one and only deity - never procedurally generated -->
 
 	<RulePackDef>
 		<defName>FCP_NamerDeity_Atom</defName>
@@ -140,7 +139,6 @@
 
 	<!--_____ Deity Type Maker _____-->
 
-	<!-- Atom's epithet - self-contained, no dependency on other memes' symbol content -->
 
 	<RulePackDef>
 		<defName>FCP_DeityTypeMaker_Atom</defName>

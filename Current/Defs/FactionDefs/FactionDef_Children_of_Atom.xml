@@ -189,7 +189,6 @@
 			<!-- Church of Atom Pilgrimage -->
 
 			<li Class="FCP.Core.GroupMakerWithCustomChar">
-				<!-- Cromwell and Maya travel out from Megaton only rarely; the church itself is not a Children of Atom settlement -->
 				<kindDef>Peaceful</kindDef>
 				<options>
 					<FCP_Pawnkind_Children_of_Atom_Worker>10</FCP_Pawnkind_Children_of_Atom_Worker>

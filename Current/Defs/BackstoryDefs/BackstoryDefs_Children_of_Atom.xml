@@ -480,7 +480,7 @@
         <title>Blessed Farmer</title>
         <titleShort>Farmer</titleShort>
         <shuffleable>true</shuffleable>
-        <description>[PAWN_nameDef] tends crops in irradiated soil, believing that plants grown in the Glow are blessed by Atom. [PAWN_pronoun] cultivates mutated flora and hardy wasteland plants, providing food for the congregation while proving that life flourishes in radiation. [PAWN_possessive] garden is a testament to Atom's life-giving power.</description>
+        <description>[PAWN_nameDef] tends crops in irradiated soil, believing that plants grown in the Glow are blessed by Atom. [PAWN_pronoun] cultivates mutated flora and hardy wasteland plants, providing food for the congregation while proving that life flourishes in radiation. [PAWN_pronoun] calls the garden proof of Atom's gifts, and nobody has managed to argue otherwise.</description>
         <skillGains>
             <Plants>8</Plants>
             <Cooking>4</Cooking>
